@@ -1,0 +1,3546 @@
+AnnoS;AteneoCOD;AteneoNOME;SESSO;Lau
+2021;101;Torino;F;9256
+2021;101;Torino;M;5562
+2021;102;Torino Politecnico;F;2680
+2021;102;Torino Politecnico;M;6130
+2021;201;Piemonte Orientale;F;1493
+2021;201;Piemonte Orientale;M;880
+2021;401;Bra Scienze Gastronomiche;F;62
+2021;401;Bra Scienze Gastronomiche;M;67
+2021;701;Aosta;F;167
+2021;701;Aosta;M;59
+2021;1001;Genova;F;3431
+2021;1001;Genova;M;2412
+2021;1201;Castellanza LIUC;F;336
+2021;1201;Castellanza LIUC;M;545
+2021;1202;Insubria;F;1194
+2021;1202;Insubria;M;915
+2021;1301;Novedrate e-Campus - telematica;F;4000
+2021;1301;Novedrate e-Campus - telematica;M;3408
+2021;1501;Milano;F;7217
+2021;1501;Milano;M;4472
+2021;1502;Milano Politecnico;F;4596
+2021;1502;Milano Politecnico;M;8071
+2021;1503;Milano Bocconi;F;2022
+2021;1503;Milano Bocconi;M;2677
+2021;1504;Milano Cattolica;F;7564
+2021;1504;Milano Cattolica;M;3762
+2021;1505;Milano IULM;F;1456
+2021;1505;Milano IULM;M;464
+2021;1508;Milano San Raffaele;F;475
+2021;1508;Milano San Raffaele;M;233
+2021;1509;Milano Bicocca;F;4738
+2021;1509;Milano Bicocca;M;2841
+2021;1510;Rozzano (MI) Humanitas University;F;130
+2021;1510;Rozzano (MI) Humanitas University;M;54
+2021;1601;Bergamo;F;3195
+2021;1601;Bergamo;M;1577
+2021;1701;Brescia;F;1321
+2021;1701;Brescia;M;1473
+2021;1801;Pavia;F;2919
+2021;1801;Pavia;M;2031
+2021;2101;Bolzano;F;590
+2021;2101;Bolzano;M;233
+2021;2201;Trento;F;2022
+2021;2201;Trento;M;1888
+2021;2301;Verona;F;3417
+2021;2301;Verona;M;1713
+2021;2701;Venezia C� Foscari;F;3707
+2021;2701;Venezia C� Foscari;M;1741
+2021;2702;Venezia Iuav;F;647
+2021;2702;Venezia Iuav;M;454
+2021;2801;Padova;F;7620
+2021;2801;Padova;M;6121
+2021;3001;Udine;F;1679
+2021;3001;Udine;M;1343
+2021;3201;Trieste;F;1841
+2021;3201;Trieste;M;1255
+2021;3401;Parma;F;3264
+2021;3401;Parma;M;2234
+2021;3601;Modena e Reggio Emilia;F;3090
+2021;3601;Modena e Reggio Emilia;M;2406
+2021;3701;Bologna;F;11361
+2021;3701;Bologna;M;8525
+2021;3801;Ferrara;F;2783
+2021;3801;Ferrara;M;1894
+2021;4101;Urbino;F;1803
+2021;4101;Urbino;M;922
+2021;4201;Marche;F;1318
+2021;4201;Marche;M;1480
+2021;4301;Macerata;F;1653
+2021;4301;Macerata;M;466
+2021;4302;Camerino;F;469
+2021;4302;Camerino;M;456
+2021;4801;Firenze;F;5764
+2021;4801;Firenze;M;3942
+2021;4804;Firenze IUL - telematica;F;49
+2021;4804;Firenze IUL - telematica;M;22
+2021;5001;Pisa;F;4011
+2021;5001;Pisa;M;3704
+2021;5201;Siena;F;1465
+2021;5201;Siena;M;910
+2021;5202;Siena Stranieri;F;363
+2021;5202;Siena Stranieri;M;64
+2021;5401;Perugia;F;2630
+2021;5401;Perugia;M;1752
+2021;5403;Perugia Stranieri;F;122
+2021;5403;Perugia Stranieri;M;46
+2021;5601;Tuscia;F;854
+2021;5601;Tuscia;M;726
+2021;5801;Roma La Sapienza;F;11772
+2021;5801;Roma La Sapienza;M;7599
+2021;5802;Roma Tor Vergata;F;3128
+2021;5802;Roma Tor Vergata;M;2355
+2021;5803;Roma LUMSA;F;1101
+2021;5803;Roma LUMSA;M;427
+2021;5805;Roma LUISS;F;1422
+2021;5805;Roma LUISS;M;1780
+2021;5806;Roma Foro Italico;F;160
+2021;5806;Roma Foro Italico;M;383
+2021;5807;Roma Tre;F;3469
+2021;5807;Roma Tre;M;2190
+2021;5808;Roma Biomedico;F;322
+2021;5808;Roma Biomedico;M;196
+2021;5809;Roma UNINT;F;491
+2021;5809;Roma UNINT;M;114
+2021;5810;Roma Marconi - telematica;F;1355
+2021;5810;Roma Marconi - telematica;M;988
+2021;5811;Roma UNITELMA - telematica;F;211
+2021;5811;Roma UNITELMA - telematica;M;246
+2021;5812;Roma Europea;F;227
+2021;5812;Roma Europea;M;94
+2021;5813;Roma UNINETTUNO - telematica;F;131
+2021;5813;Roma UNINETTUNO - telematica;M;86
+2021;5815;Roma UNICUSANO - telematica;F;3000
+2021;5815;Roma UNICUSANO - telematica;M;3727
+2021;5816;Roma San Raffaele - telematica;F;636
+2021;5816;Roma San Raffaele - telematica;M;720
+2021;5817;Roma Link Campus;F;61
+2021;5817;Roma Link Campus;M;155
+2021;5818;Roma Saint Camillus;F;16
+2021;5818;Roma Saint Camillus;M;18
+2021;6001;Cassino;F;835
+2021;6001;Cassino;M;555
+2021;6201;Sannio;F;440
+2021;6201;Sannio;M;326
+2021;6202;Benevento Giustino Fortunato - telematica;F;228
+2021;6202;Benevento Giustino Fortunato - telematica;M;256
+2021;6301;Napoli Federico II;F;7526
+2021;6301;Napoli Federico II;M;5885
+2021;6302;Napoli Parthenope;F;1016
+2021;6302;Napoli Parthenope;M;1227
+2021;6303;Napoli L'Orientale;F;1736
+2021;6303;Napoli L'Orientale;M;355
+2021;6304;Napoli Benincasa;F;1796
+2021;6304;Napoli Benincasa;M;267
+2021;6306;Napoli Vanvitelli;F;2319
+2021;6306;Napoli Vanvitelli;M;1524
+2021;6307;Napoli Pegaso - telematica;F;1112
+2021;6307;Napoli Pegaso - telematica;M;1595
+2021;6501;Salerno;F;3410
+2021;6501;Salerno;M;2792
+2021;6601;L'Aquila;F;1587
+2021;6601;L'Aquila;M;1300
+2021;6701;Teramo;F;517
+2021;6701;Teramo;M;434
+2021;6901;Chieti e Pescara;F;3105
+2021;6901;Chieti e Pescara;M;1478
+2021;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;3
+2021;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;5
+2021;7001;Molise;F;733
+2021;7001;Molise;M;456
+2021;7101;Foggia;F;1100
+2021;7101;Foggia;M;572
+2021;7201;Bari;F;4973
+2021;7201;Bari;M;2622
+2021;7202;Bari Politecnico;F;671
+2021;7202;Bari Politecnico;M;1280
+2021;7203;Casamassima - G.Degennaro;F;184
+2021;7203;Casamassima - G.Degennaro;M;254
+2021;7501;Salento;F;1913
+2021;7501;Salento;M;879
+2021;7601;Basilicata;F;537
+2021;7601;Basilicata;M;349
+2021;7801;Calabria;F;2398
+2021;7801;Calabria;M;1566
+2021;7901;Catanzaro;F;1062
+2021;7901;Catanzaro;M;587
+2021;8001;Reggio Calabria;F;388
+2021;8001;Reggio Calabria;M;370
+2021;8003;Reggio Calabria - Dante Alighieri;F;140
+2021;8003;Reggio Calabria - Dante Alighieri;M;25
+2021;8201;Palermo;F;4580
+2021;8201;Palermo;M;2895
+2021;8301;Messina;F;2309
+2021;8301;Messina;M;1275
+2021;8601;Enna KORE;F;649
+2021;8601;Enna KORE;M;304
+2021;8701;Catania;F;3622
+2021;8701;Catania;M;2383
+2021;9001;Sassari;F;1534
+2021;9001;Sassari;M;745
+2021;9201;Cagliari;F;2243
+2021;9201;Cagliari;M;1425
+2020;101;Torino;F;9067
+2020;101;Torino;M;5821
+2020;102;Torino Politecnico;F;2301
+2020;102;Torino Politecnico;M;5363
+2020;201;Piemonte Orientale;F;1372
+2020;201;Piemonte Orientale;M;749
+2020;401;Bra Scienze Gastronomiche;F;66
+2020;401;Bra Scienze Gastronomiche;M;48
+2020;701;Aosta;F;188
+2020;701;Aosta;M;78
+2020;1001;Genova;F;3238
+2020;1001;Genova;M;2471
+2020;1201;Castellanza LIUC;F;318
+2020;1201;Castellanza LIUC;M;468
+2020;1202;Insubria;F;1149
+2020;1202;Insubria;M;897
+2020;1301;Novedrate e-Campus - telematica;F;2710
+2020;1301;Novedrate e-Campus - telematica;M;2131
+2020;1501;Milano;F;7079
+2020;1501;Milano;M;4625
+2020;1502;Milano Politecnico;F;4473
+2020;1502;Milano Politecnico;M;7781
+2020;1503;Milano Bocconi;F;2057
+2020;1503;Milano Bocconi;M;2721
+2020;1504;Milano Cattolica;F;7546
+2020;1504;Milano Cattolica;M;3742
+2020;1505;Milano IULM;F;1274
+2020;1505;Milano IULM;M;471
+2020;1508;Milano San Raffaele;F;451
+2020;1508;Milano San Raffaele;M;229
+2020;1509;Milano Bicocca;F;4726
+2020;1509;Milano Bicocca;M;2777
+2020;1510;Rozzano (MI) Humanitas University;F;118
+2020;1510;Rozzano (MI) Humanitas University;M;64
+2020;1601;Bergamo;F;2556
+2020;1601;Bergamo;M;1438
+2020;1701;Brescia;F;1151
+2020;1701;Brescia;M;1340
+2020;1801;Pavia;F;2749
+2020;1801;Pavia;M;1978
+2020;2101;Bolzano;F;583
+2020;2101;Bolzano;M;248
+2020;2201;Trento;F;2007
+2020;2201;Trento;M;1857
+2020;2301;Verona;F;3473
+2020;2301;Verona;M;1736
+2020;2701;Venezia C� Foscari;F;3569
+2020;2701;Venezia C� Foscari;M;1814
+2020;2702;Venezia Iuav;F;629
+2020;2702;Venezia Iuav;M;523
+2020;2801;Padova;F;7515
+2020;2801;Padova;M;6053
+2020;3001;Udine;F;1695
+2020;3001;Udine;M;1392
+2020;3201;Trieste;F;1712
+2020;3201;Trieste;M;1289
+2020;3401;Parma;F;3062
+2020;3401;Parma;M;2157
+2020;3601;Modena e Reggio Emilia;F;2947
+2020;3601;Modena e Reggio Emilia;M;2211
+2020;3701;Bologna;F;10878
+2020;3701;Bologna;M;8239
+2020;3801;Ferrara;F;2373
+2020;3801;Ferrara;M;1533
+2020;4101;Urbino;F;1802
+2020;4101;Urbino;M;965
+2020;4201;Marche;F;1461
+2020;4201;Marche;M;1560
+2020;4301;Macerata;F;1552
+2020;4301;Macerata;M;505
+2020;4302;Camerino;F;510
+2020;4302;Camerino;M;462
+2020;4801;Firenze;F;5679
+2020;4801;Firenze;M;4122
+2020;4804;Firenze IUL - telematica;F;50
+2020;4804;Firenze IUL - telematica;M;16
+2020;5001;Pisa;F;3814
+2020;5001;Pisa;M;3795
+2020;5201;Siena;F;1756
+2020;5201;Siena;M;1191
+2020;5202;Siena Stranieri;F;380
+2020;5202;Siena Stranieri;M;69
+2020;5401;Perugia;F;2534
+2020;5401;Perugia;M;1783
+2020;5403;Perugia Stranieri;F;184
+2020;5403;Perugia Stranieri;M;64
+2020;5601;Tuscia;F;752
+2020;5601;Tuscia;M;802
+2020;5801;Roma La Sapienza;F;10537
+2020;5801;Roma La Sapienza;M;7608
+2020;5802;Roma Tor Vergata;F;2876
+2020;5802;Roma Tor Vergata;M;2445
+2020;5803;Roma LUMSA;F;1021
+2020;5803;Roma LUMSA;M;376
+2020;5805;Roma LUISS;F;1368
+2020;5805;Roma LUISS;M;1692
+2020;5806;Roma Foro Italico;F;164
+2020;5806;Roma Foro Italico;M;403
+2020;5807;Roma Tre;F;3596
+2020;5807;Roma Tre;M;2156
+2020;5808;Roma Biomedico;F;355
+2020;5808;Roma Biomedico;M;182
+2020;5809;Roma UNINT;F;499
+2020;5809;Roma UNINT;M;108
+2020;5810;Roma Marconi - telematica;F;1027
+2020;5810;Roma Marconi - telematica;M;942
+2020;5811;Roma UNITELMA - telematica;F;185
+2020;5811;Roma UNITELMA - telematica;M;201
+2020;5812;Roma Europea;F;222
+2020;5812;Roma Europea;M;89
+2020;5813;Roma UNINETTUNO - telematica;F;243
+2020;5813;Roma UNINETTUNO - telematica;M;333
+2020;5814;Roma  Mercatorum - telematica;F;215
+2020;5814;Roma  Mercatorum - telematica;M;714
+2020;5815;Roma UNICUSANO - telematica;F;1491
+2020;5815;Roma UNICUSANO - telematica;M;2064
+2020;5816;Roma San Raffaele - telematica;F;612
+2020;5816;Roma San Raffaele - telematica;M;767
+2020;5817;Roma Link Campus;F;93
+2020;5817;Roma Link Campus;M;261
+2020;6001;Cassino;F;840
+2020;6001;Cassino;M;562
+2020;6201;Sannio;F;431
+2020;6201;Sannio;M;362
+2020;6202;Benevento Giustino Fortunato - telematica;F;158
+2020;6202;Benevento Giustino Fortunato - telematica;M;188
+2020;6301;Napoli Federico II;F;7325
+2020;6301;Napoli Federico II;M;5742
+2020;6302;Napoli Parthenope;F;1006
+2020;6302;Napoli Parthenope;M;1159
+2020;6303;Napoli L'Orientale;F;1630
+2020;6303;Napoli L'Orientale;M;375
+2020;6304;Napoli Benincasa;F;1698
+2020;6304;Napoli Benincasa;M;257
+2020;6306;Napoli Vanvitelli;F;2596
+2020;6306;Napoli Vanvitelli;M;1645
+2020;6307;Napoli Pegaso - telematica;F;5086
+2020;6307;Napoli Pegaso - telematica;M;6292
+2020;6501;Salerno;F;3304
+2020;6501;Salerno;M;2542
+2020;6601;L'Aquila;F;1758
+2020;6601;L'Aquila;M;1279
+2020;6701;Teramo;F;482
+2020;6701;Teramo;M;428
+2020;6901;Chieti e Pescara;F;2919
+2020;6901;Chieti e Pescara;M;1498
+2020;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;9
+2020;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;7
+2020;7001;Molise;F;712
+2020;7001;Molise;M;444
+2020;7101;Foggia;F;1276
+2020;7101;Foggia;M;732
+2020;7201;Bari;F;4696
+2020;7201;Bari;M;2543
+2020;7202;Bari Politecnico;F;658
+2020;7202;Bari Politecnico;M;1203
+2020;7203;Casamassima - G.Degennaro;F;137
+2020;7203;Casamassima - G.Degennaro;M;204
+2020;7501;Salento;F;1780
+2020;7501;Salento;M;935
+2020;7601;Basilicata;F;496
+2020;7601;Basilicata;M;357
+2020;7801;Calabria;F;2593
+2020;7801;Calabria;M;1786
+2020;7901;Catanzaro;F;1033
+2020;7901;Catanzaro;M;609
+2020;8001;Reggio Calabria;F;370
+2020;8001;Reggio Calabria;M;378
+2020;8003;Reggio Calabria - Dante Alighieri;F;136
+2020;8003;Reggio Calabria - Dante Alighieri;M;26
+2020;8201;Palermo;F;4631
+2020;8201;Palermo;M;3006
+2020;8301;Messina;F;2487
+2020;8301;Messina;M;1383
+2020;8601;Enna KORE;F;677
+2020;8601;Enna KORE;M;304
+2020;8701;Catania;F;3801
+2020;8701;Catania;M;2562
+2020;9001;Sassari;F;1539
+2020;9001;Sassari;M;777
+2020;9201;Cagliari;F;2266
+2020;9201;Cagliari;M;1462
+2019;101;Torino;F;8537
+2019;101;Torino;M;5370
+2019;102;Torino Politecnico;F;2261
+2019;102;Torino Politecnico;M;5258
+2019;201;Piemonte Orientale;F;1539
+2019;201;Piemonte Orientale;M;824
+2019;401;Bra Scienze Gastronomiche;F;44
+2019;401;Bra Scienze Gastronomiche;M;59
+2019;701;Aosta;F;207
+2019;701;Aosta;M;59
+2019;1001;Genova;F;3320
+2019;1001;Genova;M;2474
+2019;1201;Castellanza LIUC;F;226
+2019;1201;Castellanza LIUC;M;436
+2019;1202;Insubria;F;1124
+2019;1202;Insubria;M;746
+2019;1301;Novedrate e-Campus - telematica;F;1485
+2019;1301;Novedrate e-Campus - telematica;M;1262
+2019;1501;Milano;F;7192
+2019;1501;Milano;M;4684
+2019;1502;Milano Politecnico;F;4450
+2019;1502;Milano Politecnico;M;7838
+2019;1503;Milano Bocconi;F;2168
+2019;1503;Milano Bocconi;M;2548
+2019;1504;Milano Cattolica;F;6799
+2019;1504;Milano Cattolica;M;3546
+2019;1505;Milano IULM;F;1090
+2019;1505;Milano IULM;M;398
+2019;1508;Milano San Raffaele;F;420
+2019;1508;Milano San Raffaele;M;225
+2019;1509;Milano Bicocca;F;4461
+2019;1509;Milano Bicocca;M;2632
+2019;1510;Rozzano (MI) Humanitas University;F;51
+2019;1510;Rozzano (MI) Humanitas University;M;36
+2019;1601;Bergamo;F;2481
+2019;1601;Bergamo;M;1389
+2019;1701;Brescia;F;1193
+2019;1701;Brescia;M;1390
+2019;1801;Pavia;F;2587
+2019;1801;Pavia;M;1994
+2019;2101;Bolzano;F;470
+2019;2101;Bolzano;M;235
+2019;2201;Trento;F;1919
+2019;2201;Trento;M;1782
+2019;2301;Verona;F;3394
+2019;2301;Verona;M;1731
+2019;2701;Venezia C� Foscari;F;3381
+2019;2701;Venezia C� Foscari;M;1649
+2019;2702;Venezia Iuav;F;659
+2019;2702;Venezia Iuav;M;534
+2019;2801;Padova;F;7405
+2019;2801;Padova;M;5951
+2019;3001;Udine;F;1732
+2019;3001;Udine;M;1412
+2019;3201;Trieste;F;1753
+2019;3201;Trieste;M;1250
+2019;3401;Parma;F;2947
+2019;3401;Parma;M;2212
+2019;3601;Modena e Reggio Emilia;F;2858
+2019;3601;Modena e Reggio Emilia;M;2246
+2019;3701;Bologna;F;10877
+2019;3701;Bologna;M;8152
+2019;3801;Ferrara;F;1772
+2019;3801;Ferrara;M;1386
+2019;4101;Urbino;F;1798
+2019;4101;Urbino;M;999
+2019;4201;Marche;F;1415
+2019;4201;Marche;M;1544
+2019;4301;Macerata;F;1518
+2019;4301;Macerata;M;518
+2019;4302;Camerino;F;490
+2019;4302;Camerino;M;431
+2019;4801;Firenze;F;5706
+2019;4801;Firenze;M;3560
+2019;4804;Firenze IUL - telematica;F;37
+2019;4804;Firenze IUL - telematica;M;9
+2019;5001;Pisa;F;3993
+2019;5001;Pisa;M;3753
+2019;5201;Siena;F;1819
+2019;5201;Siena;M;1207
+2019;5202;Siena Stranieri;F;350
+2019;5202;Siena Stranieri;M;66
+2019;5401;Perugia;F;2697
+2019;5401;Perugia;M;1836
+2019;5403;Perugia Stranieri;F;189
+2019;5403;Perugia Stranieri;M;73
+2019;5601;Tuscia;F;704
+2019;5601;Tuscia;M;899
+2019;5801;Roma La Sapienza;F;11190
+2019;5801;Roma La Sapienza;M;7677
+2019;5802;Roma Tor Vergata;F;3116
+2019;5802;Roma Tor Vergata;M;3060
+2019;5803;Roma LUMSA;F;973
+2019;5803;Roma LUMSA;M;381
+2019;5805;Roma LUISS;F;1235
+2019;5805;Roma LUISS;M;1512
+2019;5806;Roma Foro Italico;F;171
+2019;5806;Roma Foro Italico;M;365
+2019;5807;Roma Tre;F;3537
+2019;5807;Roma Tre;M;2278
+2019;5808;Roma Biomedico;F;270
+2019;5808;Roma Biomedico;M;175
+2019;5809;Roma UNINT;F;382
+2019;5809;Roma UNINT;M;101
+2019;5810;Roma Marconi - telematica;F;815
+2019;5810;Roma Marconi - telematica;M;806
+2019;5811;Roma UNITELMA - telematica;F;154
+2019;5811;Roma UNITELMA - telematica;M;167
+2019;5812;Roma Europea;F;150
+2019;5812;Roma Europea;M;72
+2019;5813;Roma UNINETTUNO - telematica;F;190
+2019;5813;Roma UNINETTUNO - telematica;M;241
+2019;5814;Roma  Mercatorum - telematica;F;130
+2019;5814;Roma  Mercatorum - telematica;M;545
+2019;5815;Roma UNICUSANO - telematica;F;446
+2019;5815;Roma UNICUSANO - telematica;M;557
+2019;5816;Roma San Raffaele - telematica;F;426
+2019;5816;Roma San Raffaele - telematica;M;412
+2019;5817;Roma Link Campus;F;118
+2019;5817;Roma Link Campus;M;329
+2019;6001;Cassino;F;825
+2019;6001;Cassino;M;701
+2019;6201;Sannio;F;443
+2019;6201;Sannio;M;434
+2019;6202;Benevento Giustino Fortunato - telematica;F;121
+2019;6202;Benevento Giustino Fortunato - telematica;M;215
+2019;6301;Napoli Federico II;F;7385
+2019;6301;Napoli Federico II;M;5832
+2019;6302;Napoli Parthenope;F;1037
+2019;6302;Napoli Parthenope;M;1252
+2019;6303;Napoli L'Orientale;F;1540
+2019;6303;Napoli L'Orientale;M;328
+2019;6304;Napoli Benincasa;F;1531
+2019;6304;Napoli Benincasa;M;243
+2019;6306;Napoli Vanvitelli;F;2989
+2019;6306;Napoli Vanvitelli;M;1902
+2019;6307;Napoli Pegaso - telematica;F;3852
+2019;6307;Napoli Pegaso - telematica;M;5331
+2019;6501;Salerno;F;3476
+2019;6501;Salerno;M;2573
+2019;6601;L'Aquila;F;1827
+2019;6601;L'Aquila;M;1373
+2019;6701;Teramo;F;565
+2019;6701;Teramo;M;435
+2019;6901;Chieti e Pescara;F;3480
+2019;6901;Chieti e Pescara;M;1660
+2019;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;8
+2019;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;6
+2019;7001;Molise;F;749
+2019;7001;Molise;M;468
+2019;7101;Foggia;F;1200
+2019;7101;Foggia;M;661
+2019;7201;Bari;F;4766
+2019;7201;Bari;M;2710
+2019;7202;Bari Politecnico;F;677
+2019;7202;Bari Politecnico;M;1313
+2019;7203;Casamassima - G.Degennaro;F;150
+2019;7203;Casamassima - G.Degennaro;M;215
+2019;7501;Salento;F;2005
+2019;7501;Salento;M;1104
+2019;7601;Basilicata;F;540
+2019;7601;Basilicata;M;367
+2019;7801;Calabria;F;2655
+2019;7801;Calabria;M;1824
+2019;7901;Catanzaro;F;976
+2019;7901;Catanzaro;M;574
+2019;8001;Reggio Calabria;F;359
+2019;8001;Reggio Calabria;M;376
+2019;8003;Reggio Calabria - Dante Alighieri;F;142
+2019;8003;Reggio Calabria - Dante Alighieri;M;25
+2019;8201;Palermo;F;4462
+2019;8201;Palermo;M;3031
+2019;8301;Messina;F;2420
+2019;8301;Messina;M;1458
+2019;8601;Enna KORE;F;785
+2019;8601;Enna KORE;M;346
+2019;8701;Catania;F;3826
+2019;8701;Catania;M;2437
+2019;9001;Sassari;F;1449
+2019;9001;Sassari;M;762
+2019;9201;Cagliari;F;2465
+2019;9201;Cagliari;M;1537
+2018;101;Torino;F;8066
+2018;101;Torino;M;4924
+2018;102;Torino Politecnico;F;2225
+2018;102;Torino Politecnico;M;5038
+2018;201;Piemonte Orientale;F;1265
+2018;201;Piemonte Orientale;M;759
+2018;401;Bra Scienze Gastronomiche;F;64
+2018;401;Bra Scienze Gastronomiche;M;54
+2018;701;Aosta;F;168
+2018;701;Aosta;M;57
+2018;1001;Genova;F;3429
+2018;1001;Genova;M;2605
+2018;1201;Castellanza LIUC;F;287
+2018;1201;Castellanza LIUC;M;453
+2018;1202;Insubria;F;1038
+2018;1202;Insubria;M;726
+2018;1301;Novedrate e-Campus - telematica;F;1179
+2018;1301;Novedrate e-Campus - telematica;M;1000
+2018;1501;Milano;F;7137
+2018;1501;Milano;M;4506
+2018;1502;Milano Politecnico;F;4419
+2018;1502;Milano Politecnico;M;7338
+2018;1503;Milano Bocconi;F;2111
+2018;1503;Milano Bocconi;M;2413
+2018;1504;Milano Cattolica;F;6481
+2018;1504;Milano Cattolica;M;3484
+2018;1505;Milano IULM;F;1049
+2018;1505;Milano IULM;M;374
+2018;1508;Milano San Raffaele;F;357
+2018;1508;Milano San Raffaele;M;228
+2018;1509;Milano Bicocca;F;4485
+2018;1509;Milano Bicocca;M;2588
+2018;1510;Rozzano (MI) Humanitas University;F;19
+2018;1510;Rozzano (MI) Humanitas University;M;3
+2018;1601;Bergamo;F;2374
+2018;1601;Bergamo;M;1155
+2018;1701;Brescia;F;1196
+2018;1701;Brescia;M;1308
+2018;1801;Pavia;F;2572
+2018;1801;Pavia;M;1896
+2018;2101;Bolzano;F;487
+2018;2101;Bolzano;M;216
+2018;2201;Trento;F;1899
+2018;2201;Trento;M;1804
+2018;2301;Verona;F;3281
+2018;2301;Verona;M;1603
+2018;2701;Venezia C� Foscari;F;3591
+2018;2701;Venezia C� Foscari;M;1659
+2018;2702;Venezia Iuav;F;650
+2018;2702;Venezia Iuav;M;602
+2018;2801;Padova;F;6943
+2018;2801;Padova;M;5764
+2018;3001;Udine;F;1568
+2018;3001;Udine;M;1372
+2018;3201;Trieste;F;1718
+2018;3201;Trieste;M;1245
+2018;3401;Parma;F;2657
+2018;3401;Parma;M;1892
+2018;3601;Modena e Reggio Emilia;F;2517
+2018;3601;Modena e Reggio Emilia;M;2122
+2018;3701;Bologna;F;10314
+2018;3701;Bologna;M;7926
+2018;3801;Ferrara;F;1800
+2018;3801;Ferrara;M;1279
+2018;4101;Urbino;F;1653
+2018;4101;Urbino;M;972
+2018;4201;Marche;F;1487
+2018;4201;Marche;M;1557
+2018;4301;Macerata;F;1474
+2018;4301;Macerata;M;462
+2018;4302;Camerino;F;498
+2018;4302;Camerino;M;455
+2018;4801;Firenze;F;5401
+2018;4801;Firenze;M;3503
+2018;4804;Firenze IUL - telematica;F;35
+2018;4804;Firenze IUL - telematica;M;9
+2018;5001;Pisa;F;3899
+2018;5001;Pisa;M;3500
+2018;5201;Siena;F;1761
+2018;5201;Siena;M;1174
+2018;5202;Siena Stranieri;F;323
+2018;5202;Siena Stranieri;M;68
+2018;5401;Perugia;F;2568
+2018;5401;Perugia;M;1740
+2018;5403;Perugia Stranieri;F;140
+2018;5403;Perugia Stranieri;M;72
+2018;5601;Tuscia;F;802
+2018;5601;Tuscia;M;804
+2018;5801;Roma La Sapienza;F;10595
+2018;5801;Roma La Sapienza;M;7307
+2018;5802;Roma Tor Vergata;F;3086
+2018;5802;Roma Tor Vergata;M;2863
+2018;5803;Roma LUMSA;F;1020
+2018;5803;Roma LUMSA;M;374
+2018;5805;Roma LUISS;F;1206
+2018;5805;Roma LUISS;M;1406
+2018;5806;Roma Foro Italico;F;153
+2018;5806;Roma Foro Italico;M;340
+2018;5807;Roma Tre;F;3539
+2018;5807;Roma Tre;M;2394
+2018;5808;Roma Biomedico;F;269
+2018;5808;Roma Biomedico;M;171
+2018;5809;Roma UNINT;F;435
+2018;5809;Roma UNINT;M;92
+2018;5810;Roma Marconi - telematica;F;777
+2018;5810;Roma Marconi - telematica;M;803
+2018;5811;Roma UNITELMA - telematica;F;165
+2018;5811;Roma UNITELMA - telematica;M;200
+2018;5812;Roma Europea;F;91
+2018;5812;Roma Europea;M;82
+2018;5813;Roma UNINETTUNO - telematica;F;221
+2018;5813;Roma UNINETTUNO - telematica;M;312
+2018;5814;Roma  Mercatorum - telematica;F;25
+2018;5814;Roma  Mercatorum - telematica;M;55
+2018;5815;Roma UNICUSANO - telematica;F;1476
+2018;5815;Roma UNICUSANO - telematica;M;2113
+2018;5816;Roma San Raffaele - telematica;F;283
+2018;5816;Roma San Raffaele - telematica;M;304
+2018;5817;Roma Link Campus;F;148
+2018;5817;Roma Link Campus;M;302
+2018;6001;Cassino;F;840
+2018;6001;Cassino;M;596
+2018;6201;Sannio;F;509
+2018;6201;Sannio;M;393
+2018;6202;Benevento Giustino Fortunato - telematica;F;106
+2018;6202;Benevento Giustino Fortunato - telematica;M;181
+2018;6301;Napoli Federico II;F;7458
+2018;6301;Napoli Federico II;M;5865
+2018;6302;Napoli Parthenope;F;1010
+2018;6302;Napoli Parthenope;M;1194
+2018;6303;Napoli L'Orientale;F;1500
+2018;6303;Napoli L'Orientale;M;370
+2018;6304;Napoli Benincasa;F;1542
+2018;6304;Napoli Benincasa;M;213
+2018;6306;Napoli Vanvitelli;F;2616
+2018;6306;Napoli Vanvitelli;M;1827
+2018;6307;Napoli Pegaso - telematica;F;2671
+2018;6307;Napoli Pegaso - telematica;M;3854
+2018;6501;Salerno;F;3118
+2018;6501;Salerno;M;2307
+2018;6601;L'Aquila;F;1828
+2018;6601;L'Aquila;M;1231
+2018;6701;Teramo;F;575
+2018;6701;Teramo;M;402
+2018;6901;Chieti e Pescara;F;3193
+2018;6901;Chieti e Pescara;M;1595
+2018;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;9
+2018;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;4
+2018;7001;Molise;F;604
+2018;7001;Molise;M;412
+2018;7101;Foggia;F;1034
+2018;7101;Foggia;M;645
+2018;7201;Bari;F;4761
+2018;7201;Bari;M;2808
+2018;7202;Bari Politecnico;F;644
+2018;7202;Bari Politecnico;M;1272
+2018;7203;Casamassima - G.Degennaro;F;128
+2018;7203;Casamassima - G.Degennaro;M;209
+2018;7501;Salento;F;2067
+2018;7501;Salento;M;1072
+2018;7601;Basilicata;F;575
+2018;7601;Basilicata;M;376
+2018;7801;Calabria;F;2546
+2018;7801;Calabria;M;1668
+2018;7901;Catanzaro;F;880
+2018;7901;Catanzaro;M;568
+2018;8001;Reggio Calabria;F;444
+2018;8001;Reggio Calabria;M;439
+2018;8003;Reggio Calabria - Dante Alighieri;F;174
+2018;8003;Reggio Calabria - Dante Alighieri;M;35
+2018;8201;Palermo;F;4379
+2018;8201;Palermo;M;2760
+2018;8301;Messina;F;2572
+2018;8301;Messina;M;1334
+2018;8601;Enna KORE;F;712
+2018;8601;Enna KORE;M;428
+2018;8701;Catania;F;3706
+2018;8701;Catania;M;2497
+2018;9001;Sassari;F;1405
+2018;9001;Sassari;M;752
+2018;9201;Cagliari;F;2428
+2018;9201;Cagliari;M;1623
+2017;101;Torino;F;7801
+2017;101;Torino;M;4744
+2017;102;Torino Politecnico;F;2079
+2017;102;Torino Politecnico;M;4617
+2017;201;Piemonte Orientale;F;1167
+2017;201;Piemonte Orientale;M;659
+2017;401;Bra Scienze Gastronomiche;F;53
+2017;401;Bra Scienze Gastronomiche;M;52
+2017;701;Aosta;F;187
+2017;701;Aosta;M;70
+2017;1001;Genova;F;3309
+2017;1001;Genova;M;2461
+2017;1201;Castellanza LIUC;F;222
+2017;1201;Castellanza LIUC;M;371
+2017;1202;Insubria;F;978
+2017;1202;Insubria;M;650
+2017;1301;Novedrate e-Campus - telematica;F;860
+2017;1301;Novedrate e-Campus - telematica;M;818
+2017;1501;Milano;F;7115
+2017;1501;Milano;M;4323
+2017;1502;Milano Politecnico;F;4038
+2017;1502;Milano Politecnico;M;6999
+2017;1503;Milano Bocconi;F;2184
+2017;1503;Milano Bocconi;M;2323
+2017;1504;Milano Cattolica;F;6578
+2017;1504;Milano Cattolica;M;3405
+2017;1505;Milano IULM;F;954
+2017;1505;Milano IULM;M;307
+2017;1508;Milano San Raffaele;F;334
+2017;1508;Milano San Raffaele;M;195
+2017;1509;Milano Bicocca;F;4286
+2017;1509;Milano Bicocca;M;2412
+2017;1510;Rozzano (MI) Humanitas University;F;13
+2017;1510;Rozzano (MI) Humanitas University;M;3
+2017;1601;Bergamo;F;2111
+2017;1601;Bergamo;M;1048
+2017;1701;Brescia;F;1272
+2017;1701;Brescia;M;1361
+2017;1801;Pavia;F;2527
+2017;1801;Pavia;M;1894
+2017;2101;Bolzano;F;432
+2017;2101;Bolzano;M;179
+2017;2201;Trento;F;1838
+2017;2201;Trento;M;1689
+2017;2301;Verona;F;3203
+2017;2301;Verona;M;1609
+2017;2701;Venezia C� Foscari;F;3199
+2017;2701;Venezia C� Foscari;M;1530
+2017;2702;Venezia Iuav;F;703
+2017;2702;Venezia Iuav;M;592
+2017;2801;Padova;F;7227
+2017;2801;Padova;M;5495
+2017;3001;Udine;F;1579
+2017;3001;Udine;M;1248
+2017;3201;Trieste;F;1684
+2017;3201;Trieste;M;1178
+2017;3401;Parma;F;2608
+2017;3401;Parma;M;1975
+2017;3601;Modena e Reggio Emilia;F;2446
+2017;3601;Modena e Reggio Emilia;M;1780
+2017;3701;Bologna;F;10272
+2017;3701;Bologna;M;7589
+2017;3801;Ferrara;F;1692
+2017;3801;Ferrara;M;1283
+2017;4101;Urbino;F;1640
+2017;4101;Urbino;M;930
+2017;4201;Marche;F;1432
+2017;4201;Marche;M;1550
+2017;4301;Macerata;F;1498
+2017;4301;Macerata;M;482
+2017;4302;Camerino;F;523
+2017;4302;Camerino;M;497
+2017;4801;Firenze;F;4980
+2017;4801;Firenze;M;3296
+2017;4804;Firenze IUL - telematica;F;26
+2017;5001;Pisa;F;3678
+2017;5001;Pisa;M;3395
+2017;5201;Siena;F;1622
+2017;5201;Siena;M;1163
+2017;5202;Siena Stranieri;F;265
+2017;5202;Siena Stranieri;M;46
+2017;5401;Perugia;F;2407
+2017;5401;Perugia;M;1759
+2017;5403;Perugia Stranieri;F;138
+2017;5403;Perugia Stranieri;M;79
+2017;5601;Tuscia;F;594
+2017;5601;Tuscia;M;744
+2017;5801;Roma La Sapienza;F;11020
+2017;5801;Roma La Sapienza;M;7445
+2017;5802;Roma Tor Vergata;F;3043
+2017;5802;Roma Tor Vergata;M;2888
+2017;5803;Roma LUMSA;F;952
+2017;5803;Roma LUMSA;M;362
+2017;5805;Roma LUISS;F;1115
+2017;5805;Roma LUISS;M;1279
+2017;5806;Roma Foro Italico;F;167
+2017;5806;Roma Foro Italico;M;343
+2017;5807;Roma Tre;F;3887
+2017;5807;Roma Tre;M;2442
+2017;5808;Roma Biomedico;F;258
+2017;5808;Roma Biomedico;M;148
+2017;5809;Roma UNINT;F;353
+2017;5809;Roma UNINT;M;89
+2017;5810;Roma Marconi - telematica;F;694
+2017;5810;Roma Marconi - telematica;M;765
+2017;5811;Roma UNITELMA - telematica;F;134
+2017;5811;Roma UNITELMA - telematica;M;176
+2017;5812;Roma Europea;F;145
+2017;5812;Roma Europea;M;71
+2017;5813;Roma UNINETTUNO - telematica;F;189
+2017;5813;Roma UNINETTUNO - telematica;M;301
+2017;5814;Roma  Mercatorum - telematica;F;24
+2017;5814;Roma  Mercatorum - telematica;M;38
+2017;5815;Roma UNICUSANO - telematica;F;1435
+2017;5815;Roma UNICUSANO - telematica;M;1838
+2017;5816;Roma San Raffaele - telematica;F;140
+2017;5816;Roma San Raffaele - telematica;M;192
+2017;5817;Roma Link Campus;F;149
+2017;5817;Roma Link Campus;M;295
+2017;6001;Cassino;F;722
+2017;6001;Cassino;M;558
+2017;6201;Sannio;F;465
+2017;6201;Sannio;M;398
+2017;6202;Benevento Giustino Fortunato - telematica;F;92
+2017;6202;Benevento Giustino Fortunato - telematica;M;149
+2017;6301;Napoli Federico II;F;7345
+2017;6301;Napoli Federico II;M;5650
+2017;6302;Napoli Parthenope;F;1024
+2017;6302;Napoli Parthenope;M;1273
+2017;6303;Napoli L'Orientale;F;1563
+2017;6303;Napoli L'Orientale;M;346
+2017;6304;Napoli Benincasa;F;1548
+2017;6304;Napoli Benincasa;M;227
+2017;6306;Napoli Vanvitelli;F;2848
+2017;6306;Napoli Vanvitelli;M;1863
+2017;6307;Napoli Pegaso - telematica;F;1651
+2017;6307;Napoli Pegaso - telematica;M;2497
+2017;6501;Salerno;F;3231
+2017;6501;Salerno;M;2029
+2017;6601;L'Aquila;F;2023
+2017;6601;L'Aquila;M;1449
+2017;6701;Teramo;F;602
+2017;6701;Teramo;M;420
+2017;6901;Chieti e Pescara;F;3395
+2017;6901;Chieti e Pescara;M;1582
+2017;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;16
+2017;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;13
+2017;7001;Molise;F;636
+2017;7001;Molise;M;422
+2017;7101;Foggia;F;1005
+2017;7101;Foggia;M;565
+2017;7201;Bari;F;4912
+2017;7201;Bari;M;2643
+2017;7202;Bari Politecnico;F;664
+2017;7202;Bari Politecnico;M;1292
+2017;7203;Casamassima - G.Degennaro;F;104
+2017;7203;Casamassima - G.Degennaro;M;161
+2017;7501;Salento;F;2097
+2017;7501;Salento;M;1027
+2017;7601;Basilicata;F;515
+2017;7601;Basilicata;M;379
+2017;7801;Calabria;F;2705
+2017;7801;Calabria;M;1806
+2017;7901;Catanzaro;F;951
+2017;7901;Catanzaro;M;606
+2017;8001;Reggio Calabria;F;441
+2017;8001;Reggio Calabria;M;487
+2017;8003;Reggio Calabria - Dante Alighieri;F;178
+2017;8003;Reggio Calabria - Dante Alighieri;M;41
+2017;8201;Palermo;F;4477
+2017;8201;Palermo;M;2857
+2017;8301;Messina;F;2424
+2017;8301;Messina;M;1264
+2017;8601;Enna KORE;F;751
+2017;8601;Enna KORE;M;400
+2017;8701;Catania;F;3905
+2017;8701;Catania;M;2532
+2017;9001;Sassari;F;1328
+2017;9001;Sassari;M;725
+2017;9201;Cagliari;F;2457
+2017;9201;Cagliari;M;1555
+2016;101;Torino;F;7702
+2016;101;Torino;M;4686
+2016;102;Torino Politecnico;F;1957
+2016;102;Torino Politecnico;M;4482
+2016;201;Piemonte Orientale;F;1117
+2016;201;Piemonte Orientale;M;657
+2016;401;Bra Scienze Gastronomiche;F;52
+2016;401;Bra Scienze Gastronomiche;M;26
+2016;701;Aosta;F;145
+2016;701;Aosta;M;44
+2016;1001;Genova;F;3392
+2016;1001;Genova;M;2572
+2016;1201;Castellanza LIUC;F;223
+2016;1201;Castellanza LIUC;M;397
+2016;1202;Insubria;F;868
+2016;1202;Insubria;M;626
+2016;1301;Novedrate e-Campus - telematica;F;478
+2016;1301;Novedrate e-Campus - telematica;M;421
+2016;1501;Milano;F;7032
+2016;1501;Milano;M;4446
+2016;1502;Milano Politecnico;F;3820
+2016;1502;Milano Politecnico;M;6675
+2016;1503;Milano Bocconi;F;2263
+2016;1503;Milano Bocconi;M;2359
+2016;1504;Milano Cattolica;F;6141
+2016;1504;Milano Cattolica;M;3202
+2016;1505;Milano IULM;F;785
+2016;1505;Milano IULM;M;325
+2016;1508;Milano San Raffaele;F;327
+2016;1508;Milano San Raffaele;M;167
+2016;1509;Milano Bicocca;F;4264
+2016;1509;Milano Bicocca;M;2415
+2016;1510;Rozzano (MI) Humanitas University;F;4
+2016;1510;Rozzano (MI) Humanitas University;M;3
+2016;1601;Bergamo;F;1956
+2016;1601;Bergamo;M;1049
+2016;1701;Brescia;F;1231
+2016;1701;Brescia;M;1277
+2016;1801;Pavia;F;2479
+2016;1801;Pavia;M;1878
+2016;2101;Bolzano;F;365
+2016;2101;Bolzano;M;159
+2016;2201;Trento;F;1803
+2016;2201;Trento;M;1773
+2016;2301;Verona;F;2932
+2016;2301;Verona;M;1433
+2016;2701;Venezia C� Foscari;F;3230
+2016;2701;Venezia C� Foscari;M;1555
+2016;2702;Venezia Iuav;F;682
+2016;2702;Venezia Iuav;M;632
+2016;2801;Padova;F;6970
+2016;2801;Padova;M;5366
+2016;3001;Udine;F;1625
+2016;3001;Udine;M;1398
+2016;3201;Trieste;F;1863
+2016;3201;Trieste;M;1270
+2016;3401;Parma;F;2590
+2016;3401;Parma;M;1945
+2016;3601;Modena e Reggio Emilia;F;2264
+2016;3601;Modena e Reggio Emilia;M;1779
+2016;3701;Bologna;F;9998
+2016;3701;Bologna;M;7099
+2016;3801;Ferrara;F;1643
+2016;3801;Ferrara;M;1222
+2016;4101;Urbino;F;1649
+2016;4101;Urbino;M;871
+2016;4201;Marche;F;1404
+2016;4201;Marche;M;1557
+2016;4301;Macerata;F;1306
+2016;4301;Macerata;M;444
+2016;4302;Camerino;F;548
+2016;4302;Camerino;M;513
+2016;4801;Firenze;F;4987
+2016;4801;Firenze;M;3261
+2016;4804;Firenze IUL - telematica;F;5
+2016;4804;Firenze IUL - telematica;M;3
+2016;5001;Pisa;F;3620
+2016;5001;Pisa;M;3348
+2016;5201;Siena;F;1754
+2016;5201;Siena;M;1153
+2016;5202;Siena Stranieri;F;257
+2016;5202;Siena Stranieri;M;41
+2016;5401;Perugia;F;2617
+2016;5401;Perugia;M;1842
+2016;5403;Perugia Stranieri;F;156
+2016;5403;Perugia Stranieri;M;69
+2016;5601;Tuscia;F;601
+2016;5601;Tuscia;M;639
+2016;5801;Roma La Sapienza;F;10851
+2016;5801;Roma La Sapienza;M;7347
+2016;5802;Roma Tor Vergata;F;3023
+2016;5802;Roma Tor Vergata;M;3002
+2016;5803;Roma LUMSA;F;927
+2016;5803;Roma LUMSA;M;357
+2016;5805;Roma LUISS;F;1156
+2016;5805;Roma LUISS;M;1175
+2016;5806;Roma Foro Italico;F;181
+2016;5806;Roma Foro Italico;M;326
+2016;5807;Roma Tre;F;3752
+2016;5807;Roma Tre;M;2448
+2016;5808;Roma Biomedico;F;296
+2016;5808;Roma Biomedico;M;148
+2016;5809;Roma UNINT;F;305
+2016;5809;Roma UNINT;M;85
+2016;5810;Roma Marconi - telematica;F;708
+2016;5810;Roma Marconi - telematica;M;914
+2016;5811;Roma UNITELMA - telematica;F;154
+2016;5811;Roma UNITELMA - telematica;M;191
+2016;5812;Roma Europea;F;129
+2016;5812;Roma Europea;M;56
+2016;5813;Roma UNINETTUNO - telematica;F;250
+2016;5813;Roma UNINETTUNO - telematica;M;320
+2016;5814;Roma  Mercatorum - telematica;F;1
+2016;5814;Roma  Mercatorum - telematica;M;1
+2016;5815;Roma UNICUSANO - telematica;F;1030
+2016;5815;Roma UNICUSANO - telematica;M;1489
+2016;5816;Roma San Raffaele - telematica;F;98
+2016;5816;Roma San Raffaele - telematica;M;134
+2016;5817;Roma Link Campus;F;90
+2016;5817;Roma Link Campus;M;190
+2016;6001;Cassino;F;855
+2016;6001;Cassino;M;558
+2016;6201;Sannio;F;468
+2016;6201;Sannio;M;434
+2016;6202;Benevento Giustino Fortunato - telematica;F;77
+2016;6202;Benevento Giustino Fortunato - telematica;M;121
+2016;6301;Napoli Federico II;F;7374
+2016;6301;Napoli Federico II;M;5474
+2016;6302;Napoli Parthenope;F;1089
+2016;6302;Napoli Parthenope;M;1106
+2016;6303;Napoli L'Orientale;F;1352
+2016;6303;Napoli L'Orientale;M;330
+2016;6304;Napoli Benincasa;F;1335
+2016;6304;Napoli Benincasa;M;210
+2016;6306;Napoli Vanvitelli;F;2844
+2016;6306;Napoli Vanvitelli;M;1888
+2016;6307;Napoli Pegaso - telematica;F;1166
+2016;6307;Napoli Pegaso - telematica;M;1973
+2016;6501;Salerno;F;3077
+2016;6501;Salerno;M;1884
+2016;6601;L'Aquila;F;2274
+2016;6601;L'Aquila;M;1484
+2016;6701;Teramo;F;544
+2016;6701;Teramo;M;424
+2016;6901;Chieti e Pescara;F;3606
+2016;6901;Chieti e Pescara;M;1601
+2016;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;20
+2016;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;21
+2016;7001;Molise;F;665
+2016;7001;Molise;M;421
+2016;7101;Foggia;F;998
+2016;7101;Foggia;M;539
+2016;7201;Bari;F;4880
+2016;7201;Bari;M;2666
+2016;7202;Bari Politecnico;F;712
+2016;7202;Bari Politecnico;M;1347
+2016;7203;Casamassima - G.Degennaro;F;102
+2016;7203;Casamassima - G.Degennaro;M;164
+2016;7501;Salento;F;2236
+2016;7501;Salento;M;1081
+2016;7601;Basilicata;F;486
+2016;7601;Basilicata;M;374
+2016;7801;Calabria;F;2759
+2016;7801;Calabria;M;1658
+2016;7901;Catanzaro;F;797
+2016;7901;Catanzaro;M;468
+2016;8001;Reggio Calabria;F;437
+2016;8001;Reggio Calabria;M;536
+2016;8003;Reggio Calabria - Dante Alighieri;F;185
+2016;8003;Reggio Calabria - Dante Alighieri;M;31
+2016;8201;Palermo;F;4770
+2016;8201;Palermo;M;2897
+2016;8301;Messina;F;2894
+2016;8301;Messina;M;1473
+2016;8601;Enna KORE;F;699
+2016;8601;Enna KORE;M;395
+2016;8701;Catania;F;3984
+2016;8701;Catania;M;2468
+2016;9001;Sassari;F;1294
+2016;9001;Sassari;M;673
+2016;9201;Cagliari;F;2436
+2016;9201;Cagliari;M;1493
+2015;101;Torino;F;7390
+2015;101;Torino;M;4401
+2015;102;Torino Politecnico;F;1937
+2015;102;Torino Politecnico;M;4494
+2015;201;Piemonte Orientale;F;1126
+2015;201;Piemonte Orientale;M;635
+2015;401;Bra Scienze Gastronomiche;F;39
+2015;401;Bra Scienze Gastronomiche;M;32
+2015;701;Aosta;F;138
+2015;701;Aosta;M;46
+2015;1001;Genova;F;3403
+2015;1001;Genova;M;2510
+2015;1201;Castellanza LIUC;F;216
+2015;1201;Castellanza LIUC;M;319
+2015;1202;Insubria;F;904
+2015;1202;Insubria;M;662
+2015;1301;Novedrate e-Campus - telematica;F;508
+2015;1301;Novedrate e-Campus - telematica;M;406
+2015;1501;Milano;F;6642
+2015;1501;Milano;M;4228
+2015;1502;Milano Politecnico;F;3829
+2015;1502;Milano Politecnico;M;6540
+2015;1503;Milano Bocconi;F;2148
+2015;1503;Milano Bocconi;M;2235
+2015;1504;Milano Cattolica;F;6137
+2015;1504;Milano Cattolica;M;3066
+2015;1505;Milano IULM;F;822
+2015;1505;Milano IULM;M;313
+2015;1508;Milano San Raffaele;F;284
+2015;1508;Milano San Raffaele;M;160
+2015;1509;Milano Bicocca;F;4233
+2015;1509;Milano Bicocca;M;2245
+2015;1601;Bergamo;F;1840
+2015;1601;Bergamo;M;1032
+2015;1701;Brescia;F;1238
+2015;1701;Brescia;M;1241
+2015;1801;Pavia;F;2632
+2015;1801;Pavia;M;1953
+2015;2101;Bolzano;F;292
+2015;2101;Bolzano;M;161
+2015;2201;Trento;F;1864
+2015;2201;Trento;M;1662
+2015;2301;Verona;F;2989
+2015;2301;Verona;M;1432
+2015;2701;Venezia C� Foscari;F;3164
+2015;2701;Venezia C� Foscari;M;1472
+2015;2702;Venezia Iuav;F;740
+2015;2702;Venezia Iuav;M;684
+2015;2801;Padova;F;6550
+2015;2801;Padova;M;4989
+2015;3001;Udine;F;1676
+2015;3001;Udine;M;1204
+2015;3201;Trieste;F;1891
+2015;3201;Trieste;M;1293
+2015;3401;Parma;F;2788
+2015;3401;Parma;M;2005
+2015;3601;Modena e Reggio Emilia;F;2193
+2015;3601;Modena e Reggio Emilia;M;1618
+2015;3701;Bologna;F;9797
+2015;3701;Bologna;M;6865
+2015;3801;Ferrara;F;1714
+2015;3801;Ferrara;M;1284
+2015;4101;Urbino;F;1551
+2015;4101;Urbino;M;808
+2015;4201;Marche;F;1484
+2015;4201;Marche;M;1603
+2015;4301;Macerata;F;1254
+2015;4301;Macerata;M;433
+2015;4302;Camerino;F;617
+2015;4302;Camerino;M;583
+2015;4801;Firenze;F;4961
+2015;4801;Firenze;M;2941
+2015;4804;Firenze IUL - telematica;F;6
+2015;4804;Firenze IUL - telematica;M;1
+2015;5001;Pisa;F;3701
+2015;5001;Pisa;M;3248
+2015;5201;Siena;F;1751
+2015;5201;Siena;M;1143
+2015;5202;Siena Stranieri;F;185
+2015;5202;Siena Stranieri;M;35
+2015;5401;Perugia;F;2476
+2015;5401;Perugia;M;1877
+2015;5403;Perugia Stranieri;F;172
+2015;5403;Perugia Stranieri;M;83
+2015;5601;Tuscia;F;648
+2015;5601;Tuscia;M;611
+2015;5801;Roma La Sapienza;F;10847
+2015;5801;Roma La Sapienza;M;7141
+2015;5802;Roma Tor Vergata;F;2967
+2015;5802;Roma Tor Vergata;M;2697
+2015;5803;Roma LUMSA;F;855
+2015;5803;Roma LUMSA;M;370
+2015;5805;Roma LUISS;F;1084
+2015;5805;Roma LUISS;M;1047
+2015;5806;Roma Foro Italico;F;170
+2015;5806;Roma Foro Italico;M;300
+2015;5807;Roma Tre;F;3636
+2015;5807;Roma Tre;M;2384
+2015;5808;Roma Biomedico;F;221
+2015;5808;Roma Biomedico;M;125
+2015;5809;Roma UNINT;F;245
+2015;5809;Roma UNINT;M;90
+2015;5810;Roma Marconi - telematica;F;649
+2015;5810;Roma Marconi - telematica;M;871
+2015;5811;Roma UNITELMA - telematica;F;145
+2015;5811;Roma UNITELMA - telematica;M;165
+2015;5812;Roma Europea;F;152
+2015;5812;Roma Europea;M;81
+2015;5813;Roma UNINETTUNO - telematica;F;193
+2015;5813;Roma UNINETTUNO - telematica;M;324
+2015;5814;Roma  Mercatorum - telematica;F;10
+2015;5814;Roma  Mercatorum - telematica;M;8
+2015;5815;Roma UNICUSANO - telematica;F;900
+2015;5815;Roma UNICUSANO - telematica;M;1453
+2015;5816;Roma San Raffaele - telematica;F;56
+2015;5816;Roma San Raffaele - telematica;M;88
+2015;5817;Roma Link Campus;F;118
+2015;5817;Roma Link Campus;M;260
+2015;6001;Cassino;F;820
+2015;6001;Cassino;M;577
+2015;6201;Sannio;F;509
+2015;6201;Sannio;M;415
+2015;6202;Benevento Giustino Fortunato - telematica;F;54
+2015;6202;Benevento Giustino Fortunato - telematica;M;99
+2015;6301;Napoli Federico II;F;7344
+2015;6301;Napoli Federico II;M;5502
+2015;6302;Napoli Parthenope;F;961
+2015;6302;Napoli Parthenope;M;1198
+2015;6303;Napoli L'Orientale;F;1290
+2015;6303;Napoli L'Orientale;M;316
+2015;6304;Napoli Benincasa;F;1375
+2015;6304;Napoli Benincasa;M;227
+2015;6306;Napoli Vanvitelli;F;2672
+2015;6306;Napoli Vanvitelli;M;1761
+2015;6307;Napoli Pegaso - telematica;F;908
+2015;6307;Napoli Pegaso - telematica;M;1681
+2015;6501;Salerno;F;2954
+2015;6501;Salerno;M;1715
+2015;6601;L'Aquila;F;1954
+2015;6601;L'Aquila;M;1465
+2015;6701;Teramo;F;569
+2015;6701;Teramo;M;414
+2015;6901;Chieti e Pescara;F;3695
+2015;6901;Chieti e Pescara;M;1651
+2015;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;23
+2015;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;26
+2015;7001;Molise;F;647
+2015;7001;Molise;M;396
+2015;7101;Foggia;F;924
+2015;7101;Foggia;M;542
+2015;7201;Bari;F;4911
+2015;7201;Bari;M;2386
+2015;7202;Bari Politecnico;F;559
+2015;7202;Bari Politecnico;M;1095
+2015;7203;Casamassima - G.Degennaro;F;128
+2015;7203;Casamassima - G.Degennaro;M;199
+2015;7501;Salento;F;2289
+2015;7501;Salento;M;979
+2015;7601;Basilicata;F;540
+2015;7601;Basilicata;M;351
+2015;7801;Calabria;F;2769
+2015;7801;Calabria;M;1672
+2015;7901;Catanzaro;F;669
+2015;7901;Catanzaro;M;428
+2015;8001;Reggio Calabria;F;503
+2015;8001;Reggio Calabria;M;510
+2015;8003;Reggio Calabria - Dante Alighieri;F;124
+2015;8003;Reggio Calabria - Dante Alighieri;M;26
+2015;8201;Palermo;F;4942
+2015;8201;Palermo;M;2992
+2015;8301;Messina;F;2920
+2015;8301;Messina;M;1401
+2015;8601;Enna KORE;F;662
+2015;8601;Enna KORE;M;384
+2015;8701;Catania;F;4281
+2015;8701;Catania;M;2538
+2015;9001;Sassari;F;1373
+2015;9001;Sassari;M;716
+2015;9201;Cagliari;F;2446
+2015;9201;Cagliari;M;1447
+2014;101;Torino;F;7189
+2014;101;Torino;M;4367
+2014;102;Torino Politecnico;F;2003
+2014;102;Torino Politecnico;M;4168
+2014;201;Piemonte Orientale;F;1014
+2014;201;Piemonte Orientale;M;568
+2014;401;Bra Scienze Gastronomiche;F;42
+2014;401;Bra Scienze Gastronomiche;M;34
+2014;701;Aosta;F;148
+2014;701;Aosta;M;46
+2014;1001;Genova;F;3673
+2014;1001;Genova;M;2563
+2014;1201;Castellanza LIUC;F;191
+2014;1201;Castellanza LIUC;M;310
+2014;1202;Insubria;F;863
+2014;1202;Insubria;M;634
+2014;1301;Novedrate e-Campus - telematica;F;430
+2014;1301;Novedrate e-Campus - telematica;M;382
+2014;1501;Milano;F;6691
+2014;1501;Milano;M;3990
+2014;1502;Milano Politecnico;F;3781
+2014;1502;Milano Politecnico;M;6261
+2014;1503;Milano Bocconi;F;2131
+2014;1503;Milano Bocconi;M;2216
+2014;1504;Milano Cattolica;F;6493
+2014;1504;Milano Cattolica;M;3101
+2014;1505;Milano IULM;F;821
+2014;1505;Milano IULM;M;324
+2014;1508;Milano San Raffaele;F;337
+2014;1508;Milano San Raffaele;M;171
+2014;1509;Milano Bicocca;F;4275
+2014;1509;Milano Bicocca;M;2269
+2014;1601;Bergamo;F;1861
+2014;1601;Bergamo;M;1089
+2014;1701;Brescia;F;1148
+2014;1701;Brescia;M;1133
+2014;1801;Pavia;F;2580
+2014;1801;Pavia;M;1868
+2014;2101;Bolzano;F;452
+2014;2101;Bolzano;M;178
+2014;2201;Trento;F;1852
+2014;2201;Trento;M;1615
+2014;2301;Verona;F;3098
+2014;2301;Verona;M;1419
+2014;2701;Venezia C� Foscari;F;3011
+2014;2701;Venezia C� Foscari;M;1325
+2014;2702;Venezia Iuav;F;797
+2014;2702;Venezia Iuav;M;738
+2014;2801;Padova;F;7152
+2014;2801;Padova;M;4992
+2014;3001;Udine;F;1705
+2014;3001;Udine;M;1233
+2014;3201;Trieste;F;1999
+2014;3201;Trieste;M;1305
+2014;3401;Parma;F;3077
+2014;3401;Parma;M;2137
+2014;3601;Modena e Reggio Emilia;F;2122
+2014;3601;Modena e Reggio Emilia;M;1621
+2014;3701;Bologna;F;9829
+2014;3701;Bologna;M;6743
+2014;3801;Ferrara;F;1738
+2014;3801;Ferrara;M;1159
+2014;4101;Urbino;F;1737
+2014;4101;Urbino;M;835
+2014;4201;Marche;F;1480
+2014;4201;Marche;M;1501
+2014;4301;Macerata;F;1296
+2014;4301;Macerata;M;383
+2014;4302;Camerino;F;545
+2014;4302;Camerino;M;503
+2014;4801;Firenze;F;5170
+2014;4801;Firenze;M;3166
+2014;4804;Firenze IUL - telematica;F;5
+2014;5001;Pisa;F;3463
+2014;5001;Pisa;M;3110
+2014;5201;Siena;F;1714
+2014;5201;Siena;M;1135
+2014;5202;Siena Stranieri;F;134
+2014;5202;Siena Stranieri;M;31
+2014;5401;Perugia;F;2640
+2014;5401;Perugia;M;1868
+2014;5403;Perugia Stranieri;F;193
+2014;5403;Perugia Stranieri;M;74
+2014;5601;Tuscia;F;622
+2014;5601;Tuscia;M;681
+2014;5801;Roma La Sapienza;F;11572
+2014;5801;Roma La Sapienza;M;7326
+2014;5802;Roma Tor Vergata;F;2953
+2014;5802;Roma Tor Vergata;M;2877
+2014;5803;Roma LUMSA;F;1104
+2014;5803;Roma LUMSA;M;375
+2014;5805;Roma LUISS;F;1175
+2014;5805;Roma LUISS;M;1150
+2014;5806;Roma Foro Italico;F;145
+2014;5806;Roma Foro Italico;M;267
+2014;5807;Roma Tre;F;3599
+2014;5807;Roma Tre;M;2262
+2014;5808;Roma Biomedico;F;231
+2014;5808;Roma Biomedico;M;146
+2014;5809;Roma UNINT;F;242
+2014;5809;Roma UNINT;M;120
+2014;5810;Roma Marconi - telematica;F;569
+2014;5810;Roma Marconi - telematica;M;980
+2014;5811;Roma UNITELMA - telematica;F;158
+2014;5811;Roma UNITELMA - telematica;M;180
+2014;5812;Roma Europea;F;170
+2014;5812;Roma Europea;M;78
+2014;5813;Roma UNINETTUNO - telematica;F;169
+2014;5813;Roma UNINETTUNO - telematica;M;278
+2014;5814;Roma  Mercatorum - telematica;F;8
+2014;5814;Roma  Mercatorum - telematica;M;24
+2014;5815;Roma UNICUSANO - telematica;F;857
+2014;5815;Roma UNICUSANO - telematica;M;1558
+2014;5816;Roma San Raffaele - telematica;F;27
+2014;5816;Roma San Raffaele - telematica;M;39
+2014;5817;Roma Link Campus;F;51
+2014;5817;Roma Link Campus;M;86
+2014;6001;Cassino;F;809
+2014;6001;Cassino;M;545
+2014;6201;Sannio;F;471
+2014;6201;Sannio;M;372
+2014;6202;Benevento Giustino Fortunato - telematica;F;55
+2014;6202;Benevento Giustino Fortunato - telematica;M;76
+2014;6301;Napoli Federico II;F;7349
+2014;6301;Napoli Federico II;M;5349
+2014;6302;Napoli Parthenope;F;1212
+2014;6302;Napoli Parthenope;M;1368
+2014;6303;Napoli L'Orientale;F;1336
+2014;6303;Napoli L'Orientale;M;321
+2014;6304;Napoli Benincasa;F;1614
+2014;6304;Napoli Benincasa;M;242
+2014;6306;Napoli Vanvitelli;F;2750
+2014;6306;Napoli Vanvitelli;M;1714
+2014;6307;Napoli Pegaso - telematica;F;671
+2014;6307;Napoli Pegaso - telematica;M;1260
+2014;6501;Salerno;F;3114
+2014;6501;Salerno;M;1684
+2014;6601;L'Aquila;F;1900
+2014;6601;L'Aquila;M;1420
+2014;6701;Teramo;F;583
+2014;6701;Teramo;M;416
+2014;6901;Chieti e Pescara;F;3813
+2014;6901;Chieti e Pescara;M;1617
+2014;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;30
+2014;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;24
+2014;7001;Molise;F;722
+2014;7001;Molise;M;436
+2014;7101;Foggia;F;937
+2014;7101;Foggia;M;556
+2014;7201;Bari;F;5267
+2014;7201;Bari;M;2430
+2014;7202;Bari Politecnico;F;577
+2014;7202;Bari Politecnico;M;1121
+2014;7203;Casamassima - G.Degennaro;F;96
+2014;7203;Casamassima - G.Degennaro;M;173
+2014;7501;Salento;F;2365
+2014;7501;Salento;M;1013
+2014;7601;Basilicata;F;627
+2014;7601;Basilicata;M;397
+2014;7801;Calabria;F;3005
+2014;7801;Calabria;M;1759
+2014;7901;Catanzaro;F;784
+2014;7901;Catanzaro;M;421
+2014;8001;Reggio Calabria;F;501
+2014;8001;Reggio Calabria;M;568
+2014;8003;Reggio Calabria - Dante Alighieri;F;134
+2014;8003;Reggio Calabria - Dante Alighieri;M;18
+2014;8201;Palermo;F;5136
+2014;8201;Palermo;M;3068
+2014;8301;Messina;F;2794
+2014;8301;Messina;M;1470
+2014;8601;Enna KORE;F;655
+2014;8601;Enna KORE;M;361
+2014;8701;Catania;F;4365
+2014;8701;Catania;M;2622
+2014;9001;Sassari;F;1421
+2014;9001;Sassari;M;656
+2014;9201;Cagliari;F;2469
+2014;9201;Cagliari;M;1532
+2013;101;Torino;F;7287
+2013;101;Torino;M;4528
+2013;102;Torino Politecnico;F;1787
+2013;102;Torino Politecnico;M;3697
+2013;201;Piemonte Orientale;F;1100
+2013;201;Piemonte Orientale;M;645
+2013;401;Bra Scienze Gastronomiche;F;52
+2013;401;Bra Scienze Gastronomiche;M;39
+2013;701;Aosta;F;174
+2013;701;Aosta;M;53
+2013;1001;Genova;F;3702
+2013;1001;Genova;M;2591
+2013;1201;Castellanza LIUC;F;161
+2013;1201;Castellanza LIUC;M;369
+2013;1202;Insubria;F;927
+2013;1202;Insubria;M;654
+2013;1301;Novedrate e-Campus - telematica;F;318
+2013;1301;Novedrate e-Campus - telematica;M;368
+2013;1501;Milano;F;6494
+2013;1501;Milano;M;3973
+2013;1502;Milano Politecnico;F;3586
+2013;1502;Milano Politecnico;M;5990
+2013;1503;Milano Bocconi;F;2043
+2013;1503;Milano Bocconi;M;2183
+2013;1504;Milano Cattolica;F;6456
+2013;1504;Milano Cattolica;M;3132
+2013;1505;Milano IULM;F;717
+2013;1505;Milano IULM;M;263
+2013;1508;Milano San Raffaele;F;316
+2013;1508;Milano San Raffaele;M;158
+2013;1509;Milano Bicocca;F;3886
+2013;1509;Milano Bicocca;M;2039
+2013;1601;Bergamo;F;1741
+2013;1601;Bergamo;M;940
+2013;1701;Brescia;F;1169
+2013;1701;Brescia;M;1183
+2013;1801;Pavia;F;2564
+2013;1801;Pavia;M;1843
+2013;2101;Bolzano;F;531
+2013;2101;Bolzano;M;180
+2013;2201;Trento;F;1693
+2013;2201;Trento;M;1537
+2013;2301;Verona;F;2967
+2013;2301;Verona;M;1369
+2013;2701;Venezia C� Foscari;F;2861
+2013;2701;Venezia C� Foscari;M;1324
+2013;2702;Venezia Iuav;F;843
+2013;2702;Venezia Iuav;M;812
+2013;2801;Padova;F;7325
+2013;2801;Padova;M;5067
+2013;3001;Udine;F;1757
+2013;3001;Udine;M;1236
+2013;3201;Trieste;F;2030
+2013;3201;Trieste;M;1299
+2013;3401;Parma;F;3094
+2013;3401;Parma;M;2260
+2013;3601;Modena e Reggio Emilia;F;2114
+2013;3601;Modena e Reggio Emilia;M;1532
+2013;3701;Bologna;F;9472
+2013;3701;Bologna;M;6410
+2013;3801;Ferrara;F;1836
+2013;3801;Ferrara;M;1253
+2013;4101;Urbino;F;1720
+2013;4101;Urbino;M;913
+2013;4201;Marche;F;1473
+2013;4201;Marche;M;1588
+2013;4301;Macerata;F;1359
+2013;4301;Macerata;M;439
+2013;4302;Camerino;F;519
+2013;4302;Camerino;M;525
+2013;4801;Firenze;F;5250
+2013;4801;Firenze;M;3125
+2013;4804;Firenze IUL - telematica;F;1
+2013;4804;Firenze IUL - telematica;M;2
+2013;5001;Pisa;F;3575
+2013;5001;Pisa;M;3208
+2013;5201;Siena;F;1989
+2013;5201;Siena;M;1271
+2013;5202;Siena Stranieri;F;115
+2013;5202;Siena Stranieri;M;17
+2013;5401;Perugia;F;2763
+2013;5401;Perugia;M;1863
+2013;5403;Perugia Stranieri;F;185
+2013;5403;Perugia Stranieri;M;88
+2013;5601;Tuscia;F;676
+2013;5601;Tuscia;M;731
+2013;5801;Roma La Sapienza;F;11902
+2013;5801;Roma La Sapienza;M;7338
+2013;5802;Roma Tor Vergata;F;3051
+2013;5802;Roma Tor Vergata;M;2434
+2013;5803;Roma LUMSA;F;1076
+2013;5803;Roma LUMSA;M;434
+2013;5805;Roma LUISS;F;1213
+2013;5805;Roma LUISS;M;1027
+2013;5806;Roma Foro Italico;F;152
+2013;5806;Roma Foro Italico;M;280
+2013;5807;Roma Tre;F;3573
+2013;5807;Roma Tre;M;2306
+2013;5808;Roma Biomedico;F;215
+2013;5808;Roma Biomedico;M;131
+2013;5809;Roma UNINT;F;269
+2013;5809;Roma UNINT;M;104
+2013;5810;Roma Marconi - telematica;F;573
+2013;5810;Roma Marconi - telematica;M;1016
+2013;5811;Roma UNITELMA - telematica;F;115
+2013;5811;Roma UNITELMA - telematica;M;140
+2013;5812;Roma Europea;F;136
+2013;5812;Roma Europea;M;91
+2013;5813;Roma UNINETTUNO - telematica;F;81
+2013;5813;Roma UNINETTUNO - telematica;M;110
+2013;5814;Roma  Mercatorum - telematica;F;2
+2013;5814;Roma  Mercatorum - telematica;M;24
+2013;5815;Roma UNICUSANO - telematica;F;790
+2013;5815;Roma UNICUSANO - telematica;M;1619
+2013;5816;Roma San Raffaele - telematica;F;19
+2013;5816;Roma San Raffaele - telematica;M;46
+2013;5817;Roma Link Campus;M;1
+2013;6001;Cassino;F;856
+2013;6001;Cassino;M;605
+2013;6201;Sannio;F;485
+2013;6201;Sannio;M;389
+2013;6202;Benevento Giustino Fortunato - telematica;F;35
+2013;6202;Benevento Giustino Fortunato - telematica;M;76
+2013;6301;Napoli Federico II;F;7300
+2013;6301;Napoli Federico II;M;5548
+2013;6302;Napoli Parthenope;F;1015
+2013;6302;Napoli Parthenope;M;1080
+2013;6303;Napoli L'Orientale;F;1334
+2013;6303;Napoli L'Orientale;M;326
+2013;6304;Napoli Benincasa;F;1619
+2013;6304;Napoli Benincasa;M;247
+2013;6306;Napoli Vanvitelli;F;2749
+2013;6306;Napoli Vanvitelli;M;1819
+2013;6307;Napoli Pegaso - telematica;F;504
+2013;6307;Napoli Pegaso - telematica;M;1053
+2013;6501;Salerno;F;2838
+2013;6501;Salerno;M;1713
+2013;6601;L'Aquila;F;1912
+2013;6601;L'Aquila;M;1495
+2013;6701;Teramo;F;620
+2013;6701;Teramo;M;634
+2013;6901;Chieti e Pescara;F;3740
+2013;6901;Chieti e Pescara;M;1669
+2013;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;28
+2013;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;15
+2013;7001;Molise;F;784
+2013;7001;Molise;M;412
+2013;7101;Foggia;F;986
+2013;7101;Foggia;M;537
+2013;7201;Bari;F;5355
+2013;7201;Bari;M;2616
+2013;7202;Bari Politecnico;F;576
+2013;7202;Bari Politecnico;M;1212
+2013;7203;Casamassima - G.Degennaro;F;82
+2013;7203;Casamassima - G.Degennaro;M;176
+2013;7501;Salento;F;2457
+2013;7501;Salento;M;1067
+2013;7601;Basilicata;F;669
+2013;7601;Basilicata;M;445
+2013;7801;Calabria;F;2924
+2013;7801;Calabria;M;1706
+2013;7901;Catanzaro;F;731
+2013;7901;Catanzaro;M;515
+2013;8001;Reggio Calabria;F;462
+2013;8001;Reggio Calabria;M;519
+2013;8003;Reggio Calabria - Dante Alighieri;F;94
+2013;8003;Reggio Calabria - Dante Alighieri;M;22
+2013;8201;Palermo;F;5596
+2013;8201;Palermo;M;3442
+2013;8301;Messina;F;3146
+2013;8301;Messina;M;1690
+2013;8601;Enna KORE;F;655
+2013;8601;Enna KORE;M;321
+2013;8701;Catania;F;4488
+2013;8701;Catania;M;2612
+2013;9001;Sassari;F;1401
+2013;9001;Sassari;M;685
+2013;9201;Cagliari;F;2762
+2013;9201;Cagliari;M;1557
+2012;101;Torino;F;7314
+2012;101;Torino;M;4053
+2012;102;Torino Politecnico;F;1647
+2012;102;Torino Politecnico;M;3683
+2012;201;Piemonte Orientale;F;937
+2012;201;Piemonte Orientale;M;515
+2012;401;Bra Scienze Gastronomiche;F;30
+2012;401;Bra Scienze Gastronomiche;M;38
+2012;701;Aosta;F;115
+2012;701;Aosta;M;42
+2012;1001;Genova;F;3666
+2012;1001;Genova;M;2497
+2012;1201;Castellanza LIUC;F;162
+2012;1201;Castellanza LIUC;M;357
+2012;1202;Insubria;F;1015
+2012;1202;Insubria;M;665
+2012;1301;Novedrate e-Campus - telematica;F;209
+2012;1301;Novedrate e-Campus - telematica;M;321
+2012;1501;Milano;F;6361
+2012;1501;Milano;M;3803
+2012;1502;Milano Politecnico;F;3344
+2012;1502;Milano Politecnico;M;5565
+2012;1503;Milano Bocconi;F;2079
+2012;1503;Milano Bocconi;M;2188
+2012;1504;Milano Cattolica;F;6328
+2012;1504;Milano Cattolica;M;2920
+2012;1505;Milano IULM;F;791
+2012;1505;Milano IULM;M;266
+2012;1508;Milano San Raffaele;F;371
+2012;1508;Milano San Raffaele;M;162
+2012;1509;Milano Bicocca;F;3621
+2012;1509;Milano Bicocca;M;1944
+2012;1601;Bergamo;F;1627
+2012;1601;Bergamo;M;917
+2012;1701;Brescia;F;1181
+2012;1701;Brescia;M;1235
+2012;1801;Pavia;F;2327
+2012;1801;Pavia;M;1784
+2012;2101;Bolzano;F;493
+2012;2101;Bolzano;M;150
+2012;2201;Trento;F;1525
+2012;2201;Trento;M;1394
+2012;2301;Verona;F;2975
+2012;2301;Verona;M;1383
+2012;2701;Venezia C� Foscari;F;2588
+2012;2701;Venezia C� Foscari;M;1226
+2012;2702;Venezia Iuav;F;917
+2012;2702;Venezia Iuav;M;858
+2012;2801;Padova;F;7105
+2012;2801;Padova;M;5025
+2012;3001;Udine;F;1661
+2012;3001;Udine;M;1268
+2012;3201;Trieste;F;2134
+2012;3201;Trieste;M;1368
+2012;3401;Parma;F;2990
+2012;3401;Parma;M;2190
+2012;3601;Modena e Reggio Emilia;F;2049
+2012;3601;Modena e Reggio Emilia;M;1480
+2012;3701;Bologna;F;8987
+2012;3701;Bologna;M;6224
+2012;3801;Ferrara;F;1576
+2012;3801;Ferrara;M;1181
+2012;4101;Urbino;F;1796
+2012;4101;Urbino;M;855
+2012;4201;Marche;F;1496
+2012;4201;Marche;M;1686
+2012;4301;Macerata;F;1359
+2012;4301;Macerata;M;459
+2012;4302;Camerino;F;578
+2012;4302;Camerino;M;562
+2012;4801;Firenze;F;5443
+2012;4801;Firenze;M;3803
+2012;4804;Firenze IUL - telematica;F;8
+2012;4804;Firenze IUL - telematica;M;2
+2012;5001;Pisa;F;3485
+2012;5001;Pisa;M;3198
+2012;5201;Siena;F;1928
+2012;5201;Siena;M;1178
+2012;5202;Siena Stranieri;F;91
+2012;5202;Siena Stranieri;M;10
+2012;5401;Perugia;F;2756
+2012;5401;Perugia;M;1897
+2012;5403;Perugia Stranieri;F;210
+2012;5403;Perugia Stranieri;M;137
+2012;5601;Tuscia;F;656
+2012;5601;Tuscia;M;1016
+2012;5801;Roma La Sapienza;F;12270
+2012;5801;Roma La Sapienza;M;7408
+2012;5802;Roma Tor Vergata;F;2932
+2012;5802;Roma Tor Vergata;M;2341
+2012;5803;Roma LUMSA;F;991
+2012;5803;Roma LUMSA;M;398
+2012;5805;Roma LUISS;F;1077
+2012;5805;Roma LUISS;M;1048
+2012;5806;Roma Foro Italico;F;135
+2012;5806;Roma Foro Italico;M;219
+2012;5807;Roma Tre;F;3398
+2012;5807;Roma Tre;M;2191
+2012;5808;Roma Biomedico;F;189
+2012;5808;Roma Biomedico;M;119
+2012;5809;Roma UNINT;F;240
+2012;5809;Roma UNINT;M;108
+2012;5810;Roma Marconi - telematica;F;473
+2012;5810;Roma Marconi - telematica;M;939
+2012;5811;Roma UNITELMA - telematica;F;95
+2012;5811;Roma UNITELMA - telematica;M;149
+2012;5812;Roma Europea;F;109
+2012;5812;Roma Europea;M;60
+2012;5813;Roma UNINETTUNO - telematica;F;76
+2012;5813;Roma UNINETTUNO - telematica;M;84
+2012;5814;Roma  Mercatorum - telematica;F;7
+2012;5814;Roma  Mercatorum - telematica;M;10
+2012;5815;Roma UNICUSANO - telematica;F;579
+2012;5815;Roma UNICUSANO - telematica;M;1053
+2012;5816;Roma San Raffaele - telematica;F;2
+2012;5816;Roma San Raffaele - telematica;M;3
+2012;6001;Cassino;F;954
+2012;6001;Cassino;M;633
+2012;6201;Sannio;F;452
+2012;6201;Sannio;M;400
+2012;6202;Benevento Giustino Fortunato - telematica;F;31
+2012;6202;Benevento Giustino Fortunato - telematica;M;79
+2012;6301;Napoli Federico II;F;7312
+2012;6301;Napoli Federico II;M;5563
+2012;6302;Napoli Parthenope;F;912
+2012;6302;Napoli Parthenope;M;1123
+2012;6303;Napoli L'Orientale;F;1401
+2012;6303;Napoli L'Orientale;M;351
+2012;6304;Napoli Benincasa;F;1620
+2012;6304;Napoli Benincasa;M;287
+2012;6306;Napoli Vanvitelli;F;2760
+2012;6306;Napoli Vanvitelli;M;1762
+2012;6307;Napoli Pegaso - telematica;F;491
+2012;6307;Napoli Pegaso - telematica;M;1316
+2012;6501;Salerno;F;2849
+2012;6501;Salerno;M;1679
+2012;6601;L'Aquila;F;1744
+2012;6601;L'Aquila;M;1386
+2012;6701;Teramo;F;541
+2012;6701;Teramo;M;441
+2012;6901;Chieti e Pescara;F;3572
+2012;6901;Chieti e Pescara;M;1580
+2012;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;36
+2012;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;23
+2012;7001;Molise;F;760
+2012;7001;Molise;M;468
+2012;7101;Foggia;F;899
+2012;7101;Foggia;M;502
+2012;7201;Bari;F;5393
+2012;7201;Bari;M;2497
+2012;7202;Bari Politecnico;F;543
+2012;7202;Bari Politecnico;M;1171
+2012;7203;Casamassima - G.Degennaro;F;103
+2012;7203;Casamassima - G.Degennaro;M;120
+2012;7501;Salento;F;2693
+2012;7501;Salento;M;1126
+2012;7601;Basilicata;F;581
+2012;7601;Basilicata;M;358
+2012;7801;Calabria;F;2931
+2012;7801;Calabria;M;1801
+2012;7901;Catanzaro;F;869
+2012;7901;Catanzaro;M;484
+2012;8001;Reggio Calabria;F;466
+2012;8001;Reggio Calabria;M;515
+2012;8003;Reggio Calabria - Dante Alighieri;F;51
+2012;8003;Reggio Calabria - Dante Alighieri;M;16
+2012;8201;Palermo;F;5342
+2012;8201;Palermo;M;3185
+2012;8301;Messina;F;3107
+2012;8301;Messina;M;1703
+2012;8601;Enna KORE;F;670
+2012;8601;Enna KORE;M;292
+2012;8701;Catania;F;4807
+2012;8701;Catania;M;2910
+2012;9001;Sassari;F;1498
+2012;9001;Sassari;M;713
+2012;9201;Cagliari;F;3130
+2012;9201;Cagliari;M;1695
+2011;101;Torino;F;7008
+2011;101;Torino;M;4047
+2011;102;Torino Politecnico;F;1578
+2011;102;Torino Politecnico;M;3361
+2011;201;Piemonte Orientale;F;1064
+2011;201;Piemonte Orientale;M;515
+2011;401;Bra Scienze Gastronomiche;F;33
+2011;401;Bra Scienze Gastronomiche;M;28
+2011;701;Aosta;F;132
+2011;701;Aosta;M;36
+2011;1001;Genova;F;3375
+2011;1001;Genova;M;2541
+2011;1201;Castellanza LIUC;F;191
+2011;1201;Castellanza LIUC;M;340
+2011;1202;Insubria;F;903
+2011;1202;Insubria;M;612
+2011;1301;Novedrate e-Campus - telematica;F;142
+2011;1301;Novedrate e-Campus - telematica;M;183
+2011;1501;Milano;F;5911
+2011;1501;Milano;M;3715
+2011;1502;Milano Politecnico;F;3279
+2011;1502;Milano Politecnico;M;5654
+2011;1503;Milano Bocconi;F;1912
+2011;1503;Milano Bocconi;M;2171
+2011;1504;Milano Cattolica;F;6005
+2011;1504;Milano Cattolica;M;2807
+2011;1505;Milano IULM;F;723
+2011;1505;Milano IULM;M;295
+2011;1508;Milano San Raffaele;F;373
+2011;1508;Milano San Raffaele;M;183
+2011;1509;Milano Bicocca;F;3604
+2011;1509;Milano Bicocca;M;1903
+2011;1601;Bergamo;F;1606
+2011;1601;Bergamo;M;929
+2011;1701;Brescia;F;1185
+2011;1701;Brescia;M;1184
+2011;1801;Pavia;F;2452
+2011;1801;Pavia;M;1741
+2011;2101;Bolzano;F;472
+2011;2101;Bolzano;M;158
+2011;2201;Trento;F;1445
+2011;2201;Trento;M;1218
+2011;2301;Verona;F;2765
+2011;2301;Verona;M;1266
+2011;2701;Venezia C� Foscari;F;2437
+2011;2701;Venezia C� Foscari;M;1124
+2011;2702;Venezia Iuav;F;783
+2011;2702;Venezia Iuav;M;731
+2011;2801;Padova;F;6724
+2011;2801;Padova;M;4933
+2011;3001;Udine;F;1703
+2011;3001;Udine;M;1237
+2011;3201;Trieste;F;1917
+2011;3201;Trieste;M;1315
+2011;3401;Parma;F;2669
+2011;3401;Parma;M;2050
+2011;3601;Modena e Reggio Emilia;F;2083
+2011;3601;Modena e Reggio Emilia;M;1560
+2011;3701;Bologna;F;9111
+2011;3701;Bologna;M;6039
+2011;3801;Ferrara;F;1632
+2011;3801;Ferrara;M;1307
+2011;4101;Urbino;F;1863
+2011;4101;Urbino;M;903
+2011;4201;Marche;F;1423
+2011;4201;Marche;M;1431
+2011;4301;Macerata;F;1392
+2011;4301;Macerata;M;434
+2011;4302;Camerino;F;488
+2011;4302;Camerino;M;531
+2011;4801;Firenze;F;5437
+2011;4801;Firenze;M;3970
+2011;4804;Firenze IUL - telematica;F;1
+2011;5001;Pisa;F;3520
+2011;5001;Pisa;M;3243
+2011;5201;Siena;F;2032
+2011;5201;Siena;M;1334
+2011;5202;Siena Stranieri;F;118
+2011;5202;Siena Stranieri;M;19
+2011;5401;Perugia;F;2938
+2011;5401;Perugia;M;2053
+2011;5403;Perugia Stranieri;F;236
+2011;5403;Perugia Stranieri;M;153
+2011;5601;Tuscia;F;670
+2011;5601;Tuscia;M;1083
+2011;5801;Roma La Sapienza;F;12623
+2011;5801;Roma La Sapienza;M;7472
+2011;5802;Roma Tor Vergata;F;2886
+2011;5802;Roma Tor Vergata;M;2411
+2011;5803;Roma LUMSA;F;1047
+2011;5803;Roma LUMSA;M;381
+2011;5805;Roma LUISS;F;1090
+2011;5805;Roma LUISS;M;972
+2011;5806;Roma Foro Italico;F;86
+2011;5806;Roma Foro Italico;M;176
+2011;5807;Roma Tre;F;3142
+2011;5807;Roma Tre;M;2067
+2011;5808;Roma Biomedico;F;132
+2011;5808;Roma Biomedico;M;101
+2011;5809;Roma UNINT;F;216
+2011;5809;Roma UNINT;M;141
+2011;5810;Roma Marconi - telematica;F;387
+2011;5810;Roma Marconi - telematica;M;965
+2011;5811;Roma UNITELMA - telematica;F;99
+2011;5811;Roma UNITELMA - telematica;M;138
+2011;5812;Roma Europea;F;109
+2011;5812;Roma Europea;M;65
+2011;5813;Roma UNINETTUNO - telematica;F;44
+2011;5813;Roma UNINETTUNO - telematica;M;59
+2011;5814;Roma  Mercatorum - telematica;F;12
+2011;5814;Roma  Mercatorum - telematica;M;11
+2011;5815;Roma UNICUSANO - telematica;F;482
+2011;5815;Roma UNICUSANO - telematica;M;1246
+2011;5816;Roma San Raffaele - telematica;M;7
+2011;6001;Cassino;F;892
+2011;6001;Cassino;M;599
+2011;6201;Sannio;F;406
+2011;6201;Sannio;M;359
+2011;6202;Benevento Giustino Fortunato - telematica;F;35
+2011;6202;Benevento Giustino Fortunato - telematica;M;58
+2011;6301;Napoli Federico II;F;6881
+2011;6301;Napoli Federico II;M;5188
+2011;6302;Napoli Parthenope;F;927
+2011;6302;Napoli Parthenope;M;1070
+2011;6303;Napoli L'Orientale;F;1439
+2011;6303;Napoli L'Orientale;M;363
+2011;6304;Napoli Benincasa;F;1573
+2011;6304;Napoli Benincasa;M;287
+2011;6306;Napoli Vanvitelli;F;2541
+2011;6306;Napoli Vanvitelli;M;1806
+2011;6307;Napoli Pegaso - telematica;F;504
+2011;6307;Napoli Pegaso - telematica;M;1427
+2011;6501;Salerno;F;2738
+2011;6501;Salerno;M;1656
+2011;6601;L'Aquila;F;1992
+2011;6601;L'Aquila;M;1239
+2011;6701;Teramo;F;486
+2011;6701;Teramo;M;593
+2011;6901;Chieti e Pescara;F;3576
+2011;6901;Chieti e Pescara;M;1689
+2011;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;38
+2011;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;25
+2011;7001;Molise;F;1050
+2011;7001;Molise;M;624
+2011;7101;Foggia;F;984
+2011;7101;Foggia;M;473
+2011;7201;Bari;F;5207
+2011;7201;Bari;M;2428
+2011;7202;Bari Politecnico;F;463
+2011;7202;Bari Politecnico;M;1088
+2011;7203;Casamassima - G.Degennaro;F;85
+2011;7203;Casamassima - G.Degennaro;M;134
+2011;7501;Salento;F;2849
+2011;7501;Salento;M;1111
+2011;7601;Basilicata;F;561
+2011;7601;Basilicata;M;404
+2011;7801;Calabria;F;2973
+2011;7801;Calabria;M;1794
+2011;7901;Catanzaro;F;989
+2011;7901;Catanzaro;M;614
+2011;8001;Reggio Calabria;F;481
+2011;8001;Reggio Calabria;M;533
+2011;8003;Reggio Calabria - Dante Alighieri;F;23
+2011;8003;Reggio Calabria - Dante Alighieri;M;6
+2011;8201;Palermo;F;5049
+2011;8201;Palermo;M;2954
+2011;8301;Messina;F;3003
+2011;8301;Messina;M;1623
+2011;8601;Enna KORE;F;588
+2011;8601;Enna KORE;M;269
+2011;8701;Catania;F;4459
+2011;8701;Catania;M;2735
+2011;9001;Sassari;F;1691
+2011;9001;Sassari;M;732
+2011;9201;Cagliari;F;2851
+2011;9201;Cagliari;M;1568
+2010;101;Torino;F;7194
+2010;101;Torino;M;4217
+2010;102;Torino Politecnico;F;1413
+2010;102;Torino Politecnico;M;3182
+2010;201;Piemonte Orientale;F;1077
+2010;201;Piemonte Orientale;M;598
+2010;401;Bra Scienze Gastronomiche;F;30
+2010;401;Bra Scienze Gastronomiche;M;33
+2010;701;Aosta;F;119
+2010;701;Aosta;M;42
+2010;1001;Genova;F;3394
+2010;1001;Genova;M;2395
+2010;1201;Castellanza LIUC;F;184
+2010;1201;Castellanza LIUC;M;330
+2010;1202;Insubria;F;921
+2010;1202;Insubria;M;652
+2010;1301;Novedrate e-Campus - telematica;F;62
+2010;1301;Novedrate e-Campus - telematica;M;92
+2010;1501;Milano;F;5777
+2010;1501;Milano;M;3884
+2010;1502;Milano Politecnico;F;2898
+2010;1502;Milano Politecnico;M;5264
+2010;1503;Milano Bocconi;F;1848
+2010;1503;Milano Bocconi;M;2202
+2010;1504;Milano Cattolica;F;5830
+2010;1504;Milano Cattolica;M;2687
+2010;1505;Milano IULM;F;848
+2010;1505;Milano IULM;M;304
+2010;1508;Milano San Raffaele;F;374
+2010;1508;Milano San Raffaele;M;173
+2010;1509;Milano Bicocca;F;3088
+2010;1509;Milano Bicocca;M;1645
+2010;1601;Bergamo;F;1591
+2010;1601;Bergamo;M;857
+2010;1701;Brescia;F;1106
+2010;1701;Brescia;M;1122
+2010;1801;Pavia;F;2385
+2010;1801;Pavia;M;1650
+2010;2101;Bolzano;F;395
+2010;2101;Bolzano;M;135
+2010;2201;Trento;F;1216
+2010;2201;Trento;M;1203
+2010;2301;Verona;F;2617
+2010;2301;Verona;M;1288
+2010;2701;Venezia C� Foscari;F;2371
+2010;2701;Venezia C� Foscari;M;1180
+2010;2702;Venezia Iuav;F;859
+2010;2702;Venezia Iuav;M;714
+2010;2801;Padova;F;6695
+2010;2801;Padova;M;4833
+2010;3001;Udine;F;1624
+2010;3001;Udine;M;1229
+2010;3201;Trieste;F;1971
+2010;3201;Trieste;M;1291
+2010;3401;Parma;F;2655
+2010;3401;Parma;M;1899
+2010;3601;Modena e Reggio Emilia;F;2086
+2010;3601;Modena e Reggio Emilia;M;1496
+2010;3701;Bologna;F;8681
+2010;3701;Bologna;M;6167
+2010;3801;Ferrara;F;1484
+2010;3801;Ferrara;M;1217
+2010;4101;Urbino;F;1823
+2010;4101;Urbino;M;989
+2010;4201;Marche;F;1310
+2010;4201;Marche;M;1405
+2010;4301;Macerata;F;1291
+2010;4301;Macerata;M;457
+2010;4302;Camerino;F;522
+2010;4302;Camerino;M;542
+2010;4801;Firenze;F;5443
+2010;4801;Firenze;M;3950
+2010;4804;Firenze IUL - telematica;F;11
+2010;4804;Firenze IUL - telematica;M;2
+2010;5001;Pisa;F;3490
+2010;5001;Pisa;M;3198
+2010;5201;Siena;F;1915
+2010;5201;Siena;M;1324
+2010;5202;Siena Stranieri;F;88
+2010;5202;Siena Stranieri;M;17
+2010;5401;Perugia;F;2907
+2010;5401;Perugia;M;2046
+2010;5403;Perugia Stranieri;F;258
+2010;5403;Perugia Stranieri;M;150
+2010;5601;Tuscia;F;635
+2010;5601;Tuscia;M;1227
+2010;5801;Roma La Sapienza;F;11996
+2010;5801;Roma La Sapienza;M;7395
+2010;5802;Roma Tor Vergata;F;2706
+2010;5802;Roma Tor Vergata;M;2317
+2010;5803;Roma LUMSA;F;1028
+2010;5803;Roma LUMSA;M;445
+2010;5805;Roma LUISS;F;1051
+2010;5805;Roma LUISS;M;1003
+2010;5806;Roma Foro Italico;F;106
+2010;5806;Roma Foro Italico;M;150
+2010;5807;Roma Tre;F;3370
+2010;5807;Roma Tre;M;2192
+2010;5808;Roma Biomedico;F;111
+2010;5808;Roma Biomedico;M;90
+2010;5809;Roma UNINT;F;172
+2010;5809;Roma UNINT;M;121
+2010;5810;Roma Marconi - telematica;F;394
+2010;5810;Roma Marconi - telematica;M;1078
+2010;5811;Roma UNITELMA - telematica;F;83
+2010;5811;Roma UNITELMA - telematica;M;176
+2010;5812;Roma Europea;F;61
+2010;5812;Roma Europea;M;35
+2010;5813;Roma UNINETTUNO - telematica;F;35
+2010;5813;Roma UNINETTUNO - telematica;M;51
+2010;5814;Roma  Mercatorum - telematica;F;7
+2010;5814;Roma  Mercatorum - telematica;M;15
+2010;5815;Roma UNICUSANO - telematica;F;282
+2010;5815;Roma UNICUSANO - telematica;M;325
+2010;5816;Roma San Raffaele - telematica;F;1
+2010;5816;Roma San Raffaele - telematica;M;4
+2010;6001;Cassino;F;913
+2010;6001;Cassino;M;626
+2010;6201;Sannio;F;400
+2010;6201;Sannio;M;326
+2010;6202;Benevento Giustino Fortunato - telematica;F;26
+2010;6202;Benevento Giustino Fortunato - telematica;M;42
+2010;6301;Napoli Federico II;F;6785
+2010;6301;Napoli Federico II;M;5123
+2010;6302;Napoli Parthenope;F;1050
+2010;6302;Napoli Parthenope;M;1053
+2010;6303;Napoli L'Orientale;F;1378
+2010;6303;Napoli L'Orientale;M;358
+2010;6304;Napoli Benincasa;F;1462
+2010;6304;Napoli Benincasa;M;309
+2010;6306;Napoli Vanvitelli;F;2517
+2010;6306;Napoli Vanvitelli;M;1802
+2010;6307;Napoli Pegaso - telematica;F;353
+2010;6307;Napoli Pegaso - telematica;M;255
+2010;6501;Salerno;F;2654
+2010;6501;Salerno;M;1627
+2010;6601;L'Aquila;F;1881
+2010;6601;L'Aquila;M;1314
+2010;6701;Teramo;F;520
+2010;6701;Teramo;M;475
+2010;6901;Chieti e Pescara;F;2956
+2010;6901;Chieti e Pescara;M;1553
+2010;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;35
+2010;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;19
+2010;7001;Molise;F;745
+2010;7001;Molise;M;485
+2010;7101;Foggia;F;908
+2010;7101;Foggia;M;485
+2010;7201;Bari;F;5265
+2010;7201;Bari;M;2476
+2010;7202;Bari Politecnico;F;444
+2010;7202;Bari Politecnico;M;1013
+2010;7203;Casamassima - G.Degennaro;F;92
+2010;7203;Casamassima - G.Degennaro;M;114
+2010;7501;Salento;F;2758
+2010;7501;Salento;M;1124
+2010;7601;Basilicata;F;556
+2010;7601;Basilicata;M;371
+2010;7801;Calabria;F;2709
+2010;7801;Calabria;M;1747
+2010;7901;Catanzaro;F;1220
+2010;7901;Catanzaro;M;660
+2010;8001;Reggio Calabria;F;465
+2010;8001;Reggio Calabria;M;469
+2010;8003;Reggio Calabria - Dante Alighieri;F;12
+2010;8003;Reggio Calabria - Dante Alighieri;M;4
+2010;8201;Palermo;F;4601
+2010;8201;Palermo;M;2809
+2010;8301;Messina;F;3020
+2010;8301;Messina;M;1590
+2010;8601;Enna KORE;F;405
+2010;8601;Enna KORE;M;311
+2010;8701;Catania;F;4366
+2010;8701;Catania;M;2709
+2010;9001;Sassari;F;1150
+2010;9001;Sassari;M;610
+2010;9201;Cagliari;F;2649
+2010;9201;Cagliari;M;1447
+2009;101;Torino;F;6731
+2009;101;Torino;M;3913
+2009;102;Torino Politecnico;F;1348
+2009;102;Torino Politecnico;M;3177
+2009;201;Piemonte Orientale;F;957
+2009;201;Piemonte Orientale;M;538
+2009;401;Bra Scienze Gastronomiche;F;19
+2009;401;Bra Scienze Gastronomiche;M;34
+2009;701;Aosta;F;98
+2009;701;Aosta;M;29
+2009;1001;Genova;F;3463
+2009;1001;Genova;M;2499
+2009;1201;Castellanza LIUC;F;199
+2009;1201;Castellanza LIUC;M;334
+2009;1202;Insubria;F;814
+2009;1202;Insubria;M;609
+2009;1501;Milano;F;5747
+2009;1501;Milano;M;3530
+2009;1502;Milano Politecnico;F;2983
+2009;1502;Milano Politecnico;M;5728
+2009;1503;Milano Bocconi;F;1641
+2009;1503;Milano Bocconi;M;1956
+2009;1504;Milano Cattolica;F;5780
+2009;1504;Milano Cattolica;M;2672
+2009;1505;Milano IULM;F;881
+2009;1505;Milano IULM;M;316
+2009;1508;Milano San Raffaele;F;344
+2009;1508;Milano San Raffaele;M;160
+2009;1509;Milano Bicocca;F;3236
+2009;1509;Milano Bicocca;M;1786
+2009;1601;Bergamo;F;1524
+2009;1601;Bergamo;M;872
+2009;1701;Brescia;F;1083
+2009;1701;Brescia;M;1116
+2009;1801;Pavia;F;2283
+2009;1801;Pavia;M;1724
+2009;2101;Bolzano;F;357
+2009;2101;Bolzano;M;120
+2009;2201;Trento;F;1264
+2009;2201;Trento;M;1103
+2009;2301;Verona;F;2547
+2009;2301;Verona;M;1153
+2009;2701;Venezia C� Foscari;F;2192
+2009;2701;Venezia C� Foscari;M;1116
+2009;2702;Venezia Iuav;F;832
+2009;2702;Venezia Iuav;M;769
+2009;2801;Padova;F;6856
+2009;2801;Padova;M;4928
+2009;3001;Udine;F;1734
+2009;3001;Udine;M;1317
+2009;3201;Trieste;F;1980
+2009;3201;Trieste;M;1263
+2009;3401;Parma;F;2595
+2009;3401;Parma;M;1916
+2009;3601;Modena e Reggio Emilia;F;1776
+2009;3601;Modena e Reggio Emilia;M;1413
+2009;3701;Bologna;F;9086
+2009;3701;Bologna;M;6451
+2009;3801;Ferrara;F;1529
+2009;3801;Ferrara;M;1170
+2009;4101;Urbino;F;1823
+2009;4101;Urbino;M;984
+2009;4201;Marche;F;1360
+2009;4201;Marche;M;1432
+2009;4301;Macerata;F;1448
+2009;4301;Macerata;M;584
+2009;4302;Camerino;F;519
+2009;4302;Camerino;M;649
+2009;4801;Firenze;F;5861
+2009;4801;Firenze;M;3913
+2009;4804;Firenze IUL - telematica;F;19
+2009;4804;Firenze IUL - telematica;M;5
+2009;5001;Pisa;F;3664
+2009;5001;Pisa;M;3519
+2009;5201;Siena;F;2075
+2009;5201;Siena;M;4069
+2009;5202;Siena Stranieri;F;106
+2009;5202;Siena Stranieri;M;13
+2009;5401;Perugia;F;3134
+2009;5401;Perugia;M;2158
+2009;5403;Perugia Stranieri;F;285
+2009;5403;Perugia Stranieri;M;180
+2009;5601;Tuscia;F;706
+2009;5601;Tuscia;M;1636
+2009;5801;Roma La Sapienza;F;13094
+2009;5801;Roma La Sapienza;M;7809
+2009;5802;Roma Tor Vergata;F;2589
+2009;5802;Roma Tor Vergata;M;2377
+2009;5803;Roma LUMSA;F;1107
+2009;5803;Roma LUMSA;M;477
+2009;5805;Roma LUISS;F;844
+2009;5805;Roma LUISS;M;888
+2009;5806;Roma Foro Italico;F;96
+2009;5806;Roma Foro Italico;M;155
+2009;5807;Roma Tre;F;3229
+2009;5807;Roma Tre;M;2157
+2009;5808;Roma Biomedico;F;119
+2009;5808;Roma Biomedico;M;70
+2009;5809;Roma UNINT;F;194
+2009;5809;Roma UNINT;M;150
+2009;5810;Roma Marconi - telematica;F;307
+2009;5810;Roma Marconi - telematica;M;1007
+2009;5811;Roma UNITELMA - telematica;F;51
+2009;5811;Roma UNITELMA - telematica;M;141
+2009;5812;Roma Europea;F;31
+2009;5812;Roma Europea;M;13
+2009;5813;Roma UNINETTUNO - telematica;F;43
+2009;5813;Roma UNINETTUNO - telematica;M;71
+2009;5815;Roma UNICUSANO - telematica;F;164
+2009;5815;Roma UNICUSANO - telematica;M;278
+2009;5816;Roma San Raffaele - telematica;F;12
+2009;5816;Roma San Raffaele - telematica;M;6
+2009;6001;Cassino;F;1016
+2009;6001;Cassino;M;601
+2009;6201;Sannio;F;481
+2009;6201;Sannio;M;445
+2009;6202;Benevento Giustino Fortunato - telematica;F;13
+2009;6202;Benevento Giustino Fortunato - telematica;M;28
+2009;6301;Napoli Federico II;F;6593
+2009;6301;Napoli Federico II;M;5235
+2009;6302;Napoli Parthenope;F;983
+2009;6302;Napoli Parthenope;M;1056
+2009;6303;Napoli L'Orientale;F;1437
+2009;6303;Napoli L'Orientale;M;376
+2009;6304;Napoli Benincasa;F;1415
+2009;6304;Napoli Benincasa;M;311
+2009;6306;Napoli Vanvitelli;F;2359
+2009;6306;Napoli Vanvitelli;M;1554
+2009;6307;Napoli Pegaso - telematica;F;277
+2009;6307;Napoli Pegaso - telematica;M;134
+2009;6501;Salerno;F;2661
+2009;6501;Salerno;M;1626
+2009;6601;L'Aquila;F;1869
+2009;6601;L'Aquila;M;1242
+2009;6701;Teramo;F;520
+2009;6701;Teramo;M;466
+2009;6901;Chieti e Pescara;F;3528
+2009;6901;Chieti e Pescara;M;1894
+2009;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;13
+2009;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;14
+2009;7001;Molise;F;690
+2009;7001;Molise;M;430
+2009;7101;Foggia;F;824
+2009;7101;Foggia;M;497
+2009;7201;Bari;F;5278
+2009;7201;Bari;M;2638
+2009;7202;Bari Politecnico;F;465
+2009;7202;Bari Politecnico;M;1038
+2009;7203;Casamassima - G.Degennaro;F;105
+2009;7203;Casamassima - G.Degennaro;M;176
+2009;7501;Salento;F;2697
+2009;7501;Salento;M;1231
+2009;7601;Basilicata;F;485
+2009;7601;Basilicata;M;290
+2009;7801;Calabria;F;2535
+2009;7801;Calabria;M;1739
+2009;7901;Catanzaro;F;1115
+2009;7901;Catanzaro;M;640
+2009;8001;Reggio Calabria;F;619
+2009;8001;Reggio Calabria;M;587
+2009;8201;Palermo;F;4667
+2009;8201;Palermo;M;2673
+2009;8301;Messina;F;2875
+2009;8301;Messina;M;1556
+2009;8601;Enna KORE;F;212
+2009;8601;Enna KORE;M;183
+2009;8701;Catania;F;5026
+2009;8701;Catania;M;3208
+2009;9001;Sassari;F;1161
+2009;9001;Sassari;M;645
+2009;9201;Cagliari;F;3255
+2009;9201;Cagliari;M;1911
+2008;101;Torino;F;6899
+2008;101;Torino;M;4048
+2008;102;Torino Politecnico;F;1280
+2008;102;Torino Politecnico;M;3052
+2008;201;Piemonte Orientale;F;1135
+2008;201;Piemonte Orientale;M;561
+2008;401;Bra Scienze Gastronomiche;F;31
+2008;401;Bra Scienze Gastronomiche;M;29
+2008;701;Aosta;F;100
+2008;701;Aosta;M;18
+2008;1001;Genova;F;3340
+2008;1001;Genova;M;2367
+2008;1201;Castellanza LIUC;F;186
+2008;1201;Castellanza LIUC;M;371
+2008;1202;Insubria;F;821
+2008;1202;Insubria;M;579
+2008;1501;Milano;F;5817
+2008;1501;Milano;M;3810
+2008;1502;Milano Politecnico;F;3100
+2008;1502;Milano Politecnico;M;5900
+2008;1503;Milano Bocconi;F;1949
+2008;1503;Milano Bocconi;M;2272
+2008;1504;Milano Cattolica;F;5635
+2008;1504;Milano Cattolica;M;2501
+2008;1505;Milano IULM;F;981
+2008;1505;Milano IULM;M;381
+2008;1508;Milano San Raffaele;F;360
+2008;1508;Milano San Raffaele;M;182
+2008;1509;Milano Bicocca;F;3287
+2008;1509;Milano Bicocca;M;1698
+2008;1601;Bergamo;F;1465
+2008;1601;Bergamo;M;843
+2008;1701;Brescia;F;1114
+2008;1701;Brescia;M;1130
+2008;1801;Pavia;F;2362
+2008;1801;Pavia;M;1696
+2008;2101;Bolzano;F;334
+2008;2101;Bolzano;M;107
+2008;2201;Trento;F;1244
+2008;2201;Trento;M;1083
+2008;2301;Verona;F;2441
+2008;2301;Verona;M;1130
+2008;2701;Venezia C� Foscari;F;2238
+2008;2701;Venezia C� Foscari;M;1118
+2008;2702;Venezia Iuav;F;778
+2008;2702;Venezia Iuav;M;719
+2008;2801;Padova;F;6935
+2008;2801;Padova;M;4822
+2008;3001;Udine;F;1657
+2008;3001;Udine;M;1260
+2008;3201;Trieste;F;2034
+2008;3201;Trieste;M;1319
+2008;3401;Parma;F;2541
+2008;3401;Parma;M;2023
+2008;3601;Modena e Reggio Emilia;F;1867
+2008;3601;Modena e Reggio Emilia;M;1416
+2008;3701;Bologna;F;9211
+2008;3701;Bologna;M;6720
+2008;3801;Ferrara;F;1541
+2008;3801;Ferrara;M;1200
+2008;4101;Urbino;F;1862
+2008;4101;Urbino;M;1014
+2008;4201;Marche;F;1244
+2008;4201;Marche;M;1427
+2008;4301;Macerata;F;1301
+2008;4301;Macerata;M;615
+2008;4302;Camerino;F;495
+2008;4302;Camerino;M;583
+2008;4801;Firenze;F;5770
+2008;4801;Firenze;M;3981
+2008;5001;Pisa;F;3692
+2008;5001;Pisa;M;3355
+2008;5201;Siena;F;2026
+2008;5201;Siena;M;4267
+2008;5202;Siena Stranieri;F;98
+2008;5202;Siena Stranieri;M;19
+2008;5401;Perugia;F;2980
+2008;5401;Perugia;M;2275
+2008;5403;Perugia Stranieri;F;326
+2008;5403;Perugia Stranieri;M;206
+2008;5601;Tuscia;F;780
+2008;5601;Tuscia;M;1771
+2008;5801;Roma La Sapienza;F;12121
+2008;5801;Roma La Sapienza;M;7583
+2008;5802;Roma Tor Vergata;F;2835
+2008;5802;Roma Tor Vergata;M;2569
+2008;5803;Roma LUMSA;F;1203
+2008;5803;Roma LUMSA;M;495
+2008;5805;Roma LUISS;F;824
+2008;5805;Roma LUISS;M;772
+2008;5806;Roma Foro Italico;F;82
+2008;5806;Roma Foro Italico;M;97
+2008;5807;Roma Tre;F;3503
+2008;5807;Roma Tre;M;2233
+2008;5808;Roma Biomedico;F;97
+2008;5808;Roma Biomedico;M;76
+2008;5809;Roma UNINT;F;176
+2008;5809;Roma UNINT;M;131
+2008;5810;Roma Marconi - telematica;F;310
+2008;5810;Roma Marconi - telematica;M;1385
+2008;5811;Roma UNITELMA - telematica;F;83
+2008;5811;Roma UNITELMA - telematica;M;152
+2008;5812;Roma Europea;F;24
+2008;5812;Roma Europea;M;4
+2008;5813;Roma UNINETTUNO - telematica;M;3
+2008;5815;Roma UNICUSANO - telematica;F;86
+2008;5815;Roma UNICUSANO - telematica;M;121
+2008;6001;Cassino;F;976
+2008;6001;Cassino;M;687
+2008;6201;Sannio;F;454
+2008;6201;Sannio;M;448
+2008;6202;Benevento Giustino Fortunato - telematica;M;2
+2008;6301;Napoli Federico II;F;6556
+2008;6301;Napoli Federico II;M;5532
+2008;6302;Napoli Parthenope;F;1002
+2008;6302;Napoli Parthenope;M;1039
+2008;6303;Napoli L'Orientale;F;1312
+2008;6303;Napoli L'Orientale;M;358
+2008;6304;Napoli Benincasa;F;1535
+2008;6304;Napoli Benincasa;M;316
+2008;6306;Napoli Vanvitelli;F;2358
+2008;6306;Napoli Vanvitelli;M;1608
+2008;6501;Salerno;F;2717
+2008;6501;Salerno;M;1675
+2008;6601;L'Aquila;F;1797
+2008;6601;L'Aquila;M;1463
+2008;6701;Teramo;F;640
+2008;6701;Teramo;M;605
+2008;6901;Chieti e Pescara;F;3798
+2008;6901;Chieti e Pescara;M;2400
+2008;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;5
+2008;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;12
+2008;7001;Molise;F;800
+2008;7001;Molise;M;563
+2008;7101;Foggia;F;1001
+2008;7101;Foggia;M;581
+2008;7201;Bari;F;5432
+2008;7201;Bari;M;2509
+2008;7202;Bari Politecnico;F;427
+2008;7202;Bari Politecnico;M;1087
+2008;7203;Casamassima - G.Degennaro;F;66
+2008;7203;Casamassima - G.Degennaro;M;134
+2008;7501;Salento;F;2810
+2008;7501;Salento;M;1146
+2008;7601;Basilicata;F;500
+2008;7601;Basilicata;M;327
+2008;7801;Calabria;F;2583
+2008;7801;Calabria;M;1695
+2008;7901;Catanzaro;F;1265
+2008;7901;Catanzaro;M;758
+2008;8001;Reggio Calabria;F;651
+2008;8001;Reggio Calabria;M;574
+2008;8201;Palermo;F;5106
+2008;8201;Palermo;M;3164
+2008;8301;Messina;F;3104
+2008;8301;Messina;M;1636
+2008;8601;Enna KORE;F;187
+2008;8601;Enna KORE;M;297
+2008;8701;Catania;F;4486
+2008;8701;Catania;M;2845
+2008;9001;Sassari;F;1156
+2008;9001;Sassari;M;612
+2008;9201;Cagliari;F;2602
+2008;9201;Cagliari;M;1488
+2007;101;Torino;F;6812
+2007;101;Torino;M;4252
+2007;102;Torino Politecnico;F;1283
+2007;102;Torino Politecnico;M;3022
+2007;201;Piemonte Orientale;F;1158
+2007;201;Piemonte Orientale;M;546
+2007;401;Bra Scienze Gastronomiche;F;20
+2007;401;Bra Scienze Gastronomiche;M;5
+2007;701;Aosta;F;92
+2007;701;Aosta;M;22
+2007;1001;Genova;F;3288
+2007;1001;Genova;M;2379
+2007;1201;Castellanza LIUC;F;196
+2007;1201;Castellanza LIUC;M;387
+2007;1202;Insubria;F;850
+2007;1202;Insubria;M;603
+2007;1501;Milano;F;5843
+2007;1501;Milano;M;3809
+2007;1502;Milano Politecnico;F;2835
+2007;1502;Milano Politecnico;M;6072
+2007;1503;Milano Bocconi;F;1877
+2007;1503;Milano Bocconi;M;2186
+2007;1504;Milano Cattolica;F;5712
+2007;1504;Milano Cattolica;M;2666
+2007;1505;Milano IULM;F;1025
+2007;1505;Milano IULM;M;376
+2007;1508;Milano San Raffaele;F;322
+2007;1508;Milano San Raffaele;M;119
+2007;1509;Milano Bicocca;F;3505
+2007;1509;Milano Bicocca;M;1636
+2007;1601;Bergamo;F;1425
+2007;1601;Bergamo;M;855
+2007;1701;Brescia;F;1037
+2007;1701;Brescia;M;1072
+2007;1801;Pavia;F;2368
+2007;1801;Pavia;M;1665
+2007;2101;Bolzano;F;310
+2007;2101;Bolzano;M;102
+2007;2201;Trento;F;1217
+2007;2201;Trento;M;1090
+2007;2301;Verona;F;2299
+2007;2301;Verona;M;1058
+2007;2701;Venezia C� Foscari;F;2221
+2007;2701;Venezia C� Foscari;M;1060
+2007;2702;Venezia Iuav;F;796
+2007;2702;Venezia Iuav;M;801
+2007;2801;Padova;F;7110
+2007;2801;Padova;M;5057
+2007;3001;Udine;F;1655
+2007;3001;Udine;M;1337
+2007;3201;Trieste;F;2114
+2007;3201;Trieste;M;1396
+2007;3401;Parma;F;2715
+2007;3401;Parma;M;2041
+2007;3601;Modena e Reggio Emilia;F;1821
+2007;3601;Modena e Reggio Emilia;M;1440
+2007;3701;Bologna;F;9217
+2007;3701;Bologna;M;6634
+2007;3801;Ferrara;F;1500
+2007;3801;Ferrara;M;1155
+2007;4101;Urbino;F;2037
+2007;4101;Urbino;M;1125
+2007;4201;Marche;F;1147
+2007;4201;Marche;M;1335
+2007;4301;Macerata;F;1372
+2007;4301;Macerata;M;626
+2007;4302;Camerino;F;485
+2007;4302;Camerino;M;591
+2007;4801;Firenze;F;5746
+2007;4801;Firenze;M;3649
+2007;5001;Pisa;F;3625
+2007;5001;Pisa;M;3394
+2007;5201;Siena;F;2085
+2007;5201;Siena;M;3319
+2007;5202;Siena Stranieri;F;85
+2007;5202;Siena Stranieri;M;11
+2007;5401;Perugia;F;3174
+2007;5401;Perugia;M;2161
+2007;5403;Perugia Stranieri;F;449
+2007;5403;Perugia Stranieri;M;355
+2007;5601;Tuscia;F;754
+2007;5601;Tuscia;M;1448
+2007;5801;Roma La Sapienza;F;12337
+2007;5801;Roma La Sapienza;M;7474
+2007;5802;Roma Tor Vergata;F;2699
+2007;5802;Roma Tor Vergata;M;2354
+2007;5803;Roma LUMSA;F;1166
+2007;5803;Roma LUMSA;M;463
+2007;5805;Roma LUISS;F;598
+2007;5805;Roma LUISS;M;607
+2007;5806;Roma Foro Italico;F;106
+2007;5806;Roma Foro Italico;M;128
+2007;5807;Roma Tre;F;3897
+2007;5807;Roma Tre;M;2223
+2007;5808;Roma Biomedico;F;130
+2007;5808;Roma Biomedico;M;68
+2007;5809;Roma UNINT;F;460
+2007;5809;Roma UNINT;M;449
+2007;5810;Roma Marconi - telematica;F;262
+2007;5810;Roma Marconi - telematica;M;1451
+2007;5811;Roma UNITELMA - telematica;F;87
+2007;5811;Roma UNITELMA - telematica;M;405
+2007;5813;Roma UNINETTUNO - telematica;M;1
+2007;6001;Cassino;F;1037
+2007;6001;Cassino;M;680
+2007;6201;Sannio;F;424
+2007;6201;Sannio;M;395
+2007;6301;Napoli Federico II;F;6595
+2007;6301;Napoli Federico II;M;5450
+2007;6302;Napoli Parthenope;F;1056
+2007;6302;Napoli Parthenope;M;1143
+2007;6303;Napoli L'Orientale;F;1459
+2007;6303;Napoli L'Orientale;M;412
+2007;6304;Napoli Benincasa;F;1678
+2007;6304;Napoli Benincasa;M;336
+2007;6306;Napoli Vanvitelli;F;2484
+2007;6306;Napoli Vanvitelli;M;1566
+2007;6501;Salerno;F;2966
+2007;6501;Salerno;M;1794
+2007;6601;L'Aquila;F;1908
+2007;6601;L'Aquila;M;1546
+2007;6701;Teramo;F;707
+2007;6701;Teramo;M;745
+2007;6901;Chieti e Pescara;F;4654
+2007;6901;Chieti e Pescara;M;2925
+2007;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;F;6
+2007;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;1
+2007;7001;Molise;F;812
+2007;7001;Molise;M;540
+2007;7101;Foggia;F;777
+2007;7101;Foggia;M;451
+2007;7201;Bari;F;5667
+2007;7201;Bari;M;2728
+2007;7202;Bari Politecnico;F;434
+2007;7202;Bari Politecnico;M;1083
+2007;7203;Casamassima - G.Degennaro;F;117
+2007;7203;Casamassima - G.Degennaro;M;259
+2007;7501;Salento;F;2837
+2007;7501;Salento;M;1239
+2007;7601;Basilicata;F;554
+2007;7601;Basilicata;M;402
+2007;7801;Calabria;F;2881
+2007;7801;Calabria;M;1776
+2007;7901;Catanzaro;F;1272
+2007;7901;Catanzaro;M;639
+2007;8001;Reggio Calabria;F;584
+2007;8001;Reggio Calabria;M;601
+2007;8201;Palermo;F;6450
+2007;8201;Palermo;M;3680
+2007;8301;Messina;F;3275
+2007;8301;Messina;M;1597
+2007;8601;Enna KORE;F;144
+2007;8601;Enna KORE;M;448
+2007;8701;Catania;F;4172
+2007;8701;Catania;M;2901
+2007;9001;Sassari;F;1205
+2007;9001;Sassari;M;664
+2007;9201;Cagliari;F;2635
+2007;9201;Cagliari;M;1536
+2006;101;Torino;F;6804
+2006;101;Torino;M;4567
+2006;102;Torino Politecnico;F;1268
+2006;102;Torino Politecnico;M;3259
+2006;201;Piemonte Orientale;F;1025
+2006;201;Piemonte Orientale;M;580
+2006;701;Aosta;F;48
+2006;701;Aosta;M;22
+2006;1001;Genova;F;3356
+2006;1001;Genova;M;2517
+2006;1201;Castellanza LIUC;F;198
+2006;1201;Castellanza LIUC;M;395
+2006;1202;Insubria;F;925
+2006;1202;Insubria;M;588
+2006;1501;Milano;F;5845
+2006;1501;Milano;M;3927
+2006;1502;Milano Politecnico;F;2927
+2006;1502;Milano Politecnico;M;6198
+2006;1503;Milano Bocconi;F;1561
+2006;1503;Milano Bocconi;M;1830
+2006;1504;Milano Cattolica;F;5469
+2006;1504;Milano Cattolica;M;2554
+2006;1505;Milano IULM;F;1115
+2006;1505;Milano IULM;M;402
+2006;1508;Milano San Raffaele;F;262
+2006;1508;Milano San Raffaele;M;120
+2006;1509;Milano Bicocca;F;3385
+2006;1509;Milano Bicocca;M;1768
+2006;1601;Bergamo;F;1363
+2006;1601;Bergamo;M;776
+2006;1701;Brescia;F;1129
+2006;1701;Brescia;M;1076
+2006;1801;Pavia;F;2403
+2006;1801;Pavia;M;1687
+2006;2101;Bolzano;F;227
+2006;2101;Bolzano;M;79
+2006;2201;Trento;F;1184
+2006;2201;Trento;M;1040
+2006;2301;Verona;F;2332
+2006;2301;Verona;M;1074
+2006;2701;Venezia C� Foscari;F;1934
+2006;2701;Venezia C� Foscari;M;1049
+2006;2702;Venezia Iuav;F;935
+2006;2702;Venezia Iuav;M;874
+2006;2801;Padova;F;7460
+2006;2801;Padova;M;5651
+2006;3001;Udine;F;1660
+2006;3001;Udine;M;1398
+2006;3201;Trieste;F;2293
+2006;3201;Trieste;M;1605
+2006;3401;Parma;F;3007
+2006;3401;Parma;M;2226
+2006;3601;Modena e Reggio Emilia;F;1791
+2006;3601;Modena e Reggio Emilia;M;1474
+2006;3701;Bologna;F;9380
+2006;3701;Bologna;M;7218
+2006;3801;Ferrara;F;1569
+2006;3801;Ferrara;M;1191
+2006;4101;Urbino;F;2256
+2006;4101;Urbino;M;1148
+2006;4201;Marche;F;1196
+2006;4201;Marche;M;1400
+2006;4301;Macerata;F;1423
+2006;4301;Macerata;M;649
+2006;4302;Camerino;F;477
+2006;4302;Camerino;M;592
+2006;4801;Firenze;F;5728
+2006;4801;Firenze;M;3784
+2006;5001;Pisa;F;3527
+2006;5001;Pisa;M;3446
+2006;5201;Siena;F;2106
+2006;5201;Siena;M;2930
+2006;5202;Siena Stranieri;F;48
+2006;5202;Siena Stranieri;M;12
+2006;5401;Perugia;F;3329
+2006;5401;Perugia;M;2357
+2006;5403;Perugia Stranieri;F;474
+2006;5403;Perugia Stranieri;M;242
+2006;5601;Tuscia;F;757
+2006;5601;Tuscia;M;1207
+2006;5801;Roma La Sapienza;F;12792
+2006;5801;Roma La Sapienza;M;7856
+2006;5802;Roma Tor Vergata;F;2663
+2006;5802;Roma Tor Vergata;M;2705
+2006;5803;Roma LUMSA;F;1196
+2006;5803;Roma LUMSA;M;572
+2006;5805;Roma LUISS;F;632
+2006;5805;Roma LUISS;M;590
+2006;5806;Roma Foro Italico;F;85
+2006;5806;Roma Foro Italico;M;109
+2006;5807;Roma Tre;F;3675
+2006;5807;Roma Tre;M;2324
+2006;5808;Roma Biomedico;F;98
+2006;5808;Roma Biomedico;M;57
+2006;5809;Roma UNINT;F;380
+2006;5809;Roma UNINT;M;361
+2006;5810;Roma Marconi - telematica;F;102
+2006;5810;Roma Marconi - telematica;M;431
+2006;5811;Roma UNITELMA - telematica;F;3
+2006;5811;Roma UNITELMA - telematica;M;60
+2006;6001;Cassino;F;1263
+2006;6001;Cassino;M;790
+2006;6201;Sannio;F;371
+2006;6201;Sannio;M;320
+2006;6301;Napoli Federico II;F;7029
+2006;6301;Napoli Federico II;M;5973
+2006;6302;Napoli Parthenope;F;1078
+2006;6302;Napoli Parthenope;M;1174
+2006;6303;Napoli L'Orientale;F;1474
+2006;6303;Napoli L'Orientale;M;349
+2006;6304;Napoli Benincasa;F;1749
+2006;6304;Napoli Benincasa;M;297
+2006;6306;Napoli Vanvitelli;F;2610
+2006;6306;Napoli Vanvitelli;M;1704
+2006;6501;Salerno;F;3113
+2006;6501;Salerno;M;1953
+2006;6601;L'Aquila;F;1692
+2006;6601;L'Aquila;M;1557
+2006;6701;Teramo;F;696
+2006;6701;Teramo;M;590
+2006;6901;Chieti e Pescara;F;3704
+2006;6901;Chieti e Pescara;M;2920
+2006;6902;Torrevecchia Teatina Leonardo da Vinci - telematica;M;1
+2006;7001;Molise;F;810
+2006;7001;Molise;M;557
+2006;7101;Foggia;F;842
+2006;7101;Foggia;M;457
+2006;7201;Bari;F;5815
+2006;7201;Bari;M;2719
+2006;7202;Bari Politecnico;F;541
+2006;7202;Bari Politecnico;M;1248
+2006;7203;Casamassima - G.Degennaro;F;141
+2006;7203;Casamassima - G.Degennaro;M;387
+2006;7501;Salento;F;2754
+2006;7501;Salento;M;1186
+2006;7601;Basilicata;F;518
+2006;7601;Basilicata;M;414
+2006;7801;Calabria;F;3053
+2006;7801;Calabria;M;2051
+2006;7901;Catanzaro;F;1348
+2006;7901;Catanzaro;M;788
+2006;8001;Reggio Calabria;F;645
+2006;8001;Reggio Calabria;M;606
+2006;8201;Palermo;F;4982
+2006;8201;Palermo;M;3217
+2006;8301;Messina;F;2945
+2006;8301;Messina;M;1732
+2006;8701;Catania;F;4262
+2006;8701;Catania;M;2894
+2006;9001;Sassari;F;1252
+2006;9001;Sassari;M;678
+2006;9201;Cagliari;F;2781
+2006;9201;Cagliari;M;1567
+2005;101;Torino;F;7171
+2005;101;Torino;M;6373
+2005;102;Torino Politecnico;F;1316
+2005;102;Torino Politecnico;M;3352
+2005;201;Piemonte Orientale;F;1080
+2005;201;Piemonte Orientale;M;627
+2005;701;Aosta;F;57
+2005;701;Aosta;M;17
+2005;1001;Genova;F;3323
+2005;1001;Genova;M;2494
+2005;1201;Castellanza LIUC;F;234
+2005;1201;Castellanza LIUC;M;448
+2005;1202;Insubria;F;774
+2005;1202;Insubria;M;518
+2005;1501;Milano;F;5764
+2005;1501;Milano;M;3723
+2005;1502;Milano Politecnico;F;3116
+2005;1502;Milano Politecnico;M;6546
+2005;1503;Milano Bocconi;F;1979
+2005;1503;Milano Bocconi;M;2443
+2005;1504;Milano Cattolica;F;6245
+2005;1504;Milano Cattolica;M;2982
+2005;1505;Milano IULM;F;1768
+2005;1505;Milano IULM;M;471
+2005;1508;Milano San Raffaele;F;181
+2005;1508;Milano San Raffaele;M;82
+2005;1509;Milano Bicocca;F;3300
+2005;1509;Milano Bicocca;M;1585
+2005;1601;Bergamo;F;1232
+2005;1601;Bergamo;M;787
+2005;1701;Brescia;F;1040
+2005;1701;Brescia;M;1156
+2005;1801;Pavia;F;2594
+2005;1801;Pavia;M;1949
+2005;2101;Bolzano;F;221
+2005;2101;Bolzano;M;96
+2005;2201;Trento;F;1305
+2005;2201;Trento;M;1135
+2005;2301;Verona;F;2458
+2005;2301;Verona;M;1100
+2005;2701;Venezia C� Foscari;F;2157
+2005;2701;Venezia C� Foscari;M;1045
+2005;2702;Venezia Iuav;F;853
+2005;2702;Venezia Iuav;M;834
+2005;2801;Padova;F;7562
+2005;2801;Padova;M;5388
+2005;3001;Udine;F;1553
+2005;3001;Udine;M;1287
+2005;3201;Trieste;F;2547
+2005;3201;Trieste;M;2670
+2005;3401;Parma;F;2966
+2005;3401;Parma;M;2137
+2005;3601;Modena e Reggio Emilia;F;1884
+2005;3601;Modena e Reggio Emilia;M;1485
+2005;3701;Bologna;F;10023
+2005;3701;Bologna;M;7900
+2005;3801;Ferrara;F;1795
+2005;3801;Ferrara;M;1153
+2005;4101;Urbino;F;2408
+2005;4101;Urbino;M;1206
+2005;4201;Marche;F;1151
+2005;4201;Marche;M;1420
+2005;4301;Macerata;F;1318
+2005;4301;Macerata;M;678
+2005;4302;Camerino;F;442
+2005;4302;Camerino;M;628
+2005;4801;Firenze;F;5467
+2005;4801;Firenze;M;3648
+2005;5001;Pisa;F;3693
+2005;5001;Pisa;M;3361
+2005;5201;Siena;F;2527
+2005;5201;Siena;M;2456
+2005;5202;Siena Stranieri;F;61
+2005;5202;Siena Stranieri;M;11
+2005;5401;Perugia;F;3439
+2005;5401;Perugia;M;2424
+2005;5403;Perugia Stranieri;F;609
+2005;5403;Perugia Stranieri;M;203
+2005;5601;Tuscia;F;846
+2005;5601;Tuscia;M;1032
+2005;5801;Roma La Sapienza;F;11789
+2005;5801;Roma La Sapienza;M;7623
+2005;5802;Roma Tor Vergata;F;3054
+2005;5802;Roma Tor Vergata;M;2948
+2005;5803;Roma LUMSA;F;1175
+2005;5803;Roma LUMSA;M;468
+2005;5805;Roma LUISS;F;776
+2005;5805;Roma LUISS;M;740
+2005;5806;Roma Foro Italico;F;84
+2005;5806;Roma Foro Italico;M;110
+2005;5807;Roma Tre;F;3176
+2005;5807;Roma Tre;M;2267
+2005;5808;Roma Biomedico;F;90
+2005;5808;Roma Biomedico;M;58
+2005;5809;Roma UNINT;F;200
+2005;5809;Roma UNINT;M;91
+2005;5810;Roma Marconi - telematica;F;5
+2005;5810;Roma Marconi - telematica;M;105
+2005;6001;Cassino;F;1099
+2005;6001;Cassino;M;641
+2005;6201;Sannio;F;343
+2005;6201;Sannio;M;299
+2005;6301;Napoli Federico II;F;6406
+2005;6301;Napoli Federico II;M;5659
+2005;6302;Napoli Parthenope;F;1053
+2005;6302;Napoli Parthenope;M;1054
+2005;6303;Napoli L'Orientale;F;1458
+2005;6303;Napoli L'Orientale;M;388
+2005;6304;Napoli Benincasa;F;1514
+2005;6304;Napoli Benincasa;M;297
+2005;6306;Napoli Vanvitelli;F;2639
+2005;6306;Napoli Vanvitelli;M;1645
+2005;6501;Salerno;F;2911
+2005;6501;Salerno;M;1831
+2005;6601;L'Aquila;F;1487
+2005;6601;L'Aquila;M;1079
+2005;6701;Teramo;F;754
+2005;6701;Teramo;M;794
+2005;6901;Chieti e Pescara;F;3682
+2005;6901;Chieti e Pescara;M;2537
+2005;7001;Molise;F;749
+2005;7001;Molise;M;612
+2005;7101;Foggia;F;694
+2005;7101;Foggia;M;394
+2005;7201;Bari;F;5613
+2005;7201;Bari;M;2783
+2005;7202;Bari Politecnico;F;466
+2005;7202;Bari Politecnico;M;1150
+2005;7203;Casamassima - G.Degennaro;F;68
+2005;7203;Casamassima - G.Degennaro;M;244
+2005;7501;Salento;F;2502
+2005;7501;Salento;M;985
+2005;7601;Basilicata;F;488
+2005;7601;Basilicata;M;366
+2005;7801;Calabria;F;3160
+2005;7801;Calabria;M;2163
+2005;7901;Catanzaro;F;856
+2005;7901;Catanzaro;M;517
+2005;8001;Reggio Calabria;F;572
+2005;8001;Reggio Calabria;M;613
+2005;8201;Palermo;F;4450
+2005;8201;Palermo;M;2963
+2005;8301;Messina;F;2871
+2005;8301;Messina;M;1669
+2005;8701;Catania;F;3716
+2005;8701;Catania;M;2689
+2005;9001;Sassari;F;1246
+2005;9001;Sassari;M;636
+2005;9201;Cagliari;F;2824
+2005;9201;Cagliari;M;1601
+2004;101;Torino;F;6593
+2004;101;Torino;M;3791
+2004;102;Torino Politecnico;F;1228
+2004;102;Torino Politecnico;M;3112
+2004;201;Piemonte Orientale;F;1059
+2004;201;Piemonte Orientale;M;605
+2004;701;Aosta;F;27
+2004;701;Aosta;M;3
+2004;1001;Genova;F;3214
+2004;1001;Genova;M;2367
+2004;1201;Castellanza LIUC;F;225
+2004;1201;Castellanza LIUC;M;410
+2004;1202;Insubria;F;848
+2004;1202;Insubria;M;490
+2004;1501;Milano;F;5111
+2004;1501;Milano;M;3398
+2004;1502;Milano Politecnico;F;2711
+2004;1502;Milano Politecnico;M;6037
+2004;1503;Milano Bocconi;F;2107
+2004;1503;Milano Bocconi;M;2484
+2004;1504;Milano Cattolica;F;5291
+2004;1504;Milano Cattolica;M;2128
+2004;1505;Milano IULM;F;1881
+2004;1505;Milano IULM;M;450
+2004;1508;Milano San Raffaele;F;162
+2004;1508;Milano San Raffaele;M;69
+2004;1509;Milano Bicocca;F;2700
+2004;1509;Milano Bicocca;M;1378
+2004;1601;Bergamo;F;999
+2004;1601;Bergamo;M;697
+2004;1701;Brescia;F;950
+2004;1701;Brescia;M;1042
+2004;1801;Pavia;F;3335
+2004;1801;Pavia;M;2063
+2004;2101;Bolzano;F;214
+2004;2101;Bolzano;M;107
+2004;2201;Trento;F;1099
+2004;2201;Trento;M;970
+2004;2301;Verona;F;2290
+2004;2301;Verona;M;930
+2004;2701;Venezia C� Foscari;F;2197
+2004;2701;Venezia C� Foscari;M;1217
+2004;2702;Venezia Iuav;F;794
+2004;2702;Venezia Iuav;M;773
+2004;2801;Padova;F;7371
+2004;2801;Padova;M;4945
+2004;3001;Udine;F;1705
+2004;3001;Udine;M;1323
+2004;3201;Trieste;F;2269
+2004;3201;Trieste;M;2049
+2004;3401;Parma;F;2355
+2004;3401;Parma;M;1854
+2004;3601;Modena e Reggio Emilia;F;1649
+2004;3601;Modena e Reggio Emilia;M;1434
+2004;3701;Bologna;F;8738
+2004;3701;Bologna;M;8280
+2004;3801;Ferrara;F;1416
+2004;3801;Ferrara;M;1010
+2004;4101;Urbino;F;2063
+2004;4101;Urbino;M;1162
+2004;4201;Marche;F;927
+2004;4201;Marche;M;1119
+2004;4301;Macerata;F;1187
+2004;4301;Macerata;M;542
+2004;4302;Camerino;F;459
+2004;4302;Camerino;M;526
+2004;4801;Firenze;F;4281
+2004;4801;Firenze;M;2857
+2004;5001;Pisa;F;3499
+2004;5001;Pisa;M;3428
+2004;5201;Siena;F;2974
+2004;5201;Siena;M;1735
+2004;5202;Siena Stranieri;F;36
+2004;5202;Siena Stranieri;M;5
+2004;5401;Perugia;F;2863
+2004;5401;Perugia;M;1999
+2004;5403;Perugia Stranieri;F;257
+2004;5403;Perugia Stranieri;M;111
+2004;5601;Tuscia;F;604
+2004;5601;Tuscia;M;917
+2004;5801;Roma La Sapienza;F;10343
+2004;5801;Roma La Sapienza;M;6509
+2004;5802;Roma Tor Vergata;F;3020
+2004;5802;Roma Tor Vergata;M;3835
+2004;5803;Roma LUMSA;F;911
+2004;5803;Roma LUMSA;M;354
+2004;5805;Roma LUISS;F;697
+2004;5805;Roma LUISS;M;728
+2004;5806;Roma Foro Italico;F;68
+2004;5806;Roma Foro Italico;M;93
+2004;5807;Roma Tre;F;2751
+2004;5807;Roma Tre;M;1770
+2004;5808;Roma Biomedico;F;85
+2004;5808;Roma Biomedico;M;40
+2004;5809;Roma UNINT;F;96
+2004;5809;Roma UNINT;M;66
+2004;6001;Cassino;F;871
+2004;6001;Cassino;M;383
+2004;6201;Sannio;F;253
+2004;6201;Sannio;M;236
+2004;6301;Napoli Federico II;F;5560
+2004;6301;Napoli Federico II;M;5263
+2004;6302;Napoli Parthenope;F;801
+2004;6302;Napoli Parthenope;M;829
+2004;6303;Napoli L'Orientale;F;1043
+2004;6303;Napoli L'Orientale;M;282
+2004;6304;Napoli Benincasa;F;1165
+2004;6304;Napoli Benincasa;M;217
+2004;6306;Napoli Vanvitelli;F;1896
+2004;6306;Napoli Vanvitelli;M;1348
+2004;6501;Salerno;F;2648
+2004;6501;Salerno;M;1815
+2004;6601;L'Aquila;F;1390
+2004;6601;L'Aquila;M;946
+2004;6701;Teramo;F;636
+2004;6701;Teramo;M;451
+2004;6901;Chieti e Pescara;F;3255
+2004;6901;Chieti e Pescara;M;1992
+2004;7001;Molise;F;647
+2004;7001;Molise;M;474
+2004;7101;Foggia;F;672
+2004;7101;Foggia;M;408
+2004;7201;Bari;F;4976
+2004;7201;Bari;M;2458
+2004;7202;Bari Politecnico;F;315
+2004;7202;Bari Politecnico;M;957
+2004;7203;Casamassima - G.Degennaro;F;28
+2004;7203;Casamassima - G.Degennaro;M;86
+2004;7501;Salento;F;2014
+2004;7501;Salento;M;886
+2004;7601;Basilicata;F;423
+2004;7601;Basilicata;M;328
+2004;7801;Calabria;F;2656
+2004;7801;Calabria;M;1722
+2004;7901;Catanzaro;F;653
+2004;7901;Catanzaro;M;331
+2004;8001;Reggio Calabria;F;381
+2004;8001;Reggio Calabria;M;444
+2004;8201;Palermo;F;4207
+2004;8201;Palermo;M;2698
+2004;8301;Messina;F;3215
+2004;8301;Messina;M;1671
+2004;8701;Catania;F;3154
+2004;8701;Catania;M;2310
+2004;9001;Sassari;F;1160
+2004;9001;Sassari;M;602
+2004;9201;Cagliari;F;3020
+2004;9201;Cagliari;M;1774
+2003;101;Torino;F;5825
+2003;101;Torino;M;3558
+2003;102;Torino Politecnico;F;1067
+2003;102;Torino Politecnico;M;2788
+2003;201;Piemonte Orientale;F;832
+2003;201;Piemonte Orientale;M;458
+2003;701;Aosta;F;10
+2003;701;Aosta;M;1
+2003;1001;Genova;F;2785
+2003;1001;Genova;M;2289
+2003;1201;Castellanza LIUC;F;146
+2003;1201;Castellanza LIUC;M;299
+2003;1202;Insubria;F;566
+2003;1202;Insubria;M;412
+2003;1501;Milano;F;4513
+2003;1501;Milano;M;2893
+2003;1502;Milano Politecnico;F;2649
+2003;1502;Milano Politecnico;M;5706
+2003;1503;Milano Bocconi;F;1043
+2003;1503;Milano Bocconi;M;1425
+2003;1504;Milano Cattolica;F;4663
+2003;1504;Milano Cattolica;M;1817
+2003;1505;Milano IULM;F;1369
+2003;1505;Milano IULM;M;305
+2003;1508;Milano San Raffaele;F;106
+2003;1508;Milano San Raffaele;M;42
+2003;1509;Milano Bicocca;F;1615
+2003;1509;Milano Bicocca;M;942
+2003;1601;Bergamo;F;662
+2003;1601;Bergamo;M;514
+2003;1701;Brescia;F;902
+2003;1701;Brescia;M;941
+2003;1801;Pavia;F;2251
+2003;1801;Pavia;M;1859
+2003;2101;Bolzano;F;195
+2003;2101;Bolzano;M;47
+2003;2201;Trento;F;979
+2003;2201;Trento;M;881
+2003;2301;Verona;F;2068
+2003;2301;Verona;M;879
+2003;2701;Venezia C� Foscari;F;2072
+2003;2701;Venezia C� Foscari;M;1144
+2003;2702;Venezia Iuav;F;698
+2003;2702;Venezia Iuav;M;788
+2003;2801;Padova;F;6314
+2003;2801;Padova;M;3960
+2003;3001;Udine;F;1399
+2003;3001;Udine;M;1180
+2003;3201;Trieste;F;2247
+2003;3201;Trieste;M;1334
+2003;3401;Parma;F;2013
+2003;3401;Parma;M;1629
+2003;3601;Modena e Reggio Emilia;F;1367
+2003;3601;Modena e Reggio Emilia;M;1219
+2003;3701;Bologna;F;7775
+2003;3701;Bologna;M;7129
+2003;3801;Ferrara;F;1108
+2003;3801;Ferrara;M;856
+2003;4101;Urbino;F;1855
+2003;4101;Urbino;M;1078
+2003;4201;Marche;F;980
+2003;4201;Marche;M;1176
+2003;4301;Macerata;F;819
+2003;4301;Macerata;M;383
+2003;4302;Camerino;F;444
+2003;4302;Camerino;M;517
+2003;4801;Firenze;F;3598
+2003;4801;Firenze;M;2776
+2003;5001;Pisa;F;3421
+2003;5001;Pisa;M;3371
+2003;5201;Siena;F;2044
+2003;5201;Siena;M;1374
+2003;5202;Siena Stranieri;F;14
+2003;5202;Siena Stranieri;M;3
+2003;5401;Perugia;F;2452
+2003;5401;Perugia;M;1590
+2003;5403;Perugia Stranieri;F;179
+2003;5403;Perugia Stranieri;M;93
+2003;5601;Tuscia;F;491
+2003;5601;Tuscia;M;845
+2003;5801;Roma La Sapienza;F;11783
+2003;5801;Roma La Sapienza;M;7506
+2003;5802;Roma Tor Vergata;F;2506
+2003;5802;Roma Tor Vergata;M;6862
+2003;5803;Roma LUMSA;F;672
+2003;5803;Roma LUMSA;M;233
+2003;5805;Roma LUISS;F;436
+2003;5805;Roma LUISS;M;440
+2003;5806;Roma Foro Italico;F;69
+2003;5806;Roma Foro Italico;M;76
+2003;5807;Roma Tre;F;1954
+2003;5807;Roma Tre;M;1331
+2003;5808;Roma Biomedico;F;56
+2003;5808;Roma Biomedico;M;38
+2003;5809;Roma UNINT;F;64
+2003;5809;Roma UNINT;M;48
+2003;6001;Cassino;F;892
+2003;6001;Cassino;M;520
+2003;6201;Sannio;F;213
+2003;6201;Sannio;M;193
+2003;6301;Napoli Federico II;F;4677
+2003;6301;Napoli Federico II;M;4447
+2003;6302;Napoli Parthenope;F;553
+2003;6302;Napoli Parthenope;M;597
+2003;6303;Napoli L'Orientale;F;923
+2003;6303;Napoli L'Orientale;M;224
+2003;6304;Napoli Benincasa;F;901
+2003;6304;Napoli Benincasa;M;148
+2003;6306;Napoli Vanvitelli;F;1361
+2003;6306;Napoli Vanvitelli;M;1058
+2003;6501;Salerno;F;2287
+2003;6501;Salerno;M;1561
+2003;6601;L'Aquila;F;1227
+2003;6601;L'Aquila;M;757
+2003;6701;Teramo;F;665
+2003;6701;Teramo;M;448
+2003;6901;Chieti e Pescara;F;2681
+2003;6901;Chieti e Pescara;M;1477
+2003;7001;Molise;F;521
+2003;7001;Molise;M;353
+2003;7101;Foggia;F;544
+2003;7101;Foggia;M;373
+2003;7201;Bari;F;4169
+2003;7201;Bari;M;2282
+2003;7202;Bari Politecnico;F;230
+2003;7202;Bari Politecnico;M;808
+2003;7203;Casamassima - G.Degennaro;F;9
+2003;7203;Casamassima - G.Degennaro;M;21
+2003;7501;Salento;F;1467
+2003;7501;Salento;M;689
+2003;7601;Basilicata;F;280
+2003;7601;Basilicata;M;291
+2003;7801;Calabria;F;1924
+2003;7801;Calabria;M;1459
+2003;7901;Catanzaro;F;482
+2003;7901;Catanzaro;M;273
+2003;8001;Reggio Calabria;F;327
+2003;8001;Reggio Calabria;M;426
+2003;8201;Palermo;F;3567
+2003;8201;Palermo;M;2448
+2003;8301;Messina;F;2223
+2003;8301;Messina;M;1417
+2003;8701;Catania;F;2769
+2003;8701;Catania;M;1828
+2003;9001;Sassari;F;1079
+2003;9001;Sassari;M;560
+2003;9201;Cagliari;F;2537
+2003;9201;Cagliari;M;1662
+2002;101;Torino;F;5610
+2002;101;Torino;M;3414
+2002;102;Torino Politecnico;F;783
+2002;102;Torino Politecnico;M;2353
+2002;201;Piemonte Orientale;F;669
+2002;201;Piemonte Orientale;M;370
+2002;1001;Genova;F;2509
+2002;1001;Genova;M;2098
+2002;1201;Castellanza LIUC;F;127
+2002;1201;Castellanza LIUC;M;386
+2002;1202;Insubria;F;487
+2002;1202;Insubria;M;318
+2002;1501;Milano;F;4217
+2002;1501;Milano;M;2919
+2002;1502;Milano Politecnico;F;1558
+2002;1502;Milano Politecnico;M;3650
+2002;1503;Milano Bocconi;F;892
+2002;1503;Milano Bocconi;M;1318
+2002;1504;Milano Cattolica;F;4107
+2002;1504;Milano Cattolica;M;1882
+2002;1505;Milano IULM;F;1010
+2002;1505;Milano IULM;M;218
+2002;1508;Milano San Raffaele;F;90
+2002;1508;Milano San Raffaele;M;42
+2002;1509;Milano Bicocca;F;809
+2002;1509;Milano Bicocca;M;630
+2002;1601;Bergamo;F;467
+2002;1601;Bergamo;M;361
+2002;1701;Brescia;F;698
+2002;1701;Brescia;M;844
+2002;1801;Pavia;F;1710
+2002;1801;Pavia;M;1327
+2002;2101;Bolzano;F;85
+2002;2101;Bolzano;M;41
+2002;2201;Trento;F;1026
+2002;2201;Trento;M;1101
+2002;2301;Verona;F;1800
+2002;2301;Verona;M;776
+2002;2701;Venezia C� Foscari;F;2007
+2002;2701;Venezia C� Foscari;M;1143
+2002;2702;Venezia Iuav;F;686
+2002;2702;Venezia Iuav;M;755
+2002;2801;Padova;F;5503
+2002;2801;Padova;M;3555
+2002;3001;Udine;F;847
+2002;3001;Udine;M;701
+2002;3201;Trieste;F;2243
+2002;3201;Trieste;M;1063
+2002;3401;Parma;F;1999
+2002;3401;Parma;M;1529
+2002;3601;Modena e Reggio Emilia;F;1004
+2002;3601;Modena e Reggio Emilia;M;1162
+2002;3701;Bologna;F;6963
+2002;3701;Bologna;M;5721
+2002;3801;Ferrara;F;1041
+2002;3801;Ferrara;M;780
+2002;4101;Urbino;F;1839
+2002;4101;Urbino;M;1026
+2002;4201;Marche;F;884
+2002;4201;Marche;M;1086
+2002;4301;Macerata;F;716
+2002;4301;Macerata;M;369
+2002;4302;Camerino;F;349
+2002;4302;Camerino;M;419
+2002;4801;Firenze;F;3769
+2002;4801;Firenze;M;2779
+2002;5001;Pisa;F;2812
+2002;5001;Pisa;M;4436
+2002;5201;Siena;F;1601
+2002;5201;Siena;M;1112
+2002;5202;Siena Stranieri;F;12
+2002;5202;Siena Stranieri;M;1
+2002;5401;Perugia;F;2037
+2002;5401;Perugia;M;1434
+2002;5403;Perugia Stranieri;F;100
+2002;5403;Perugia Stranieri;M;38
+2002;5601;Tuscia;F;407
+2002;5601;Tuscia;M;618
+2002;5801;Roma La Sapienza;F;8603
+2002;5801;Roma La Sapienza;M;6347
+2002;5802;Roma Tor Vergata;F;1979
+2002;5802;Roma Tor Vergata;M;2065
+2002;5803;Roma LUMSA;F;569
+2002;5803;Roma LUMSA;M;167
+2002;5805;Roma LUISS;F;416
+2002;5805;Roma LUISS;M;410
+2002;5806;Roma Foro Italico;F;303
+2002;5806;Roma Foro Italico;M;232
+2002;5807;Roma Tre;F;1638
+2002;5807;Roma Tre;M;1056
+2002;5808;Roma Biomedico;F;56
+2002;5808;Roma Biomedico;M;29
+2002;5809;Roma UNINT;F;24
+2002;5809;Roma UNINT;M;21
+2002;6001;Cassino;F;706
+2002;6001;Cassino;M;456
+2002;6201;Sannio;F;169
+2002;6201;Sannio;M;153
+2002;6301;Napoli Federico II;F;4621
+2002;6301;Napoli Federico II;M;4407
+2002;6302;Napoli Parthenope;F;415
+2002;6302;Napoli Parthenope;M;488
+2002;6303;Napoli L'Orientale;F;676
+2002;6303;Napoli L'Orientale;M;169
+2002;6304;Napoli Benincasa;F;738
+2002;6304;Napoli Benincasa;M;86
+2002;6306;Napoli Vanvitelli;F;1153
+2002;6306;Napoli Vanvitelli;M;979
+2002;6501;Salerno;F;2269
+2002;6501;Salerno;M;1610
+2002;6601;L'Aquila;F;964
+2002;6601;L'Aquila;M;649
+2002;6701;Teramo;F;544
+2002;6701;Teramo;M;362
+2002;6901;Chieti e Pescara;F;2185
+2002;6901;Chieti e Pescara;M;1150
+2002;7001;Molise;F;360
+2002;7001;Molise;M;290
+2002;7101;Foggia;F;470
+2002;7101;Foggia;M;292
+2002;7201;Bari;F;4131
+2002;7201;Bari;M;2311
+2002;7202;Bari Politecnico;F;228
+2002;7202;Bari Politecnico;M;832
+2002;7203;Casamassima - G.Degennaro;F;2
+2002;7203;Casamassima - G.Degennaro;M;2
+2002;7501;Salento;F;1425
+2002;7501;Salento;M;639
+2002;7601;Basilicata;F;250
+2002;7601;Basilicata;M;217
+2002;7801;Calabria;F;1432
+2002;7801;Calabria;M;975
+2002;7901;Catanzaro;F;459
+2002;7901;Catanzaro;M;334
+2002;8001;Reggio Calabria;F;280
+2002;8001;Reggio Calabria;M;369
+2002;8201;Palermo;F;2836
+2002;8201;Palermo;M;2214
+2002;8301;Messina;F;2000
+2002;8301;Messina;M;1218
+2002;8701;Catania;F;2615
+2002;8701;Catania;M;1759
+2002;9001;Sassari;F;903
+2002;9001;Sassari;M;520
+2002;9201;Cagliari;F;2181
+2002;9201;Cagliari;M;1462
+2001;101;Torino;F;4893
+2001;101;Torino;M;2949
+2001;102;Torino Politecnico;F;668
+2001;102;Torino Politecnico;M;1971
+2001;201;Piemonte Orientale;F;582
+2001;201;Piemonte Orientale;M;347
+2001;1001;Genova;F;2418
+2001;1001;Genova;M;1985
+2001;1201;Castellanza LIUC;F;124
+2001;1201;Castellanza LIUC;M;277
+2001;1202;Insubria;F;400
+2001;1202;Insubria;M;265
+2001;1501;Milano;F;4251
+2001;1501;Milano;M;2837
+2001;1502;Milano Politecnico;F;1542
+2001;1502;Milano Politecnico;M;3505
+2001;1503;Milano Bocconi;F;857
+2001;1503;Milano Bocconi;M;1287
+2001;1504;Milano Cattolica;F;3695
+2001;1504;Milano Cattolica;M;1684
+2001;1505;Milano IULM;F;769
+2001;1505;Milano IULM;M;131
+2001;1508;Milano San Raffaele;F;46
+2001;1508;Milano San Raffaele;M;14
+2001;1509;Milano Bicocca;F;624
+2001;1509;Milano Bicocca;M;382
+2001;1601;Bergamo;F;392
+2001;1601;Bergamo;M;279
+2001;1701;Brescia;F;652
+2001;1701;Brescia;M;653
+2001;1801;Pavia;F;1515
+2001;1801;Pavia;M;1244
+2001;2101;Bolzano;F;16
+2001;2101;Bolzano;M;3
+2001;2201;Trento;F;873
+2001;2201;Trento;M;759
+2001;2301;Verona;F;1248
+2001;2301;Verona;M;544
+2001;2701;Venezia C� Foscari;F;1365
+2001;2701;Venezia C� Foscari;M;779
+2001;2702;Venezia Iuav;F;536
+2001;2702;Venezia Iuav;M;614
+2001;2801;Padova;F;4296
+2001;2801;Padova;M;3201
+2001;3001;Udine;F;671
+2001;3001;Udine;M;482
+2001;3201;Trieste;F;2272
+2001;3201;Trieste;M;971
+2001;3401;Parma;F;1800
+2001;3401;Parma;M;1530
+2001;3601;Modena e Reggio Emilia;F;871
+2001;3601;Modena e Reggio Emilia;M;1016
+2001;3701;Bologna;F;5898
+2001;3701;Bologna;M;5191
+2001;3801;Ferrara;F;874
+2001;3801;Ferrara;M;681
+2001;4101;Urbino;F;1859
+2001;4101;Urbino;M;1127
+2001;4201;Marche;F;644
+2001;4201;Marche;M;860
+2001;4301;Macerata;F;671
+2001;4301;Macerata;M;350
+2001;4302;Camerino;F;334
+2001;4302;Camerino;M;407
+2001;4801;Firenze;F;3178
+2001;4801;Firenze;M;2217
+2001;5001;Pisa;F;2353
+2001;5001;Pisa;M;2177
+2001;5201;Siena;F;1501
+2001;5201;Siena;M;922
+2001;5202;Siena Stranieri;F;12
+2001;5202;Siena Stranieri;M;3
+2001;5401;Perugia;F;1899
+2001;5401;Perugia;M;1247
+2001;5403;Perugia Stranieri;F;52
+2001;5403;Perugia Stranieri;M;30
+2001;5601;Tuscia;F;386
+2001;5601;Tuscia;M;233
+2001;5801;Roma La Sapienza;F;7948
+2001;5801;Roma La Sapienza;M;5835
+2001;5802;Roma Tor Vergata;F;933
+2001;5802;Roma Tor Vergata;M;1211
+2001;5803;Roma LUMSA;F;459
+2001;5803;Roma LUMSA;M;144
+2001;5805;Roma LUISS;F;416
+2001;5805;Roma LUISS;M;428
+2001;5806;Roma Foro Italico;F;281
+2001;5806;Roma Foro Italico;M;260
+2001;5807;Roma Tre;F;1196
+2001;5807;Roma Tre;M;811
+2001;5808;Roma Biomedico;F;38
+2001;5808;Roma Biomedico;M;25
+2001;5809;Roma UNINT;F;10
+2001;5809;Roma UNINT;M;9
+2001;6001;Cassino;F;522
+2001;6001;Cassino;M;250
+2001;6201;Sannio;F;145
+2001;6201;Sannio;M;116
+2001;6301;Napoli Federico II;F;4232
+2001;6301;Napoli Federico II;M;4197
+2001;6302;Napoli Parthenope;F;380
+2001;6302;Napoli Parthenope;M;431
+2001;6303;Napoli L'Orientale;F;670
+2001;6303;Napoli L'Orientale;M;166
+2001;6304;Napoli Benincasa;F;627
+2001;6304;Napoli Benincasa;M;56
+2001;6306;Napoli Vanvitelli;F;761
+2001;6306;Napoli Vanvitelli;M;661
+2001;6501;Salerno;F;2028
+2001;6501;Salerno;M;1408
+2001;6601;L'Aquila;F;643
+2001;6601;L'Aquila;M;531
+2001;6701;Teramo;F;447
+2001;6701;Teramo;M;330
+2001;6901;Chieti e Pescara;F;1353
+2001;6901;Chieti e Pescara;M;762
+2001;7001;Molise;F;286
+2001;7001;Molise;M;229
+2001;7101;Foggia;F;379
+2001;7101;Foggia;M;291
+2001;7201;Bari;F;3810
+2001;7201;Bari;M;2129
+2001;7202;Bari Politecnico;F;168
+2001;7202;Bari Politecnico;M;629
+2001;7501;Salento;F;1137
+2001;7501;Salento;M;562
+2001;7601;Basilicata;F;231
+2001;7601;Basilicata;M;167
+2001;7801;Calabria;F;1077
+2001;7801;Calabria;M;798
+2001;7901;Catanzaro;F;362
+2001;7901;Catanzaro;M;180
+2001;8001;Reggio Calabria;F;225
+2001;8001;Reggio Calabria;M;267
+2001;8201;Palermo;F;2519
+2001;8201;Palermo;M;2020
+2001;8301;Messina;F;1735
+2001;8301;Messina;M;1132
+2001;8701;Catania;F;2183
+2001;8701;Catania;M;1663
+2001;9001;Sassari;F;922
+2001;9001;Sassari;M;508
+2001;9201;Cagliari;F;2023
+2001;9201;Cagliari;M;1263
