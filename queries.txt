@@ -10,5 +10,5 @@ Ritorna il massimo numero di laureati nel 2021, nelle università statali.
 
 Ritorna quanti maschi si sono laureati al politecnico di Milano nel 2015.
 Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
-Ritorna il nome delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
+Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
 Ritorna il numero di laureati nella regione LOMBARDIA.

@@ -1,2 +1,4 @@
 venv
 start_postgres.sh
+neo4j.txt
+postgreSQL.txt
