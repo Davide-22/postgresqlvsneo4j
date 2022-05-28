@@ -1,4 +1,3 @@
-from importlib.resources import path
 import psycopg2
 from neo4j import GraphDatabase
 
@@ -10,8 +9,9 @@ def initPostgres():
             user="postgres",
             password="postgres")
         cur = conn.cursor()
-        q = "DROP TABLE IF EXISTS atenei;"
-        cur.execute(q)
+        q = """DROP TABLE IF EXISTS laureati;
+            DROP TABLE IF EXISTS atenei;"""
+        cur.execute(q) 
         q = """
             CREATE TABLE atenei (
             _id int,
@@ -40,8 +40,6 @@ def initPostgres():
             cur.copy_expert(sql=q, file=f)
         #rows = cur.fetchall()
         #print(rows)   
-        q = "DROP TABLE IF EXISTS laureati;"
-        cur.execute(q) 
         q = """CREATE TABLE laureati (
             anno int,
             codateneo int,
@@ -95,6 +93,13 @@ def initNeo4j():
         RETURN type(r)"""
     r = session.run(q)
 
+    q = """MATCH
+        (l:laureato),
+        (a:ateneo)
+        WHERE a.cod = l.codateneo  
+        CREATE (a)-[r:RELTYPE {name: l.anno + ' ' + l.sesso}]->(l)
+        RETURN type(r)"""
+    r = session.run(q)
 
     session.close()
     driver.close()
