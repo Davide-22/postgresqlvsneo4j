@@ -74,9 +74,9 @@ def postgresQueries(query):
 
         if query == 4:
             #Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
-            q="""SELECT SUM(laureati.numlaureati) 
-                FROM laureati JOIN atenei ON atenei.cod = laureati.codateneo 
-                WHERE laureati.anno=2019 OR laureati.anno=2018 AND atenei.zonageografica='SUD'"""
+            q="""SELECT SUM(l.numlaureati) 
+                FROM laureati l, atenei a 
+                WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica='SUD' AND l.codateneo=a.cod"""
             for i in range(EX_NUMBER):
                 if i == 1:
                     ts = time.time()
@@ -226,8 +226,11 @@ def neo4jQueries(query):
     if query == 4:
         #Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
         ts = time.time()
-        q=""""""
+        q="""MATCH (l:laureato)-[r]-(a:ateneo)
+            WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica ='SUD'
+            RETURN SUM(l.numlaureati)"""
         result = session.run(q)
+        writeNeo4jFile(result,query)
         print(f"Query 4 Neo4j execution time: {(time.time() - ts)*1000} ms")
     
     if query == 5:
@@ -252,8 +255,14 @@ def neo4jQueries(query):
     if query == 7:
         #Ritorna il massimo numero di laureati nel 2021, nelle università statali.
         ts = time.time()
-        q=""""""
+        q="""CALL{
+                MATCH (l:laureato)-[r]-(a:ateneo)
+                WHERE l.anno=2021 AND a.statale_nonstatale='Statale'
+                RETURN l.codateneo, SUM(l.numlaureati) AS sum
+            }
+            RETURN MAX(sum)"""
         result = session.run(q)
+        writeNeo4jFile(result,query)
         print(f"Query 7 Neo4j execution time: {(time.time() - ts)*1000} ms")
 
     if query == 8:
@@ -270,7 +279,7 @@ def neo4jQueries(query):
         #Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
         ts = time.time()
         q="""MATCH(l:laureato)
-            WHERE (l.anno>=2010 OR l.anno<=2021) AND l.nomeateneo='Roma La Sapienza'
+            WHERE l.anno>=2010 AND l.anno<=2021 AND l.nomeateneo='Roma La Sapienza'
             RETURN AVG(l.numlaureati)"""
         result = session.run(q)
         writeNeo4jFile(result,query)
@@ -279,15 +288,20 @@ def neo4jQueries(query):
     if query == 10:
         #Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
         ts = time.time()
-        q=""""""
+        q="""
+        """
         result = session.run(q)
+        writeNeo4jFile(result,query)
         print(f"Query 10 Neo4j execution time: {(time.time() - ts)*1000} ms")
 
     if query == 11:
         #Ritorna il numero di laureati nella regione LOMBARDIA.
         ts = time.time()
-        q=""""""
+        q="""MATCH(l:laureato)-[r]-(a:ateneo)
+            WHERE a.regione='LOMBARDIA'
+            RETURN SUM(l.numlaureati)"""
         result = session.run(q)
+        writeNeo4jFile(result,query)
         print(f"Query 11 Neo4j execution time: {(time.time() - ts)*1000} ms")
     
     session.close()
@@ -302,13 +316,13 @@ if __name__ == "__main__":
     postgresQueries(3)
     neo4jQueries(3)
     postgresQueries(4)
-    #neo4jQueries(4)
+    neo4jQueries(4)
     postgresQueries(5)
     neo4jQueries(5)
     postgresQueries(6)
     neo4jQueries(6)
     postgresQueries(7)
-    #neo4jQueries(7)
+    neo4jQueries(7)
     postgresQueries(8)
     neo4jQueries(8)
     postgresQueries(9)
@@ -316,6 +330,6 @@ if __name__ == "__main__":
     postgresQueries(10)
     #neo4jQueries(10)
     postgresQueries(11)
-    #neo4jQueries(11)
+    neo4jQueries(11)
     documentPostgreSQL.close()
     documentNeo4j.close()

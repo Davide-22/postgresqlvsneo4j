@@ -93,13 +93,13 @@ def initNeo4j():
         RETURN type(r)"""
     r = session.run(q)
 
-    q = """MATCH
-        (l:laureato),
-        (a:ateneo)
-        WHERE a.cod = l.codateneo  
-        CREATE (a)-[r:RELTYPE {name: l.anno + ' ' + l.sesso}]->(l)
-        RETURN type(r)"""
-    r = session.run(q)
+    #q = """MATCH
+    #    (l:laureato),
+    #    (a:ateneo)
+    #    WHERE a.cod = l.codateneo  
+    #    CREATE (a)-[r:RELTYPE {name: l.anno + ' ' + l.sesso}]->(l)
+    #    RETURN type(r)"""
+    #r = session.run(q)
 
     session.close()
     driver.close()
