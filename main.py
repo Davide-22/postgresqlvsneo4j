@@ -43,9 +43,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)
             print(f"Query 1 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+            writePostgresFile(cur,query)
         if query == 2:
             #Ritorna tutti nomi degli atenei non statali ordinati per zona geografica, in ordine ascendente.
             q="""SELECT nomeesteso 
@@ -56,9 +55,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)  
             print(f"Query 2 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+            writePostgresFile(cur,query)  
         if query == 3:
             #Ritorna la somma di tutti i laureati nel 2020.
             q="""SELECT SUM(numlaureati) 
@@ -68,10 +66,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)
             print(f"Query 3 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
-
+            writePostgresFile(cur,query)
         if query == 4:
             #Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
             q="""SELECT SUM(l.numlaureati) 
@@ -80,11 +76,9 @@ def postgresQueries(query):
             for i in range(EX_NUMBER):
                 if i == 1:
                     ts = time.time()
-                cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)  
+                cur.execute(q) 
             print(f"Query 4 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
-
+            writePostgresFile(cur,query)
         if query == 5:
             #Ritorna il codice ed il nome delle università con dimensione maggiore di 60000.
             q="""SELECT cod,nomeesteso
@@ -94,10 +88,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)  
             print(f"Query 5 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
- 
+            writePostgresFile(cur,query)
         if query == 6:
             #Ritorna il numero delle università raggruppate per regione.
             q="""SELECT COUNT(nomeesteso)
@@ -107,10 +99,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)  
             print(f"Query 6 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
-
+            writePostgresFile(cur,query)
         if query == 7:
             #Ritorna il massimo numero di laureati nel 2021, nelle università statali.
             q="""SELECT MAX(ab.sum)
@@ -123,10 +113,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)  
             print(f"Query 7 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
-
+            writePostgresFile(cur,query)
         if query == 8:
             #Ritorna quanti maschi si sono laureati al politecnico di Milano nel 2015.
             q="""SELECT numlaureati
@@ -136,10 +124,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)  
             print(f"Query 8 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
-
+            writePostgresFile(cur,query)
         if query == 9:
             #Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
             q="""SELECT AVG(numlaureati)
@@ -149,10 +135,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)  
             print(f"Query 9 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
-
+            writePostgresFile(cur,query)
         if query == 10:
             #Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
             q="""SELECT ab.nomeesteso
@@ -165,10 +149,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)  
             print(f"Query 10 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
-
+            writePostgresFile(cur,query)
         if query == 11:
             #Ritorna il numero di laureati nella regione LOMBARDIA.
             q="""SELECT SUM(l.numlaureati)
@@ -178,10 +160,8 @@ def postgresQueries(query):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
-                if i == 1:
-                    writePostgresFile(cur,query)  
             print(f"Query 11 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
-
+            writePostgresFile(cur,query)
         cur.close()
 
     except Exception as e:
@@ -198,8 +178,8 @@ def neo4jQueries(query):
         q = """MATCH (a:ateneo) 
             RETURN a.nomeesteso"""
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 1 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
 
     if query == 2:
         # Ritorna tutti nomi degli atenei non statali ordinati per zona geografica, in ordine ascendente.
@@ -210,8 +190,8 @@ def neo4jQueries(query):
             ORDER BY a.zonageografica ASC
             """
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 2 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
 
     if query == 3:
         #Ritorna la somma di tutti i laureati nel 2020.
@@ -220,8 +200,8 @@ def neo4jQueries(query):
             WHERE l.anno=2020
             RETURN SUM(l.numlaureati)"""
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 3 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
 
     if query == 4:
         #Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
@@ -230,8 +210,8 @@ def neo4jQueries(query):
             WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica ='SUD'
             RETURN SUM(l.numlaureati)"""
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 4 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
     
     if query == 5:
         #Ritorna il codice ed il nome delle università con dimensione maggiore di 60000.
@@ -240,8 +220,8 @@ def neo4jQueries(query):
             WHERE a.dimensione = '60.000 e oltre'
             RETURN a.cod,a.nomeesteso"""
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 5 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
 
     if query == 6:
         #Ritorna il numero delle università raggruppate per regione.
@@ -249,8 +229,8 @@ def neo4jQueries(query):
         q="""MATCH(a:ateneo)
             RETURN COUNT(a.nomeesteso), a.regione"""
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 6 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
 
     if query == 7:
         #Ritorna il massimo numero di laureati nel 2021, nelle università statali.
@@ -262,8 +242,8 @@ def neo4jQueries(query):
             }
             RETURN MAX(sum)"""
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 7 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
 
     if query == 8:
         #Ritorna quanti maschi si sono laureati al politecnico di Milano nel 2015.
@@ -272,8 +252,8 @@ def neo4jQueries(query):
             WHERE l.anno=2015 AND l.sesso='M' AND l.nomeateneo='Milano Politecnico'
             RETURN l.numlaureati"""
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 8 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
 
     if query == 9:
         #Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
@@ -282,17 +262,23 @@ def neo4jQueries(query):
             WHERE l.anno>=2010 AND l.anno<=2021 AND l.nomeateneo='Roma La Sapienza'
             RETURN AVG(l.numlaureati)"""
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 9 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
 
     if query == 10:
         #Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
         ts = time.time()
-        q="""
+        q="""CALL{
+                MATCH (l:laureato)-[r]-(a:ateneo)
+                WHERE l.anno=2021
+                RETURN l.codateneo, a.nomeesteso AS nomeesteso, SUM(l.numlaureati) AS sum
+        }
+        WITH * WHERE sum>1000
+        RETURN nomeesteso
         """
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 10 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        writeNeo4jFile(result,query)
 
     if query == 11:
         #Ritorna il numero di laureati nella regione LOMBARDIA.
@@ -301,9 +287,9 @@ def neo4jQueries(query):
             WHERE a.regione='LOMBARDIA'
             RETURN SUM(l.numlaureati)"""
         result = session.run(q)
-        writeNeo4jFile(result,query)
         print(f"Query 11 Neo4j execution time: {(time.time() - ts)*1000} ms")
-    
+        writeNeo4jFile(result,query)
+
     session.close()
     driver.close()
 
@@ -328,7 +314,7 @@ if __name__ == "__main__":
     postgresQueries(9)
     neo4jQueries(9)
     postgresQueries(10)
-    #neo4jQueries(10)
+    neo4jQueries(10)
     postgresQueries(11)
     neo4jQueries(11)
     documentPostgreSQL.close()
