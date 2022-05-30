@@ -33,7 +33,7 @@ def postgresQueries(query):
             host="localhost",
             database="dmproj",
             user="postgres",
-            password="postgres")
+            password="Stefano25")
         cur = conn.cursor()
         if query == 1:
             # Ritorna tutti nomi degli atenei.
@@ -174,100 +174,144 @@ def neo4jQueries(query):
     session = driver.session()
     if query == 1:
         # Ritorna tutti nomi degli atenei.
-        ts = time.time()
+        
         q = """MATCH (a:ateneo) 
             RETURN a.nomeesteso"""
-        result = session.run(q)
-        print(f"Query 1 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 1 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     if query == 2:
         # Ritorna tutti nomi degli atenei non statali ordinati per zona geografica, in ordine ascendente.
-        ts = time.time()
         q= """MATCH(a:ateneo)
             WHERE a.statale_nonstatale = 'Statale'
             RETURN a.nomeesteso
             ORDER BY a.zonageografica ASC
             """
-        result = session.run(q)
-        print(f"Query 2 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 2 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     if query == 3:
         #Ritorna la somma di tutti i laureati nel 2020.
-        ts = time.time()
+        
         q="""MATCH(l:laureato)
             WHERE l.anno=2020
             RETURN SUM(l.numlaureati)"""
-        result = session.run(q)
-        print(f"Query 3 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 3 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     if query == 4:
         #Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
-        ts = time.time()
+        
         q="""MATCH (l:laureato)-[r]-(a:ateneo)
             WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica ='SUD'
             RETURN SUM(l.numlaureati)"""
-        result = session.run(q)
-        print(f"Query 4 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 4 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
     
     if query == 5:
         #Ritorna il codice ed il nome delle università con dimensione maggiore di 60000.
-        ts = time.time()
+        
         q="""MATCH(a:ateneo)
             WHERE a.dimensione = '60.000 e oltre'
             RETURN a.cod,a.nomeesteso"""
-        result = session.run(q)
-        print(f"Query 5 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 5 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     if query == 6:
         #Ritorna il numero delle università raggruppate per regione.
-        ts = time.time()
+        
         q="""MATCH(a:ateneo)
             RETURN COUNT(a.nomeesteso), a.regione"""
-        result = session.run(q)
-        print(f"Query 6 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 6 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     if query == 7:
         #Ritorna il massimo numero di laureati nel 2021, nelle università statali.
-        ts = time.time()
+        
         q="""CALL{
                 MATCH (l:laureato)-[r]-(a:ateneo)
                 WHERE l.anno=2021 AND a.statale_nonstatale='Statale'
                 RETURN l.codateneo, SUM(l.numlaureati) AS sum
             }
             RETURN MAX(sum)"""
-        result = session.run(q)
-        print(f"Query 7 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 7 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     if query == 8:
         #Ritorna quanti maschi si sono laureati al politecnico di Milano nel 2015.
-        ts = time.time()
+        
         q="""MATCH(l:laureato)
             WHERE l.anno=2015 AND l.sesso='M' AND l.nomeateneo='Milano Politecnico'
             RETURN l.numlaureati"""
-        result = session.run(q)
-        print(f"Query 8 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 8 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     if query == 9:
         #Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
-        ts = time.time()
+        
         q="""MATCH(l:laureato)
             WHERE l.anno>=2010 AND l.anno<=2021 AND l.nomeateneo='Roma La Sapienza'
             RETURN AVG(l.numlaureati)"""
-        result = session.run(q)
-        print(f"Query 9 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 9 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     if query == 10:
         #Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
-        ts = time.time()
+        
         q="""CALL{
                 MATCH (l:laureato)-[r]-(a:ateneo)
                 WHERE l.anno=2021
@@ -276,18 +320,28 @@ def neo4jQueries(query):
         WITH * WHERE sum>1000
         RETURN nomeesteso
         """
-        result = session.run(q)
-        print(f"Query 10 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 10 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     if query == 11:
         #Ritorna il numero di laureati nella regione LOMBARDIA.
-        ts = time.time()
+        
         q="""MATCH(l:laureato)-[r]-(a:ateneo)
             WHERE a.regione='LOMBARDIA'
             RETURN SUM(l.numlaureati)"""
-        result = session.run(q)
-        print(f"Query 11 Neo4j execution time: {(time.time() - ts)*1000} ms")
+        avail = 0
+        cons = 0
+        for i in range(EX_NUMBER):
+            result = session.run(q)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+        print(f"Query 11 Neo4j execution time: {avail+cons} ms")
         writeNeo4jFile(result,query)
 
     session.close()
