@@ -33,7 +33,7 @@ def postgresQueries(query):
             host="localhost",
             database="dmproj",
             user="postgres",
-            password="Stefano25")
+            password="postgres")
         cur = conn.cursor()
         if query == 1:
             # Ritorna tutti nomi degli atenei.
@@ -349,27 +349,8 @@ def neo4jQueries(query):
 
 if __name__ == "__main__":
 
-    postgresQueries(1)
-    neo4jQueries(1)
-    postgresQueries(2)
-    neo4jQueries(2)
-    postgresQueries(3)
-    neo4jQueries(3)
-    postgresQueries(4)
-    neo4jQueries(4)
-    postgresQueries(5)
-    neo4jQueries(5)
-    postgresQueries(6)
-    neo4jQueries(6)
-    postgresQueries(7)
-    neo4jQueries(7)
-    postgresQueries(8)
-    neo4jQueries(8)
-    postgresQueries(9)
-    neo4jQueries(9)
-    postgresQueries(10)
-    neo4jQueries(10)
-    postgresQueries(11)
-    neo4jQueries(11)
+    for i in range(1,12):
+        postgresQueries(i)
+        neo4jQueries(i)
     documentPostgreSQL.close()
     documentNeo4j.close()
