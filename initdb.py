@@ -85,21 +85,21 @@ def initNeo4j():
     q = """LOAD CSV FROM 'file:///Laureati.csv' AS line FIELDTERMINATOR ';'
             CREATE (:laureato {anno: toInteger(line[0]), codateneo: toInteger(line[1]), nomeateneo : line[2], sesso : line[3], numlaureati : toInteger(line[4])})"""
     session.run(q)
-    q = """MATCH
-        (l:laureato),
-        (a:ateneo)
-        WHERE a.cod = l.codateneo  
-        CREATE (l)-[r:RELTYPE {name: 'laureati presso ' + a.nomeoperativo}]->(a)
-        RETURN type(r)"""
-    r = session.run(q)
-
     #q = """MATCH
     #    (l:laureato),
     #    (a:ateneo)
     #    WHERE a.cod = l.codateneo  
-    #    CREATE (a)-[r:RELTYPE {name: l.anno + ' ' + l.sesso}]->(l)
+    #    CREATE (l)-[r:RELTYPE {name: 'laureati presso ' + a.nomeoperativo}]->(a)
     #    RETURN type(r)"""
     #r = session.run(q)
+
+    q = """MATCH
+        (l:laureato),
+        (a:ateneo)
+        WHERE a.cod = l.codateneo  
+        CREATE (a)-[r:RELTYPE {name: l.anno + ' ' + l.sesso}]->(l)
+        RETURN type(r)"""
+    r = session.run(q)
 
     session.close()
     driver.close()
