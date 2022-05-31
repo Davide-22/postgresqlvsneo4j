@@ -11,11 +11,9 @@ def writePostgresFile(cur,query):
     rows = cur.fetchall()
     documentPostgreSQL.write('Query {}: \n'.format(str(query)))
     for r in rows:
-        if query == 5:
-            documentPostgreSQL.write(str(r[0])+ ' ')
-            documentPostgreSQL.write(str(r[1])+ '\n')
-        else:
-            documentPostgreSQL.write(str(r[0])+ '\n')
+        for i in range(len(r)):
+            documentPostgreSQL.write(str(r[i])+ ' ')
+        documentPostgreSQL.write('\n')
     documentPostgreSQL.write('\n')
 
 def writeNeo4jFile(key,result, query, flag=True):
@@ -98,7 +96,7 @@ def postgresQueries(query):
             writePostgresFile(cur,query)
         if query == 6:
             #Ritorna il numero delle università raggruppate per regione.
-            q="""SELECT COUNT(nomeesteso)
+            q="""SELECT COUNT(nomeesteso), regione
                 FROM atenei
                 GROUP BY regione"""
             for i in range(EX_NUMBER+1):
