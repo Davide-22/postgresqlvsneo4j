@@ -47,7 +47,7 @@ def postgresQueries(query):
                 FROM atenei"""
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 1 PostgreSQL execution time: {time} ms")
             q="""SELECT nomeesteso 
                 FROM atenei"""
@@ -63,7 +63,7 @@ def postgresQueries(query):
                 ORDER BY zonageografica ASC"""
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 2 PostgreSQL execution time: {time} ms")
             q=""" SELECT nomeesteso 
                 FROM atenei 
@@ -80,7 +80,7 @@ def postgresQueries(query):
                 WHERE anno=2020 """
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 3 PostgreSQL execution time: {time} ms")
             q="""SELECT SUM(numlaureati) 
                 FROM laureati 
@@ -96,7 +96,7 @@ def postgresQueries(query):
                 WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica='SUD' AND l.codateneo=a.cod"""
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 4 PostgreSQL execution time: {time} ms")
             q="""SELECT SUM(l.numlaureati) 
                 FROM laureati l, atenei a 
@@ -112,7 +112,7 @@ def postgresQueries(query):
                 WHERE atenei.dimensione = '60.000 e oltre'"""
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 5 PostgreSQL execution time: {time} ms")
             q="""SELECT cod,nomeesteso
                 FROM atenei
@@ -128,7 +128,7 @@ def postgresQueries(query):
                 GROUP BY regione"""
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 6 PostgreSQL execution time: {time} ms")
             q="""SELECT COUNT(nomeesteso), regione
                 FROM atenei
@@ -147,7 +147,7 @@ def postgresQueries(query):
                         """
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 7 PostgreSQL execution time: {time} ms")
             q="""SELECT MAX(ab.sum)
                 FROM (SELECT l.codateneo, SUM(l.numlaureati)
@@ -166,7 +166,7 @@ def postgresQueries(query):
                 WHERE anno=2015 AND sesso='M' AND nomeateneo='Milano Politecnico'"""
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 8 PostgreSQL execution time: {time} ms")
             q="""SELECT numlaureati
                 FROM laureati
@@ -182,7 +182,7 @@ def postgresQueries(query):
                 WHERE anno BETWEEN 2010 AND 2021 AND nomeateneo='Roma La Sapienza'"""
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 9 PostgreSQL execution time: {time} ms")
             q="""SELECT AVG(numlaureati)
                 FROM laureati
@@ -201,7 +201,7 @@ def postgresQueries(query):
                 WHERE ab.sum > 1000"""
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 10 PostgreSQL execution time: {time} ms")
             q="""SELECT ab.nomeesteso
                 FROM (SELECT l.codateneo, SUM(l.numlaureati), a.nomeesteso
@@ -220,7 +220,7 @@ def postgresQueries(query):
                 WHERE a.regione='LOMBARDIA' AND l.codateneo=a.cod"""
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+                time+= cur.fetchall()[0][0][0]['Execution Time']
             print(f"Query 11 PostgreSQL execution time: {time} ms")
             q="""SELECT SUM(l.numlaureati)
                 FROM laureati l, atenei a
@@ -437,7 +437,7 @@ def neo4jQueries(query):
 if __name__ == "__main__":
 
     for i in range(1,12):
-        postgresQueries(1)
+        postgresQueries(i)
         neo4jQueries(i)
     documentPostgreSQL.close()
     documentNeo4j.close()
