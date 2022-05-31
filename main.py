@@ -40,131 +40,192 @@ def postgresQueries(query):
             password="postgres")
         cur = conn.cursor()
         if query == 1:
+            time = 0
             # Ritorna tutti nomi degli atenei.
-            q="""SELECT nomeesteso 
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT nomeesteso 
                 FROM atenei"""
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 1 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 1 PostgreSQL execution time: {time} ms")
+            q="""SELECT nomeesteso 
+                FROM atenei"""
+            cur.execute(q)
             writePostgresFile(cur,query)
         if query == 2:
+            time = 0
             #Ritorna tutti nomi degli atenei non statali ordinati per zona geografica, in ordine ascendente.
-            q="""SELECT nomeesteso 
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT nomeesteso 
                 FROM atenei 
                 WHERE statale_nonstatale = 'Statale' 
                 ORDER BY zonageografica ASC"""
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 2 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 2 PostgreSQL execution time: {time} ms")
+            q=""" SELECT nomeesteso 
+                FROM atenei 
+                WHERE statale_nonstatale = 'Statale' 
+                ORDER BY zonageografica ASC"""
+            cur.execute(q)
             writePostgresFile(cur,query)  
         if query == 3:
+            time = 0
             #Ritorna la somma di tutti i laureati nel 2020.
-            q="""SELECT SUM(numlaureati) 
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT SUM(numlaureati) 
                 FROM laureati 
                 WHERE anno=2020 """
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 3 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 3 PostgreSQL execution time: {time} ms")
+            q="""SELECT SUM(numlaureati) 
+                FROM laureati 
+                WHERE anno=2020 """
+            cur.execute(q)
             writePostgresFile(cur,query)
         if query == 4:
+            time = 0
             #Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
-            q="""SELECT SUM(l.numlaureati) 
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT SUM(l.numlaureati) 
                 FROM laureati l, atenei a 
                 WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica='SUD' AND l.codateneo=a.cod"""
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
-                cur.execute(q) 
-            print(f"Query 4 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                cur.execute(q)
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 4 PostgreSQL execution time: {time} ms")
+            q="""SELECT SUM(l.numlaureati) 
+                FROM laureati l, atenei a 
+                WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica='SUD' AND l.codateneo=a.cod"""
+            cur.execute(q)
             writePostgresFile(cur,query)
         if query == 5:
+            time = 0
             #Ritorna il codice ed il nome delle università con dimensione maggiore di 60000.
-            q="""SELECT cod,nomeesteso
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT cod,nomeesteso
                 FROM atenei
                 WHERE atenei.dimensione = '60.000 e oltre'"""
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 5 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 5 PostgreSQL execution time: {time} ms")
+            q="""SELECT cod,nomeesteso
+                FROM atenei
+                WHERE atenei.dimensione = '60.000 e oltre'"""
+            cur.execute(q)
             writePostgresFile(cur,query)
         if query == 6:
+            time = 0
             #Ritorna il numero delle università raggruppate per regione.
-            q="""SELECT COUNT(nomeesteso), regione
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT COUNT(nomeesteso), regione
                 FROM atenei
                 GROUP BY regione"""
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 6 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 6 PostgreSQL execution time: {time} ms")
+            q="""SELECT COUNT(nomeesteso), regione
+                FROM atenei
+                GROUP BY regione"""
+            cur.execute(q)
             writePostgresFile(cur,query)
         if query == 7:
+            time = 0
             #Ritorna il massimo numero di laureati nel 2021, nelle università statali.
-            q="""SELECT MAX(ab.sum)
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT MAX(ab.sum)
                 FROM (SELECT l.codateneo, SUM(l.numlaureati)
                         FROM laureati l, atenei a
                         WHERE l.anno = 2021 and a.statale_nonstatale='Statale' and l.codateneo = a.cod
                         GROUP BY l.codateneo) ab
                         """
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 7 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 7 PostgreSQL execution time: {time} ms")
+            q="""SELECT MAX(ab.sum)
+                FROM (SELECT l.codateneo, SUM(l.numlaureati)
+                        FROM laureati l, atenei a
+                        WHERE l.anno = 2021 and a.statale_nonstatale='Statale' and l.codateneo = a.cod
+                        GROUP BY l.codateneo) ab
+                        """
+            cur.execute(q)
             writePostgresFile(cur,query)
         if query == 8:
+            time = 0
             #Ritorna quanti maschi si sono laureati al politecnico di Milano nel 2015.
-            q="""SELECT numlaureati
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT numlaureati
                 FROM laureati
                 WHERE anno=2015 AND sesso='M' AND nomeateneo='Milano Politecnico'"""
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 8 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 8 PostgreSQL execution time: {time} ms")
+            q="""SELECT numlaureati
+                FROM laureati
+                WHERE anno=2015 AND sesso='M' AND nomeateneo='Milano Politecnico'"""
+            cur.execute(q)
             writePostgresFile(cur,query)
         if query == 9:
+            time = 0
             #Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
-            q="""SELECT AVG(numlaureati)
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT AVG(numlaureati)
                 FROM laureati
                 WHERE anno BETWEEN 2010 AND 2021 AND nomeateneo='Roma La Sapienza'"""
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 9 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 9 PostgreSQL execution time: {time} ms")
+            q="""SELECT AVG(numlaureati)
+                FROM laureati
+                WHERE anno BETWEEN 2010 AND 2021 AND nomeateneo='Roma La Sapienza'"""
+            cur.execute(q)
             writePostgresFile(cur,query)
         if query == 10:
+            time = 0
             #Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
-            q="""SELECT ab.nomeesteso
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT ab.nomeesteso
                 FROM (SELECT l.codateneo, SUM(l.numlaureati), a.nomeesteso
                         FROM laureati l, atenei a
                         WHERE l.anno = 2021 AND l.codateneo=a.cod
                         GROUP BY l.codateneo, a.nomeesteso) ab
                 WHERE ab.sum > 1000"""
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 10 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 10 PostgreSQL execution time: {time} ms")
+            q="""SELECT ab.nomeesteso
+                FROM (SELECT l.codateneo, SUM(l.numlaureati), a.nomeesteso
+                        FROM laureati l, atenei a
+                        WHERE l.anno = 2021 AND l.codateneo=a.cod
+                        GROUP BY l.codateneo, a.nomeesteso) ab
+                WHERE ab.sum > 1000"""
+            cur.execute(q)
             writePostgresFile(cur,query)
         if query == 11:
+            time = 0
             #Ritorna il numero di laureati nella regione LOMBARDIA.
-            q="""SELECT SUM(l.numlaureati)
+            q="""EXPLAIN (ANALYZE, FORMAT 'json') 
+                SELECT SUM(l.numlaureati)
                 FROM laureati l, atenei a
                 WHERE a.regione='LOMBARDIA' AND l.codateneo=a.cod"""
             for i in range(EX_NUMBER+1):
-                if i == 1:
-                    ts = time.time()
                 cur.execute(q)
-            print(f"Query 11 PostgreSQL execution time: {(time.time() - ts)*1000} ms")
+                time+= cur.fetchall()[0][0][0]['Execution Time']*1000
+            print(f"Query 11 PostgreSQL execution time: {time} ms")
+            q="""SELECT SUM(l.numlaureati)
+                FROM laureati l, atenei a
+                WHERE a.regione='LOMBARDIA' AND l.codateneo=a.cod"""
+            cur.execute(q)
             writePostgresFile(cur,query)
         cur.close()
 
@@ -376,7 +437,7 @@ def neo4jQueries(query):
 if __name__ == "__main__":
 
     for i in range(1,12):
-        postgresQueries(i)
+        postgresQueries(1)
         neo4jQueries(i)
     documentPostgreSQL.close()
     documentNeo4j.close()
