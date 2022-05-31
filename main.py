@@ -1,3 +1,4 @@
+from traceback import print_tb
 import psycopg2
 from neo4j import GraphDatabase
 import time
@@ -17,16 +18,21 @@ def writePostgresFile(cur,query):
             documentPostgreSQL.write(str(r[0])+ '\n')
     documentPostgreSQL.write('\n')
 
-def writeNeo4jFile(result, query):
+def writeNeo4jFile(key,result, query, flag=True):
     documentNeo4j.write('Query {}: \n'.format(str(query)))
-    for r in result:
-        if query == 5:
-            documentNeo4j.write(str(r[0])+ ' ')
-            documentNeo4j.write(str(r[1])+ '\n')
-        else:
-            documentNeo4j.write(str(r[0])+ '\n')
-    documentNeo4j.write('\n')
 
+    if flag:
+        for i in result:
+            for j in key:
+                documentNeo4j.write(str(i[j]))
+                if j != len(key)-1:
+                    documentNeo4j.write(" ") 
+            documentNeo4j.write('\n')
+    else:
+        documentNeo4j.write(str(result.single()[key[0]]))
+        documentNeo4j.write('\n')
+    documentNeo4j.write('\n')
+    
 def postgresQueries(query):
     try:
         conn = psycopg2.connect(
@@ -39,7 +45,7 @@ def postgresQueries(query):
             # Ritorna tutti nomi degli atenei.
             q="""SELECT nomeesteso 
                 FROM atenei"""
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -51,7 +57,7 @@ def postgresQueries(query):
                 FROM atenei 
                 WHERE statale_nonstatale = 'Statale' 
                 ORDER BY zonageografica ASC"""
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -62,7 +68,7 @@ def postgresQueries(query):
             q="""SELECT SUM(numlaureati) 
                 FROM laureati 
                 WHERE anno=2020 """
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -73,7 +79,7 @@ def postgresQueries(query):
             q="""SELECT SUM(l.numlaureati) 
                 FROM laureati l, atenei a 
                 WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica='SUD' AND l.codateneo=a.cod"""
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q) 
@@ -84,7 +90,7 @@ def postgresQueries(query):
             q="""SELECT cod,nomeesteso
                 FROM atenei
                 WHERE atenei.dimensione = '60.000 e oltre'"""
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -95,7 +101,7 @@ def postgresQueries(query):
             q="""SELECT COUNT(nomeesteso)
                 FROM atenei
                 GROUP BY regione"""
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -109,7 +115,7 @@ def postgresQueries(query):
                         WHERE l.anno = 2021 and a.statale_nonstatale='Statale' and l.codateneo = a.cod
                         GROUP BY l.codateneo) ab
                         """
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -120,7 +126,7 @@ def postgresQueries(query):
             q="""SELECT numlaureati
                 FROM laureati
                 WHERE anno=2015 AND sesso='M' AND nomeateneo='Milano Politecnico'"""
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -131,7 +137,7 @@ def postgresQueries(query):
             q="""SELECT AVG(numlaureati)
                 FROM laureati
                 WHERE anno BETWEEN 2010 AND 2021 AND nomeateneo='Roma La Sapienza'"""
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -145,7 +151,7 @@ def postgresQueries(query):
                         WHERE l.anno = 2021 AND l.codateneo=a.cod
                         GROUP BY l.codateneo, a.nomeesteso) ab
                 WHERE ab.sum > 1000"""
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -156,7 +162,7 @@ def postgresQueries(query):
             q="""SELECT SUM(l.numlaureati)
                 FROM laureati l, atenei a
                 WHERE a.regione='LOMBARDIA' AND l.codateneo=a.cod"""
-            for i in range(EX_NUMBER):
+            for i in range(EX_NUMBER+1):
                 if i == 1:
                     ts = time.time()
                 cur.execute(q)
@@ -179,13 +185,15 @@ def neo4jQueries(query):
             RETURN a.nomeesteso"""
         avail = 0
         cons = 0
-        for i in range(EX_NUMBER):
+        for i in range(EX_NUMBER+1):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["a.nomeesteso"],result,query)
         print(f"Query 1 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
-
+        
     if query == 2:
         # Ritorna tutti nomi degli atenei non statali ordinati per zona geografica, in ordine ascendente.
         q= """MATCH(a:ateneo)
@@ -195,12 +203,14 @@ def neo4jQueries(query):
             """
         avail = 0
         cons = 0
-        for i in range(EX_NUMBER):
+        for i in range(EX_NUMBER+1):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["a.nomeesteso"],result,query)
         print(f"Query 2 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
 
     if query == 3:
         #Ritorna la somma di tutti i laureati nel 2020.
@@ -210,12 +220,14 @@ def neo4jQueries(query):
             RETURN SUM(l.numlaureati)"""
         avail = 0
         cons = 0
-        for i in range(EX_NUMBER):
+        for i in range(EX_NUMBER+1):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["SUM(l.numlaureati)"],result,query,False)
         print(f"Query 3 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
 
     if query == 4:
         #Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
@@ -225,12 +237,14 @@ def neo4jQueries(query):
             RETURN SUM(l.numlaureati)"""
         avail = 0
         cons = 0
-        for i in range(EX_NUMBER):
+        for i in range(EX_NUMBER+1):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["SUM(l.numlaureati)"],result,query,False)
         print(f"Query 4 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
     
     if query == 5:
         #Ritorna il codice ed il nome delle università con dimensione maggiore di 60000.
@@ -242,10 +256,12 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["a.cod","a.nomeesteso"],result,query)
         print(f"Query 5 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
 
     if query == 6:
         #Ritorna il numero delle università raggruppate per regione.
@@ -256,10 +272,12 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["COUNT(a.nomeesteso)", "a.regione"],result,query)
         print(f"Query 6 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
 
     if query == 7:
         #Ritorna il massimo numero di laureati nel 2021, nelle università statali.
@@ -274,10 +292,12 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["MAX(sum)"],result,query,False)
         print(f"Query 7 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
 
     if query == 8:
         #Ritorna quanti maschi si sono laureati al politecnico di Milano nel 2015.
@@ -289,10 +309,12 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["l.numlaureati"],result,query,False)
         print(f"Query 8 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
 
     if query == 9:
         #Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
@@ -304,10 +326,12 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["AVG(l.numlaureati)"],result,query,False)
         print(f"Query 9 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
 
     if query == 10:
         #Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
@@ -324,10 +348,12 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["nomeesteso"],result,query)
         print(f"Query 10 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
 
     if query == 11:
         #Ritorna il numero di laureati nella regione LOMBARDIA.
@@ -339,10 +365,12 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            avail+=result.consume().result_available_after
-            cons+=result.consume().result_consumed_after
+            if i != 0:
+                avail+=result.consume().result_available_after
+                cons+=result.consume().result_consumed_after
+            else:
+                writeNeo4jFile(["SUM(l.numlaureati)"],result,query,False)
         print(f"Query 11 Neo4j execution time: {avail+cons} ms")
-        writeNeo4jFile(result,query)
 
     session.close()
     driver.close()
