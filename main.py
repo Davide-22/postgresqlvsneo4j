@@ -1,7 +1,6 @@
-from traceback import print_tb
 import psycopg2
 from neo4j import GraphDatabase
-import time
+
 
 EX_NUMBER = 30
 documentPostgreSQL = open("postgreSQL.txt", "w")
@@ -30,7 +29,16 @@ def writeNeo4jFile(key,result, query, flag=True):
         documentNeo4j.write(str(result.single()[key[0]]))
         documentNeo4j.write('\n')
     documentNeo4j.write('\n')
-    
+
+def printPerformance(time,query,dbms):
+    print(f"Query {query} {dbms}")
+    print(f"Total execution time: {round(sum(time),5)} ms")
+    print(f"Average execution time: {round(sum(time)/EX_NUMBER,5)} ms")
+    print(f"Maximum execution time: {max(time)} ms")
+    print(f"Minimum execution time: {min(time)} ms")
+    print()
+
+
 def postgresQueries(query):
     try:
         conn = psycopg2.connect(
@@ -45,10 +53,13 @@ def postgresQueries(query):
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT nomeesteso 
                 FROM atenei"""
+            time = []
             for i in range(EX_NUMBER+1):
                 cur.execute(q)
-                time+= cur.fetchall()[0][0][0]['Execution Time']
-            print(f"Query 1 PostgreSQL execution time: {time} ms")
+                time.append(cur.fetchall()[0][0][0]['Execution Time'])
+            
+            printPerformance(time,1,"PostgreSQL")
+
             q="""SELECT nomeesteso 
                 FROM atenei"""
             cur.execute(q)
@@ -244,14 +255,15 @@ def neo4jQueries(query):
             RETURN a.nomeesteso"""
         avail = 0
         cons = 0
-        for i in range(EX_NUMBER+1):
+        ex_time = []
+        for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["a.nomeesteso"],result,query)
-        print(f"Query 1 Neo4j execution time: {avail+cons} ms")
+            avail = result.consume().result_available_after
+            cons = result.consume().result_consumed_after
+            ex_time.append(avail+cons)
+        printPerformance(ex_time,1,"Neo4j")
         
     if query == 2:
         # Ritorna tutti nomi degli atenei non statali ordinati per zona geografica, in ordine ascendente.
@@ -262,13 +274,12 @@ def neo4jQueries(query):
             """
         avail = 0
         cons = 0
-        for i in range(EX_NUMBER+1):
+        for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["a.nomeesteso"],result,query)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
         print(f"Query 2 Neo4j execution time: {avail+cons} ms")
 
     if query == 3:
@@ -279,13 +290,12 @@ def neo4jQueries(query):
             RETURN SUM(l.numlaureati)"""
         avail = 0
         cons = 0
-        for i in range(EX_NUMBER+1):
+        for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["SUM(l.numlaureati)"],result,query,False)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
         print(f"Query 3 Neo4j execution time: {avail+cons} ms")
 
     if query == 4:
@@ -296,13 +306,12 @@ def neo4jQueries(query):
             RETURN SUM(l.numlaureati)"""
         avail = 0
         cons = 0
-        for i in range(EX_NUMBER+1):
+        for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["SUM(l.numlaureati)"],result,query,False)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
         print(f"Query 4 Neo4j execution time: {avail+cons} ms")
     
     if query == 5:
@@ -315,11 +324,11 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["a.cod","a.nomeesteso"],result,query)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after
+                
         print(f"Query 5 Neo4j execution time: {avail+cons} ms")
 
     if query == 6:
@@ -331,11 +340,10 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["COUNT(a.nomeesteso)", "a.regione"],result,query)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after       
         print(f"Query 6 Neo4j execution time: {avail+cons} ms")
 
     if query == 7:
@@ -351,11 +359,10 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["MAX(sum)"],result,query,False)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after             
         print(f"Query 7 Neo4j execution time: {avail+cons} ms")
 
     if query == 8:
@@ -368,11 +375,10 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["l.numlaureati"],result,query,False)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after  
         print(f"Query 8 Neo4j execution time: {avail+cons} ms")
 
     if query == 9:
@@ -385,11 +391,11 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["AVG(l.numlaureati)"],result,query,False)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after  
+                
         print(f"Query 9 Neo4j execution time: {avail+cons} ms")
 
     if query == 10:
@@ -407,11 +413,10 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["nomeesteso"],result,query)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after         
         print(f"Query 10 Neo4j execution time: {avail+cons} ms")
 
     if query == 11:
@@ -424,11 +429,10 @@ def neo4jQueries(query):
         cons = 0
         for i in range(EX_NUMBER):
             result = session.run(q)
-            if i != 0:
-                avail+=result.consume().result_available_after
-                cons+=result.consume().result_consumed_after
-            else:
+            if i == EX_NUMBER-1:
                 writeNeo4jFile(["SUM(l.numlaureati)"],result,query,False)
+            avail+=result.consume().result_available_after
+            cons+=result.consume().result_consumed_after        
         print(f"Query 11 Neo4j execution time: {avail+cons} ms")
 
     session.close()

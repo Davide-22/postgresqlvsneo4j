@@ -38,8 +38,6 @@ def initPostgres():
             CSV HEADER;"""
         with open(path, 'r') as f:
             cur.copy_expert(sql=q, file=f)
-        #rows = cur.fetchall()
-        #print(rows)   
         q = """CREATE TABLE laureati (
             anno int,
             codateneo int,
@@ -64,8 +62,7 @@ def initPostgres():
     except Exception as e:
         print("Errore di connessione")
         print(e)
-
-
+        
 
 def initNeo4j():
     uri = "bolt://localhost:7687"
