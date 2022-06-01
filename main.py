@@ -1,10 +1,21 @@
 import psycopg2
 from neo4j import GraphDatabase
+import sys
 
+
+if len(sys.argv) == 1:
+    v = False
+elif len(sys.argv) > 2 or sys.argv[1] != '-v':
+    raise Exception("Wrong syntax")
+else:
+    v = True
 
 EX_NUMBER = 30
 documentPostgreSQL = open("postgreSQL.txt", "w")
 documentNeo4j = open("neo4j.txt", "w")
+
+postgresTimes = []
+neo4jTimes = []       
 
 def writePostgresFile(cur,query):
     rows = cur.fetchall()
@@ -31,23 +42,39 @@ def writeNeo4jFile(key,result, query, flag=True):
     documentNeo4j.write('\n')
 
 def printPerformance(planning_time,execution_time,query,dbms):
-    print(f"Query {query} {dbms}")
-    print(f"Total execution time: {round(sum(execution_time),5)} ms")
-    print(f"Average execution time: {round(sum(execution_time)/EX_NUMBER,5)} ms")
-    print(f"Maximum execution time: {max(execution_time)} ms")
-    print(f"Minimum execution time: {min(execution_time)} ms")
-    print()
-    print(f"Total planning time: {round(sum(planning_time),5)} ms")
-    print(f"Average planning time: {round(sum(planning_time)/EX_NUMBER,5)} ms")
-    print(f"Maximum planning time: {max(planning_time)} ms")
-    print(f"Minimum planning time: {min(planning_time)} ms")
-    print()
-    print(f"Total time: {round(sum(planning_time)+sum(execution_time),5)} ms")
-    print(f"Average time: {round((sum(planning_time)+sum(execution_time))/EX_NUMBER,5)} ms")
-    print(f"Maximum time: {max(planning_time)+max(execution_time)} ms")
-    print(f"Minimum time: {min(planning_time)+min(execution_time)} ms")
-    print()
+    if v:
+        print(f"Query {query} {dbms}")
+        print(f"Total execution time: {round(sum(execution_time),5)} ms")
+        print(f"Average execution time: {round(sum(execution_time)/EX_NUMBER,5)} ms")
+        print(f"Maximum execution time: {round(max(execution_time),5)} ms")
+        print(f"Minimum execution time: {round(min(execution_time),5)} ms")
+        print()
+        print(f"Total planning time: {round(sum(planning_time),5)} ms")
+        print(f"Average planning time: {round(sum(planning_time)/EX_NUMBER,5)} ms")
+        print(f"Maximum planning time: {round(max(planning_time),5)} ms")
+        print(f"Minimum planning time: {round(min(planning_time),5)} ms")
+        print()
+        print(f"Total time: {round(sum(planning_time)+sum(execution_time),5)} ms")
+        print(f"Average time: {round((sum(planning_time)+sum(execution_time))/EX_NUMBER,5)} ms")
+        print(f"Maximum time: {round(max(planning_time)+max(execution_time),5)} ms")
+        print(f"Minimum time: {round(min(planning_time)+min(execution_time),5)} ms")
+        print()
+    else:
+        print(f"Query {query} {dbms}")
+        print(f"Total time: {round(sum(planning_time)+sum(execution_time),5)} ms")
+        print(f"Average time: {round(sum(execution_time)/EX_NUMBER,5)} ms")
+        print()
+    if dbms == "PostgreSQL":
+        postgresTimes.append(sum(planning_time)+sum(execution_time))
+    if dbms == "Neo4j":
+        neo4jTimes.append(sum(planning_time)+sum(execution_time))
 
+def printDifference():
+    for i in range(11):
+        if postgresTimes[i] < neo4jTimes[i]:
+            print(f"Query {i+1}: PostgreSQL was {round(neo4jTimes[i]/postgresTimes[i],5)} times faster than Neo4j")
+        else:
+            print(f"Query {i+1}: Neo4j was {round(postgresTimes[i]/neo4jTimes[i],5)} times faster than PostgreSQL")
 
 def postgresQueries(query):
     try:
@@ -69,7 +96,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,1,"PostresSQL")
+            printPerformance(planning_time,execution_time,1,"PostgreSQL")
 
             q="""SELECT nomeesteso 
                 FROM atenei"""
@@ -89,7 +116,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,2,"PostresSQL")
+            printPerformance(planning_time,execution_time,2,"PostgreSQL")
             q=""" SELECT nomeesteso 
                 FROM atenei 
                 WHERE statale_nonstatale = 'Statale' 
@@ -109,7 +136,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,3,"PostresSQL")
+            printPerformance(planning_time,execution_time,3,"PostgreSQL")
             q="""SELECT SUM(numlaureati) 
                 FROM laureati 
                 WHERE anno=2020 """
@@ -128,7 +155,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,4,"PostresSQL")
+            printPerformance(planning_time,execution_time,4,"PostgreSQL")
             q="""SELECT SUM(l.numlaureati) 
                 FROM laureati l, atenei a 
                 WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica='SUD' AND l.codateneo=a.cod"""
@@ -147,7 +174,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,5,"PostresSQL")
+            printPerformance(planning_time,execution_time,5,"PostgreSQL")
             q="""SELECT cod,nomeesteso
                 FROM atenei
                 WHERE atenei.dimensione = '60.000 e oltre'"""
@@ -166,7 +193,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,6,"PostresSQL")
+            printPerformance(planning_time,execution_time,6,"PostgreSQL")
             q="""SELECT COUNT(nomeesteso), regione
                 FROM atenei
                 GROUP BY regione"""
@@ -188,7 +215,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,7,"PostresSQL")
+            printPerformance(planning_time,execution_time,7,"PostgreSQL")
             q="""SELECT MAX(ab.sum)
                 FROM (SELECT l.codateneo, SUM(l.numlaureati)
                         FROM laureati l, atenei a
@@ -210,7 +237,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,8,"PostresSQL")
+            printPerformance(planning_time,execution_time,8,"PostgreSQL")
             q="""SELECT numlaureati
                 FROM laureati
                 WHERE anno=2015 AND sesso='M' AND nomeateneo='Milano Politecnico'"""
@@ -229,7 +256,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,9,"PostresSQL")
+            printPerformance(planning_time,execution_time,9,"PostgreSQL")
             q="""SELECT AVG(numlaureati)
                 FROM laureati
                 WHERE anno BETWEEN 2010 AND 2021 AND nomeateneo='Roma La Sapienza'"""
@@ -251,7 +278,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,10,"PostresSQL")
+            printPerformance(planning_time,execution_time,10,"PostgreSQL")
             q="""SELECT ab.nomeesteso
                 FROM (SELECT l.codateneo, SUM(l.numlaureati), a.nomeesteso
                         FROM laureati l, atenei a
@@ -273,7 +300,7 @@ def postgresQueries(query):
                 result = cur.fetchall()
                 planning_time.append(result[0][0][0]['Planning Time'])
                 execution_time.append(result[0][0][0]['Execution Time'])
-            printPerformance(planning_time,execution_time,11,"PostresSQL")
+            printPerformance(planning_time,execution_time,11,"PostgreSQL")
             q="""SELECT SUM(l.numlaureati)
                 FROM laureati l, atenei a
                 WHERE a.regione='LOMBARDIA' AND l.codateneo=a.cod"""
@@ -480,5 +507,6 @@ if __name__ == "__main__":
     for i in range(1,12):
         postgresQueries(i)
         neo4jQueries(i)
+    printDifference()
     documentPostgreSQL.close()
     documentNeo4j.close()
