@@ -1,11 +1,11 @@
-1)Ritorna il nome esteso di tutti gli atenei.
-2)Ritorna il nome esteso di tutti gli atenei non statali ordinati per zona geografica, in ordine ascendente.
-3)Ritorna la somma di tutti i laureati nel 2020.
-4)Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
-5)Ritorna il codice ed il nome delle università con dimensione maggiore di 60000.
-6)Ritorna il numero delle università raggruppate per regione.
-7)Ritorna il massimo numero di laureati nel 2021, nelle università statali.
-8)Ritorna quanti maschi si sono laureati al politecnico di Milano nel 2015.
-9)Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
-10)Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
-11)Ritorna il numero di laureati nella regione LOMBARDIA.
+1)Return the "nomeesteso" of all the Universities.
+2)Return the "nomeesteso" of all the non  statal Universities ordered by "zonageografica", in ascending order.
+3)Return the sum of all the gratuated in the 2020.
+4)Return the sum of graduates in 2018 and in 2019, in the southern Universities.
+5)Return the code and name of Universities with dimension "maggiore di 60000".
+6)Return the number of Universities grouped by regions
+7)Return the maximum number of graduates in 2021, in the statal Universities
+8)Return how many males graduated from the "politecnico di Milano" in 2015.
+9)Return the average number of females graduated at Sapienza from 2010 to 2021.
+10)Return the "nomeesteso" of Universities which, in 2021, had a number of graduates greater than 1000.
+11)Return the number of graduates in the "Lombardia" region

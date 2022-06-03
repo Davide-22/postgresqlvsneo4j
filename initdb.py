@@ -3,12 +3,15 @@ from neo4j import GraphDatabase
 
 def initPostgres():
     try:
+        print("Connecting to PostgreSQL...", end=" ")
         conn = psycopg2.connect(
             host="localhost",
             database="dmproj",
             user="postgres",
             password="postgres")
         cur = conn.cursor()
+        print("Done")
+        print("Creating tables...", end=" ")
         q = """DROP TABLE IF EXISTS laureati;
             DROP TABLE IF EXISTS atenei;"""
         cur.execute(q) 
@@ -31,11 +34,13 @@ def initPostgres():
             PRIMARY KEY (_id)
             );"""
         cur.execute(q)
+        print("Done")
         path = '/home/davide/Scrivania/postgresqlvsneo4j/csv/Università.csv'
         q = """COPY atenei(_id, cod, nomeesteso, nomeoperativo,status,tipologia,statale_nonstatale,indirizzo,comune,provincia,regione,zonageografica,url,dimensione)
             FROM stdin
             DELIMITER ','
             CSV HEADER;"""
+        print("Importing data...", end=" ")
         with open(path, 'r') as f:
             cur.copy_expert(sql=q, file=f)
         q = """CREATE TABLE laureati (
@@ -59,16 +64,19 @@ def initPostgres():
             cur.copy_expert(sql=q, file=f)
         conn.commit()
         cur.close()
+        print("Done")
     except Exception as e:
         print("Errore di connessione")
         print(e)
         
 
 def initNeo4j():
+    print("Connecting to Neo4j...", end=" ")
     uri = "bolt://localhost:7687"
-    #CREATE CONSTRAINT ON (ateneo:ateneo) ASSERT ateno._id IS UNIQUE
     driver = GraphDatabase.driver(uri, auth=("neo4j", "12345678"))
     session = driver.session()
+    print("Done")
+    print("Importing data...", end=" ")
     q = "MATCH (n) DETACH DELETE n"
     session.run(q)
     q = "DROP CONSTRAINT ON (ateneo:ateneo) ASSERT ateneo._id IS UNIQUE"
@@ -82,14 +90,8 @@ def initNeo4j():
     q = """LOAD CSV FROM 'file:///Laureati.csv' AS line FIELDTERMINATOR ';'
             CREATE (:laureato {anno: toInteger(line[0]), codateneo: toInteger(line[1]), nomeateneo : line[2], sesso : line[3], numlaureati : toInteger(line[4])})"""
     session.run(q)
-    #q = """MATCH
-    #    (l:laureato),
-    #    (a:ateneo)
-    #    WHERE a.cod = l.codateneo  
-    #    CREATE (l)-[r:RELTYPE {name: 'laureati presso ' + a.nomeoperativo}]->(a)
-    #    RETURN type(r)"""
-    #r = session.run(q)
-
+    print("Done")
+    print("Creating relations...", end=" ")
     q = """MATCH
         (l:laureato),
         (a:ateneo)
@@ -97,9 +99,9 @@ def initNeo4j():
         CREATE (a)-[r:RELTYPE {name: l.anno + ' ' + l.sesso}]->(l)
         RETURN type(r)"""
     r = session.run(q)
-
     session.close()
     driver.close()
+    print("Done")
 
 if __name__ == "__main__":
     initPostgres()
