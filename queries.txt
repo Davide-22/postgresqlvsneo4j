@@ -1,7 +1,7 @@
 1)Return the "nomeesteso" of all the Universities.
 2)Return the "nomeesteso" of all the non  statal Universities ordered by "zonageografica", in ascending order.
-3)Return the sum of all the gratuated in the 2020.
-4)Return the sum of graduates in 2018 and in 2019, in the southern Universities.
+3)Return the sum of all the gratuated of 2020.
+4)Return the sum of graduated in 2018 and in 2019, in the southern Universities.
 5)Return the code and name of Universities with dimension "maggiore di 60000".
 6)Return the number of Universities grouped by regions
 7)Return the maximum number of graduates in 2021, in the statal Universities

@@ -59,6 +59,7 @@ def printPerformance(planning_time,execution_time,query,dbms):
         print(f"Maximum time: {round(max(planning_time)+max(execution_time),5)} ms")
         print(f"Minimum time: {round(min(planning_time)+min(execution_time),5)} ms")
         print()
+        print()
     else:
         print(f"Query {query} {dbms}")
         print(f"Total time: {round(sum(planning_time)+sum(execution_time),5)} ms")
@@ -85,7 +86,7 @@ def postgresQueries(query):
             password="postgres")
         cur = conn.cursor()
         if query == 1:
-            # Ritorna tutti nomi degli atenei.
+            #Return the "nomeesteso" of all the Universities.
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT nomeesteso 
                 FROM atenei"""
@@ -103,7 +104,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)
         if query == 2:
-            #Ritorna tutti nomi degli atenei non statali ordinati per zona geografica, in ordine ascendente.
+            #Return the "nomeesteso" of all the non  statal Universities ordered by "zonageografica", in ascending order.
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT nomeesteso 
                 FROM atenei 
@@ -124,7 +125,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)  
         if query == 3:
-            #Ritorna la somma di tutti i laureati nel 2020.
+            #Return the sum of all the gratuated of 2020.
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT SUM(numlaureati) 
                 FROM laureati 
@@ -143,7 +144,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)
         if query == 4:
-            #Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
+            #Return the sum of graduated in 2018 and in 2019, in the southern Universities.
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT SUM(l.numlaureati) 
                 FROM laureati l, atenei a 
@@ -162,7 +163,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)
         if query == 5:
-            #Ritorna il codice ed il nome delle università con dimensione maggiore di 60000.
+            #Return the code and the name of Universities with dimension "maggiore di 60000".
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT cod,nomeesteso
                 FROM atenei
@@ -181,7 +182,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)
         if query == 6:
-            #Ritorna il numero delle università raggruppate per regione.
+            #Return the number of Universities grouped by regions
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT COUNT(nomeesteso), regione
                 FROM atenei
@@ -200,7 +201,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)
         if query == 7:
-            #Ritorna il massimo numero di laureati nel 2021, nelle università statali.
+            #Return the maximum number of graduates in 2021, in the statal Universities
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT MAX(ab.sum)
                 FROM (SELECT l.codateneo, SUM(l.numlaureati)
@@ -225,7 +226,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)
         if query == 8:
-            #Ritorna quanti maschi si sono laureati al politecnico di Milano nel 2015.
+            #Return how many males graduated from the "politecnico di Milano" in 2015.
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT numlaureati
                 FROM laureati
@@ -244,7 +245,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)
         if query == 9:
-            #Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
+            #Return the average number of females graduated at Sapienza from 2010 to 2021.
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT AVG(numlaureati)
                 FROM laureati
@@ -263,7 +264,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)
         if query == 10:
-            #Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
+            #Return the "nomeesteso" of Universities which, in 2021, had a number of graduates greater than 1000.
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT ab.nomeesteso
                 FROM (SELECT l.codateneo, SUM(l.numlaureati), a.nomeesteso
@@ -288,7 +289,7 @@ def postgresQueries(query):
             cur.execute(q)
             writePostgresFile(cur,query)
         if query == 11:
-            #Ritorna il numero di laureati nella regione LOMBARDIA.
+            #Return the number of graduates in the "Lombardia" region
             q="""EXPLAIN (ANALYZE, FORMAT 'json') 
                 SELECT SUM(l.numlaureati)
                 FROM laureati l, atenei a
@@ -317,7 +318,7 @@ def neo4jQueries(query):
     driver = GraphDatabase.driver(uri, auth=("neo4j", "12345678"))
     session = driver.session()
     if query == 1:
-        # Ritorna tutti nomi degli atenei.
+        # Return the "nomeesteso" of all the Universities.
         
         q = """MATCH (a:ateneo) 
             RETURN a.nomeesteso"""
@@ -332,7 +333,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,1,"Neo4j")
         
     if query == 2:
-        # Ritorna tutti nomi degli atenei non statali ordinati per zona geografica, in ordine ascendente.
+        # Return the "nomeesteso" of all the non  statal Universities ordered by "zonageografica", in ascending order.
         q= """MATCH(a:ateneo)
             WHERE a.statale_nonstatale = 'Statale'
             RETURN a.nomeesteso
@@ -349,7 +350,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,2,"Neo4j")
 
     if query == 3:
-        #Ritorna la somma di tutti i laureati nel 2020.
+        #Return the sum of all the gratuated of 2020.
         
         q="""MATCH(l:laureato)
             WHERE l.anno=2020
@@ -365,7 +366,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,3,"Neo4j")
 
     if query == 4:
-        #Ritorna la somma dei laureati nel 2018 e nel 2019, nelle università del SUD.
+        #Return the sum of graduated in 2018 and in 2019, in the southern Universities.
         
         q="""MATCH (l:laureato)-[r]-(a:ateneo)
             WHERE (l.anno=2019 OR l.anno=2018) AND a.zonageografica ='SUD'
@@ -381,7 +382,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,4,"Neo4j")
     
     if query == 5:
-        #Ritorna il codice ed il nome delle università con dimensione maggiore di 60000.
+        #Return the code and name of Universities with dimension "maggiore di 60000".
         
         q="""MATCH(a:ateneo)
             WHERE a.dimensione = '60.000 e oltre'
@@ -397,7 +398,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,5,"Neo4j")
 
     if query == 6:
-        #Ritorna il numero delle università raggruppate per regione.
+        #Return the number of Universities grouped by regions
         
         q="""MATCH(a:ateneo)
             RETURN COUNT(a.nomeesteso), a.regione"""
@@ -412,7 +413,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,6,"Neo4j")
 
     if query == 7:
-        #Ritorna il massimo numero di laureati nel 2021, nelle università statali.
+        #Return the maximum number of graduates in 2021, in the statal Universities
         
         q="""CALL{
                 MATCH (l:laureato)-[r]-(a:ateneo)
@@ -431,7 +432,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,7,"Neo4j")
 
     if query == 8:
-        #Ritorna quanti maschi si sono laureati al politecnico di Milano nel 2015.
+        #Return how many males graduated from the "politecnico di Milano" in 2015.
         
         q="""MATCH(l:laureato)
             WHERE l.anno=2015 AND l.sesso='M' AND l.nomeateneo='Milano Politecnico'
@@ -447,7 +448,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,8,"Neo4j")
 
     if query == 9:
-        #Ritorna la media delle femmine laureate alla Sapienza dal 2010 al 2021.
+        #Return the average number of females graduated at Sapienza from 2010 to 2021.
         
         q="""MATCH(l:laureato)
             WHERE l.anno>=2010 AND l.anno<=2021 AND l.nomeateneo='Roma La Sapienza'
@@ -463,7 +464,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,9,"Neo4j")
 
     if query == 10:
-        #Ritorna il nomeesteso delle università che, nel 2021, hanno avuto un numero di laureati maggiore di 1000.
+        #Return the "nomeesteso" of Universities which, in 2021, had a number of graduates greater than 1000.
         
         q="""CALL{
                 MATCH (l:laureato)-[r]-(a:ateneo)
@@ -484,7 +485,7 @@ def neo4jQueries(query):
         printPerformance(planning_time,execution_time,10,"Neo4j")
 
     if query == 11:
-        #Ritorna il numero di laureati nella regione LOMBARDIA.
+        #Return the number of graduates in the "Lombardia" region
         
         q="""MATCH(l:laureato)-[r]-(a:ateneo)
             WHERE a.regione='LOMBARDIA'
